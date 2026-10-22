@@ -61,12 +61,18 @@ The enrolment-close clock, course-start date and final Doomsday milestone are di
 
 ## Marvel clock reference
 
-The founder wants the Marvel Doomsday countdown seen on Marvel/YouTube as a visual reference or embedded clock. Search found Marvel Entertainment's official Avengers: Doomsday playlist, which lists AVENGERS: DOOMSDAY CLOCK:
-https://www.youtube.com/playlist?list=PLK5HARgNfgj9X7HUcclw_zxvOxZXlfjYh
+Founder-confirmed exact reference, supplied 22 October 2026:
 
-Direct playlist inspection was throttled. The specific live-video ID, current artwork, exact end timestamp and embed behaviour have not been verified. Do not label a fan countdown official.
+- Title returned by YouTube page lookup: AVENGERS: DOOMSDAY CLOCK.
+- Canonical video URL: https://www.youtube.com/watch?v=f17J3AXVK5w
+- Founder-supplied playlist context: https://www.youtube.com/watch?v=f17J3AXVK5w&list=PLK5HARgNfgj9X7HUcclw_zxvOxZXlfjYh&index=9
+- Video ID: `f17J3AXVK5w`.
 
-Keep two implementation routes open: an official YouTube embed once the exact live URL and embed availability are verified; or our own styled countdown to the chosen programme event. Our own clock must not claim live synchronisation with Marvel. Decide after a visual comparison and mobile performance check.
+This resolves which clock the founder means. Use this exact video for the website countdown reference and the first embed feasibility check; do not substitute another countdown based only on its title.
+
+The page lookup returned the video title but did not expose the player visuals, channel identity, exact end timestamp or embed availability. Those implementation details remain unverified. The founder's identification is confirmed; live playback and synchronisation have not been tested.
+
+Keep two implementation routes open: a YouTube embed of this video if playback, embedding and mobile performance checks pass; or our own styled countdown informed by a visual inspection of this reference and configured to the chosen programme event. Our own clock must not claim live synchronisation with Marvel. Keep its event label distinct from enrolment closing and course starting.
 
 ## Next production gates
 
