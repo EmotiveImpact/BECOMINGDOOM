@@ -1,0 +1,1242 @@
+{
+  "version": "0.1",
+  "status": "foundation-draft",
+  "duration_days": 42,
+  "weekly_minutes": 370,
+  "weeks": [
+    {
+      "week": 1,
+      "title": "Claim the Throne",
+      "question": "Whose life am I actually building?",
+      "new_principles": [
+        "P01",
+        "P02",
+        "P04",
+        "P06",
+        "P08"
+      ],
+      "new_models": [],
+      "sources": [
+        "R01",
+        "R02",
+        "R03",
+        "R08"
+      ],
+      "days": [
+        {
+          "day": 1,
+          "week": 1,
+          "day_in_week": 1,
+          "title": "The borrowed life",
+          "minutes": 50,
+          "action": "Record the baseline scenario before teaching. Audit yesterday’s time, attention and promises.",
+          "evidence": "Baseline response plus three approval-driven choices.",
+          "retrieval": "What did I choose, and what did I assume I had to do?",
+          "available_models": [],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W01-D01",
+          "status": "outlined"
+        },
+        {
+          "day": 2,
+          "week": 1,
+          "day_in_week": 2,
+          "title": "Your interests count",
+          "minutes": 50,
+          "action": "Write a one-page doctrine: what matters, what it costs, responsibilities and one protected priority.",
+          "evidence": "Doctrine v1 with a specific resource allocation.",
+          "retrieval": "Explain self-interest without confusing it with impulse.",
+          "available_models": [],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W01-D02",
+          "status": "outlined"
+        },
+        {
+          "day": 3,
+          "week": 1,
+          "day_in_week": 3,
+          "title": "The first no",
+          "minutes": 50,
+          "action": "Rehearse a proportionate refusal, then use it on an appropriate low-stakes request.",
+          "evidence": "Boundary record: words, predicted reaction, actual reaction and reflection.",
+          "retrieval": "Recall yesterday’s protected priority without notes.",
+          "available_models": [],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W01-D03",
+          "status": "outlined"
+        },
+        {
+          "day": 4,
+          "week": 1,
+          "day_in_week": 4,
+          "title": "Release the label",
+          "minutes": 50,
+          "action": "Choose a limiting identity claim and take one small action that tests it.",
+          "evidence": "Old label, test action and observed result.",
+          "retrieval": "Recall the first no and what the response actually showed.",
+          "available_models": [],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W01-D04",
+          "status": "outlined"
+        },
+        {
+          "day": 5,
+          "week": 1,
+          "day_in_week": 5,
+          "title": "Choose the Doom Project",
+          "minutes": 50,
+          "action": "Choose audience, useful deliverable, available time and a six-week success criterion. Take the first step.",
+          "evidence": "One-page project charter plus first action.",
+          "retrieval": "Which automatic yes could threaten this mission?",
+          "available_models": [],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W01-D05",
+          "status": "outlined"
+        },
+        {
+          "day": 6,
+          "week": 1,
+          "day_in_week": 6,
+          "title": "Council: claim your mission",
+          "minutes": 75,
+          "action": "Present the doctrine and project; practise responding to one reasonable objection.",
+          "evidence": "Feedback, one revision and next commitment.",
+          "retrieval": "Explain the difference between disapproval and useful criticism.",
+          "available_models": [],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W01-D06",
+          "status": "outlined"
+        },
+        {
+          "day": 7,
+          "week": 1,
+          "day_in_week": 7,
+          "title": "The first reckoning",
+          "minutes": 45,
+          "action": "Review week-one evidence. Choose what to stop, keep and protect next week.",
+          "evidence": "Weekly review and next week’s protected sessions.",
+          "retrieval": "Recall the doctrine and one example of choosing freely.",
+          "available_models": [],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W01-D07",
+          "status": "outlined"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "title": "Build the Fortress",
+      "question": "Can I trust myself to execute?",
+      "new_principles": [
+        "P09",
+        "P12",
+        "P13"
+      ],
+      "new_models": [
+        "M01",
+        "M02"
+      ],
+      "sources": [
+        "R04",
+        "R05",
+        "R06"
+      ],
+      "days": [
+        {
+          "day": 8,
+          "week": 2,
+          "day_in_week": 1,
+          "title": "Price the yes",
+          "minutes": 50,
+          "action": "Use M01 to examine three commitments and renegotiate one appropriate demand.",
+          "evidence": "Opportunity-cost ledger and calendar adjustment.",
+          "retrieval": "Recall the doctrine and first boundary.",
+          "available_models": [
+            "M01",
+            "M02"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W02-D01",
+          "status": "outlined"
+        },
+        {
+          "day": 9,
+          "week": 2,
+          "day_in_week": 2,
+          "title": "Control the gates",
+          "minutes": 50,
+          "action": "Use M02 to separate control, influence and external conditions. Build an interruption plan.",
+          "evidence": "Control map plus one if–then plan.",
+          "retrieval": "Explain M01 using a real choice.",
+          "available_models": [
+            "M01",
+            "M02"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W02-D02",
+          "status": "outlined"
+        },
+        {
+          "day": 10,
+          "week": 2,
+          "day_in_week": 3,
+          "title": "Forge readiness",
+          "minutes": 50,
+          "action": "Select an appropriate movement/recovery practice and protect one focused session.",
+          "evidence": "Readiness baseline and realistic daily command sheet.",
+          "retrieval": "Which week-one boundary makes this possible?",
+          "available_models": [
+            "M01",
+            "M02"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W02-D03",
+          "status": "outlined"
+        },
+        {
+          "day": 11,
+          "week": 2,
+          "day_in_week": 4,
+          "title": "Keep a small promise",
+          "minutes": 50,
+          "action": "Complete a defined project task during protected time; respond deliberately to interruption.",
+          "evidence": "Work output and daily command record.",
+          "retrieval": "Recall M01 and M02 without notes.",
+          "available_models": [
+            "M01",
+            "M02"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W02-D04",
+          "status": "outlined"
+        },
+        {
+          "day": 12,
+          "week": 2,
+          "day_in_week": 5,
+          "title": "Repair and resume",
+          "minutes": 50,
+          "action": "Debrief a real disruption; if none occurred, rehearse losing a planned session.",
+          "evidence": "Constraint, controllable response and feasible restart plan.",
+          "retrieval": "Distinguish accountability from total control.",
+          "available_models": [
+            "M01",
+            "M02"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W02-D05",
+          "status": "outlined"
+        },
+        {
+          "day": 13,
+          "week": 2,
+          "day_in_week": 6,
+          "title": "Council: stress the system",
+          "minutes": 75,
+          "action": "Explain the operating system; receive a scheduling disruption and revise it.",
+          "evidence": "Revised command sheet with a defended trade-off.",
+          "retrieval": "Revisit the first no under a stronger competing demand.",
+          "available_models": [
+            "M01",
+            "M02"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W02-D06",
+          "status": "outlined"
+        },
+        {
+          "day": 14,
+          "week": 2,
+          "day_in_week": 7,
+          "title": "Maintain the fortress",
+          "minutes": 45,
+          "action": "Review promises and actual output. Remove one source of friction.",
+          "evidence": "Weekly review with one system correction.",
+          "retrieval": "Retrieve both models and one useful application each.",
+          "available_models": [
+            "M01",
+            "M02"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W02-D07",
+          "status": "outlined"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "title": "Enter the Laboratory",
+      "question": "What can I actually do?",
+      "new_principles": [
+        "P07"
+      ],
+      "new_models": [
+        "M03",
+        "M04"
+      ],
+      "sources": [
+        "R04",
+        "R07",
+        "R09"
+      ],
+      "days": [
+        {
+          "day": 15,
+          "week": 3,
+          "day_in_week": 1,
+          "title": "Reduce to requirements",
+          "minutes": 50,
+          "action": "Use M03 on the Doom Project. Mark each assumption and test the most important one.",
+          "evidence": "Requirements sheet with a checked assumption.",
+          "retrieval": "Reapply M01: what can be omitted?",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W03-D01",
+          "status": "outlined"
+        },
+        {
+          "day": 16,
+          "week": 3,
+          "day_in_week": 2,
+          "title": "Design against failure",
+          "minutes": 50,
+          "action": "Use M04 to identify likely failure routes and one preventive action each.",
+          "evidence": "Three-risk prevention sheet.",
+          "retrieval": "Recall M02 and separate prevention from external uncertainty.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W03-D02",
+          "status": "outlined"
+        },
+        {
+          "day": 17,
+          "week": 3,
+          "day_in_week": 3,
+          "title": "Practise a useful subskill",
+          "minutes": 50,
+          "action": "Choose a task, baseline standard and feedback source. Run two short practice attempts.",
+          "evidence": "Before/after output with specific feedback.",
+          "retrieval": "Recall a limiting label and how evidence challenges it.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W03-D03",
+          "status": "outlined"
+        },
+        {
+          "day": 18,
+          "week": 3,
+          "day_in_week": 4,
+          "title": "Build the first version",
+          "minutes": 50,
+          "action": "Produce a minimal working project output during protected time.",
+          "evidence": "Prototype v1 that another person can inspect.",
+          "retrieval": "Use a boundary to stop a distraction or added scope.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W03-D04",
+          "status": "outlined"
+        },
+        {
+          "day": 19,
+          "week": 3,
+          "day_in_week": 5,
+          "title": "Build the Doombot",
+          "minutes": 50,
+          "action": "Test a reusable aid on one bounded task; compare with a manual result.",
+          "evidence": "Aid, test case, quality check and keep/change/discard decision.",
+          "retrieval": "Retrieve M03 and M04 and select the one needed now.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W03-D05",
+          "status": "outlined"
+        },
+        {
+          "day": 20,
+          "week": 3,
+          "day_in_week": 6,
+          "title": "Council: show the work",
+          "minutes": 75,
+          "action": "Demonstrate the skill and prototype. Explain one failed assumption and correction.",
+          "evidence": "Demonstration feedback and revision priority.",
+          "retrieval": "Revisit self-belief as action plus correction.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W03-D06",
+          "status": "outlined"
+        },
+        {
+          "day": 21,
+          "week": 3,
+          "day_in_week": 7,
+          "title": "Consolidate capability",
+          "minutes": 45,
+          "action": "Review improvement and select the next practice target.",
+          "evidence": "Skill record and next-week project plan.",
+          "retrieval": "Choose two older models and explain when each would mislead.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W03-D07",
+          "status": "outlined"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "title": "Command the Room",
+      "question": "Can I pursue my interests in contact with other people?",
+      "new_principles": [
+        "P03",
+        "P11"
+      ],
+      "new_models": [
+        "M05",
+        "M06"
+      ],
+      "sources": [
+        "R01",
+        "R02",
+        "R08"
+      ],
+      "days": [
+        {
+          "day": 22,
+          "week": 4,
+          "day_in_week": 1,
+          "title": "Map the interests",
+          "minutes": 50,
+          "action": "Use M05 to prepare a real conversation. Identify unanswered questions about the other party.",
+          "evidence": "Interest map separating evidence and inference.",
+          "retrieval": "Recall the first no and apply it to a stronger demand.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W04-D01",
+          "status": "outlined"
+        },
+        {
+          "day": 23,
+          "week": 4,
+          "day_in_week": 2,
+          "title": "Think beyond the answer",
+          "minutes": 50,
+          "action": "Use M06 to compare accepting, negotiating and declining a proposal.",
+          "evidence": "Consequences sheet including a future cost.",
+          "retrieval": "Reuse opportunity cost rather than inventing a new framework.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W04-D02",
+          "status": "outlined"
+        },
+        {
+          "day": 24,
+          "week": 4,
+          "day_in_week": 3,
+          "title": "Make the request",
+          "minutes": 50,
+          "action": "Write a concise pitch and rehearse a specific ask with alternatives.",
+          "evidence": "Recorded or written rehearsal and feedback.",
+          "retrieval": "Explain which assumption needs checking.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W04-D03",
+          "status": "outlined"
+        },
+        {
+          "day": 25,
+          "week": 4,
+          "day_in_week": 4,
+          "title": "Hold a real conversation",
+          "minutes": 50,
+          "action": "Conduct an appropriate pitch, boundary conversation or negotiation.",
+          "evidence": "Privacy-conscious factual account of what was said and agreed.",
+          "retrieval": "Select an earlier model without a facilitator prompt.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W04-D04",
+          "status": "outlined"
+        },
+        {
+          "day": 26,
+          "week": 4,
+          "day_in_week": 5,
+          "title": "Debrief the response",
+          "minutes": 50,
+          "action": "Separate rejection, actionable criticism and uncertainty. Decide whether to persist, change or withdraw.",
+          "evidence": "Debrief and a proportionate follow-up action.",
+          "retrieval": "Revisit self-belief without ignoring valid criticism.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W04-D05",
+          "status": "outlined"
+        },
+        {
+          "day": 27,
+          "week": 4,
+          "day_in_week": 6,
+          "title": "Council: hold your frame",
+          "minutes": 75,
+          "action": "Role-play a reasonable challenge with agreed limits. Explain your decision.",
+          "evidence": "Feedback and improved response.",
+          "retrieval": "Combine a boundary, M05 and M06.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W04-D06",
+          "status": "outlined"
+        },
+        {
+          "day": 28,
+          "week": 4,
+          "day_in_week": 7,
+          "title": "Choose your next engagement",
+          "minutes": 45,
+          "action": "Review conversations, promises and project progress.",
+          "evidence": "Next engagement plan with continue/change/withdraw criteria.",
+          "retrieval": "Recall all six available models and select one relevant pair.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W04-D07",
+          "status": "outlined"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "title": "Build the Empire",
+      "question": "Can I turn capability into useful value?",
+      "new_principles": [
+        "P05",
+        "P10"
+      ],
+      "new_models": [
+        "M07",
+        "M08"
+      ],
+      "sources": [
+        "R07",
+        "R09"
+      ],
+      "days": [
+        {
+          "day": 29,
+          "week": 5,
+          "day_in_week": 1,
+          "title": "Locate the value",
+          "minutes": 50,
+          "action": "Use M07 to choose the work that most improves the audience’s result.",
+          "evidence": "Audience/problem statement and one leverage hypothesis.",
+          "retrieval": "Recall protected interests and the scope boundary.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06",
+            "M07",
+            "M08"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W05-D01",
+          "status": "outlined"
+        },
+        {
+          "day": 30,
+          "week": 5,
+          "day_in_week": 2,
+          "title": "Choose a useful signal",
+          "minutes": 50,
+          "action": "Use M08 to set a measure, feedback route and revision threshold.",
+          "evidence": "Feedback plan with review date and limits.",
+          "retrieval": "Use incentives to consider whether polite praise is reliable evidence.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06",
+            "M07",
+            "M08"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W05-D02",
+          "status": "outlined"
+        },
+        {
+          "day": 31,
+          "week": 5,
+          "day_in_week": 3,
+          "title": "Construct the offer",
+          "minutes": 50,
+          "action": "Prepare a clear release, service pilot or participation invitation.",
+          "evidence": "Offer sheet with scope, costs and explicit ask.",
+          "retrieval": "Reuse second-order consequences to check commitments.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06",
+            "M07",
+            "M08"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W05-D03",
+          "status": "outlined"
+        },
+        {
+          "day": 32,
+          "week": 5,
+          "day_in_week": 4,
+          "title": "Put it into the world",
+          "minutes": 50,
+          "action": "Expose the project to intended users and ask for a meaningful commitment.",
+          "evidence": "Offer/release evidence and actual responses, including no response.",
+          "retrieval": "Select prior models and justify their use.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06",
+            "M07",
+            "M08"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W05-D04",
+          "status": "outlined"
+        },
+        {
+          "day": 33,
+          "week": 5,
+          "day_in_week": 5,
+          "title": "Revise from reality",
+          "minutes": 50,
+          "action": "Review what users actually did. Improve the offer or delivery and test again where feasible.",
+          "evidence": "Version comparison and a justified revision.",
+          "retrieval": "Distinguish persistence from repeating an untested assumption.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06",
+            "M07",
+            "M08"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W05-D05",
+          "status": "outlined"
+        },
+        {
+          "day": 34,
+          "week": 5,
+          "day_in_week": 6,
+          "title": "Council: defend the value",
+          "minutes": 75,
+          "action": "Demonstrate the offer and evidence. Explain what remains uncertain.",
+          "evidence": "Peer review and one delivery-system correction.",
+          "retrieval": "Combine self-interest, negotiation and feedback.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06",
+            "M07",
+            "M08"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W05-D06",
+          "status": "outlined"
+        },
+        {
+          "day": 35,
+          "week": 5,
+          "day_in_week": 7,
+          "title": "Prepare for Doomsday",
+          "minutes": 45,
+          "action": "Identify remaining gaps, dependencies and a manageable final deliverable.",
+          "evidence": "Completion plan and evidence inventory.",
+          "retrieval": "Recall an older boundary and explain how it protects delivery.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06",
+            "M07",
+            "M08"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W05-D07",
+          "status": "outlined"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "title": "Become Dangerous",
+      "question": "Can I retain judgement when circumstances change?",
+      "new_principles": [
+        "P14"
+      ],
+      "new_models": [
+        "M09",
+        "M10"
+      ],
+      "sources": [
+        "R04",
+        "R06",
+        "R09"
+      ],
+      "days": [
+        {
+          "day": 36,
+          "week": 6,
+          "day_in_week": 1,
+          "title": "Name the uncertainty",
+          "minutes": 50,
+          "action": "Use M09 to map remaining unknowns and choose one useful check.",
+          "evidence": "Confidence statement, evidence and update condition.",
+          "retrieval": "Recall M03/M04 and identify a surviving assumption.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06",
+            "M07",
+            "M08",
+            "M09",
+            "M10"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W06-D01",
+          "status": "outlined"
+        },
+        {
+          "day": 37,
+          "week": 6,
+          "day_in_week": 2,
+          "title": "Build the margin",
+          "minutes": 50,
+          "action": "Use M10 to prepare a realistic contingency and buffer.",
+          "evidence": "Contingency sheet with explicit limits and trade-offs.",
+          "retrieval": "Reuse opportunity cost: buffers also consume resources.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06",
+            "M07",
+            "M08",
+            "M09",
+            "M10"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W06-D02",
+          "status": "outlined"
+        },
+        {
+          "day": 38,
+          "week": 6,
+          "day_in_week": 3,
+          "title": "Assemble the evidence",
+          "minutes": 50,
+          "action": "Finish the project and curate evidence across the four territories.",
+          "evidence": "Dossier draft and functioning demonstration.",
+          "retrieval": "Retrieve principles independently before consulting the creed.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06",
+            "M07",
+            "M08",
+            "M09",
+            "M10"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W06-D03",
+          "status": "outlined"
+        },
+        {
+          "day": 39,
+          "week": 6,
+          "day_in_week": 4,
+          "title": "Rehearse under change",
+          "minutes": 50,
+          "action": "Run the demo with one bounded changed constraint and use your own choice of tools.",
+          "evidence": "Rehearsal output and adaptation debrief.",
+          "retrieval": "Explain why the chosen model fits better than an alternative.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06",
+            "M07",
+            "M08",
+            "M09",
+            "M10"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W06-D04",
+          "status": "outlined"
+        },
+        {
+          "day": 40,
+          "week": 6,
+          "day_in_week": 5,
+          "title": "Write the operating code",
+          "minutes": 50,
+          "action": "Repeat a comparable baseline scenario; prepare the next ninety days.",
+          "evidence": "Before/after comparison, operating code and continuation plan.",
+          "retrieval": "Identify remaining limits rather than performing certainty.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06",
+            "M07",
+            "M08",
+            "M09",
+            "M10"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W06-D05",
+          "status": "outlined"
+        },
+        {
+          "day": 41,
+          "week": 6,
+          "day_in_week": 6,
+          "title": "Doomsday",
+          "minutes": 75,
+          "action": "Demonstrate, defend one decision, respond to a bounded change and execute a next step.",
+          "evidence": "Assessed demonstration and next action.",
+          "retrieval": "Independent selection; no required model-name checklist.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06",
+            "M07",
+            "M08",
+            "M09",
+            "M10"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W06-D06",
+          "status": "outlined"
+        },
+        {
+          "day": 42,
+          "week": 6,
+          "day_in_week": 7,
+          "title": "The next ninety days",
+          "minutes": 45,
+          "action": "Integrate feedback, name unfinished work and schedule the first continuation review.",
+          "evidence": "Final dossier and dated 30/60/90-day milestones.",
+          "retrieval": "Explain what changed in behaviour and what still needs practice.",
+          "available_models": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05",
+            "M06",
+            "M07",
+            "M08",
+            "M09",
+            "M10"
+          ],
+          "continuing_threads": [
+            "self-interest",
+            "boundaries",
+            "courage-to-be-disliked",
+            "chosen-mission"
+          ],
+          "workbook_id": "W06-D07",
+          "status": "outlined"
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "id": "M01",
+      "name": "Opportunity cost",
+      "introduced_week": 2,
+      "prompt": "What is the best realistic alternative I give up?",
+      "limitation": "Avoid valuing every free hour as if it could earn unlimited money."
+    },
+    {
+      "id": "M02",
+      "name": "Control and influence",
+      "introduced_week": 2,
+      "prompt": "What can I decide, influence or only respond to?",
+      "limitation": "Influence is partial; do not collapse everything into total control or helplessness."
+    },
+    {
+      "id": "M03",
+      "name": "First principles",
+      "introduced_week": 3,
+      "prompt": "What is required, observed or merely assumed?",
+      "limitation": "Do not discard accumulated expertise without a reason."
+    },
+    {
+      "id": "M04",
+      "name": "Inversion",
+      "introduced_week": 3,
+      "prompt": "What would make this fail, and what can I prevent?",
+      "limitation": "Risk listing can become avoidance; finish with an action."
+    },
+    {
+      "id": "M05",
+      "name": "Incentives",
+      "introduced_week": 4,
+      "prompt": "What outcomes might matter to each party, and how can I check?",
+      "limitation": "An inferred motive is not a fact."
+    },
+    {
+      "id": "M06",
+      "name": "Second-order consequences",
+      "introduced_week": 4,
+      "prompt": "What follows the immediate result?",
+      "limitation": "Speculation is not prediction; state uncertainty."
+    },
+    {
+      "id": "M07",
+      "name": "Leverage",
+      "introduced_week": 5,
+      "prompt": "Where can a scarce resource produce more useful output?",
+      "limitation": "Automating bad work scales bad work; include quality and maintenance costs."
+    },
+    {
+      "id": "M08",
+      "name": "Feedback loops",
+      "introduced_week": 5,
+      "prompt": "Which signal leads to which adjustment, and when?",
+      "limitation": "Avoid optimising a vanity measure instead of the intended result."
+    },
+    {
+      "id": "M09",
+      "name": "Probabilistic thinking",
+      "introduced_week": 6,
+      "prompt": "What outcomes are plausible, and what evidence would update my confidence?",
+      "limitation": "Numbers without a basis are false precision."
+    },
+    {
+      "id": "M10",
+      "name": "Margin of safety",
+      "introduced_week": 6,
+      "prompt": "What buffer or fallback keeps a plausible setback manageable?",
+      "limitation": "Buffers have costs and cannot remove every risk."
+    }
+  ]
+}
