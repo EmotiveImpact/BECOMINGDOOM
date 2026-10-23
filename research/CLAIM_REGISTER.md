@@ -15,3 +15,18 @@
 | Promo makes listeners immediately sign up | Creative ambition | No campaign tested | Test understanding, relevance and actual interest |
 
 Research supports selected teaching methods, not the completed programme's efficacy. Separate these levels in scripts, slide notes and sales copy.
+
+
+## Behavioural-science baseline added 23 October 2026
+
+The dated report supplies source IDs, dates, access limits and evidence appraisal. These entries add bounded uses; existing source cards retain their historical review status.
+
+| Proposed statement | Classification | Support | Permissible use |
+|---|---|---|---|
+| Precise cue–response plans merit a Doom execution pilot | Research-informed design hypothesis | [BDS-20261023-01](behavioural-science/2026-10-23.md) | Test the Command Trigger card; transfer to project work is unvalidated |
+| Continued support merits a separate evaluation | Programme design hypothesis | [BDS-20261023-02](behavioural-science/2026-10-23.md) | Pilot a Continuation Council; do not assume the support mechanism or transfer is established |
+| Adaptation should be examined within purposeful persistence | Doctrine informed by limited empirical evidence | [BDS-20261023-03](behavioural-science/2026-10-23.md) | Pilot the Campaign Review; no universal rule for when to withdraw |
+| Early improvement alone is insufficient evidence of lasting advantage | Evaluation principle | [BDS-20261023-04](behavioural-science/2026-10-23.md) | Track initiation, continued action, actual strategy use and recovery separately |
+| Completion of teaching does not certify habit formation | Programme claim boundary | [BDS-20261023-05](behavioural-science/2026-10-23.md) | Use follow-up evidence; do not prescribe a universal automaticity deadline |
+
+Command Trigger, Continuation Council, Campaign Review, Drift Check and Maintenance Dossier are original proposals, not validated diagnostics or proven interventions. The pilot is specified, not run.
