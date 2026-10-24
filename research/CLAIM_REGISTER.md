@@ -30,3 +30,16 @@ The dated report supplies source IDs, dates, access limits and evidence appraisa
 | Completion of teaching does not certify habit formation | Programme claim boundary | [BDS-20261023-05](behavioural-science/2026-10-23.md) | Use follow-up evidence; do not prescribe a universal automaticity deadline |
 
 Command Trigger, Continuation Council, Campaign Review, Drift Check and Maintenance Dossier are original proposals, not validated diagnostics or proven interventions. The pilot is specified, not run.
+
+
+## Focused appraisal added 24 October 2026
+
+See the [dated evidence brief](behavioural-science/2026-10-24.md) for original links, access limits and appraisal. Neither source was newly published on the report date.
+
+| Proposed statement | Classification | Support | Permissible use |
+|---|---|---|---|
+| Boundary rehearsal merits evaluation using demonstrated action | Research-informed design hypothesis | BDS-20261024-01 in the dated brief; existing R08 design context | Pilot Boundary Under Pressure within the existing mission; do not equate anxiety ratings with real-world boundary behaviour |
+| Access conditions merit testing alongside execution skills | Research-informed design hypothesis | BDS-20261024-02 in the dated brief | Pilot Gate Audit; do not infer permanent attention improvement or transfer from the original blocking protocol |
+| The new card improves the course's lasting outcomes | Unvalidated product claim | No Doom pilot has been run | Do not publish as an established effect |
+
+Boundary Under Pressure, Pressure Check and Gate Audit are original proposals, not validated diagnostic instruments. The report flags an unresolved certainty-label inconsistency in the assertiveness review. Existing claim classifications remain in place.
