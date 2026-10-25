@@ -43,3 +43,13 @@ See the [dated evidence brief](behavioural-science/2026-10-24.md) for original l
 | The new card improves the course's lasting outcomes | Unvalidated product claim | No Doom pilot has been run | Do not publish as an established effect |
 
 Boundary Under Pressure, Pressure Check and Gate Audit are original proposals, not validated diagnostic instruments. The report flags an unresolved certainty-label inconsistency in the assertiveness review. Existing claim classifications remain in place.
+
+
+## Continuation delivery appraisal added 25 October 2026
+
+| Proposed statement | Classification | Support | Permissible use |
+|---|---|---|---|
+| The Council's added value should be tested against a credible individual route | Research-informed design hypothesis | [BDS-20261025-01](behavioural-science/2026-10-25.md) | Compare completion, burden and continuation; do not infer universal group superiority or equivalence |
+| Council attendance establishes lasting change | Unsupported programme claim | No Doom outcomes establish this | Keep attendance separate from verified outputs and post-support continuation |
+
+Council Contribution Ledger and its descriptive categories are original, unvalidated proposals. This qualifies the 23 October Continuation Council proposal without withdrawing the case for testing continued support.
