@@ -53,3 +53,13 @@ Boundary Under Pressure, Pressure Check and Gate Audit are original proposals, n
 | Council attendance establishes lasting change | Unsupported programme claim | No Doom outcomes establish this | Keep attendance separate from verified outputs and post-support continuation |
 
 Council Contribution Ledger and its descriptive categories are original, unvalidated proposals. This qualifies the 23 October Continuation Council proposal without withdrawing the case for testing continued support.
+
+
+## Comparison appraisal added 26 October 2026
+
+| Proposed statement | Classification | Support | Permissible use |
+|---|---|---|---|
+| A relevant comparison example merits testing alongside criterion-based feedback | Research-informed design hypothesis | [BDS-20261026-01](behavioural-science/2026-10-26.md) | Pilot Benchmark-to-Action against the same feedback without the example; incremental benefit is unresolved |
+| Public rankings establish lasting will or programme efficacy | Unsupported programme claim | Not established by the appraised evidence | Do not publish as an empirical claim |
+
+Benchmark-to-Action and its descriptive categories are original, unvalidated designs. No peer norms or outcomes may be invented. Existing claims and historical source cards are preserved.
