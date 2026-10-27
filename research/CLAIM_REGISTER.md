@@ -63,3 +63,13 @@ Council Contribution Ledger and its descriptive categories are original, unvalid
 | Public rankings establish lasting will or programme efficacy | Unsupported programme claim | Not established by the appraised evidence | Do not publish as an empirical claim |
 
 Benchmark-to-Action and its descriptive categories are original, unvalidated designs. No peer norms or outcomes may be invented. Existing claims and historical source cards are preserved.
+
+
+## Game-mechanic appraisal added 27 October 2026
+
+| Proposed statement | Classification | Support | Permissible use |
+|---|---|---|---|
+| A progress feature should be tested against otherwise identical feedback | Research-informed design hypothesis | [BDS-20261027-01](behavioural-science/2026-10-27.md), limited-access appraisal | Pilot Earned Progress using verified work; do not transfer symptom effects to course efficacy |
+| Badges or streaks demonstrate lasting will | Unsupported programme claim | Not established | Keep interface engagement separate from completed work and continuation |
+
+Earned Progress and Progress Integrity Check are original, unvalidated proposals. Direct source and version-history access remain incomplete; stronger claims require further verification.
