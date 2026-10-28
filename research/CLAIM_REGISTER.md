@@ -73,3 +73,14 @@ Benchmark-to-Action and its descriptive categories are original, unvalidated des
 | Badges or streaks demonstrate lasting will | Unsupported programme claim | Not established | Keep interface engagement separate from completed work and continuation |
 
 Earned Progress and Progress Integrity Check are original, unvalidated proposals. Direct source and version-history access remain incomplete; stronger claims require further verification.
+
+
+## Commitment and return appraisal added 28 October 2026
+
+| Proposed statement | Classification | Support | Permissible use |
+|---|---|---|---|
+| A voluntary accountability commitment merits a separate component test | Research-informed design hypothesis | [BDS-20261028-01](behavioural-science/2026-10-28.md) | Pilot Commitment Contract against the same plan and feedback; transfer and post-support persistence remain unvalidated |
+| A second completed activity establishes sustained engagement | Unsupported programme claim | [BDS-20261028-02](behavioural-science/2026-10-28.md) distinguishes a return event from sustained practice | Track first action, return, repeated practice and transfer separately |
+| A brief prompt about practising a skill improves Doom outcomes | Unvalidated design hypothesis | Return-to-Work proposal in the dated brief | Test comprehension and observable output; do not claim a mindset mechanism or clinical benefit |
+
+Commitment Contract, Commitment Fit Check and Return-to-Work are original, unvalidated designs. The app-initiation paper is now appraised from primary text; prior reports accurately retain their historical access status. No existing source or claim is overwritten.
