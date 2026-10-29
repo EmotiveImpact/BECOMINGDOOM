@@ -84,3 +84,14 @@ Earned Progress and Progress Integrity Check are original, unvalidated proposals
 | A brief prompt about practising a skill improves Doom outcomes | Unvalidated design hypothesis | Return-to-Work proposal in the dated brief | Test comprehension and observable output; do not claim a mindset mechanism or clinical benefit |
 
 Commitment Contract, Commitment Fit Check and Return-to-Work are original, unvalidated designs. The app-initiation paper is now appraised from primary text; prior reports accurately retain their historical access status. No existing source or claim is overwritten.
+
+
+## Final maintenance appraisal and synthesis — 29 October 2026
+
+| Proposed statement | Classification | Support | Permissible use |
+|---|---|---|---|
+| Initial success alone establishes maintained behaviour | Unsupported programme claim | [BDS-20261029-01](behavioural-science/2026-10-29.md), with selection and missing-data limits | Retain the enrolled denominator and distinguish ongoing support from post-support continuation |
+| Booster sessions are proven to sustain Doom outcomes | Unvalidated product claim | No Doom booster comparison has been run | Specify and test the component; do not infer efficacy from the new follow-up paper |
+| Command Trigger is the first development priority | Analyst development judgement | [Seven-day synthesis](behavioural-science/2026-10-23_to_2026-10-29-synthesis.md) | Run a small feasibility pilot before a powered efficacy test; ranking is not validation |
+
+Denominator Check is an original, unvalidated reporting checklist within the Maintenance Dossier. The synthesis consolidates all seven reports without upgrading historical access or certainty labels. The programme and all proposed Doom tools remain unvalidated.
