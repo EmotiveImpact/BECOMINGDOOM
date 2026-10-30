@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>Becoming Doom W01-L01</title>
+<style>
+@font-face { font-family: Bebas; src: url(fonts/BebasNeue-Regular.ttf); }
+@font-face { font-family: DM; src: url(fonts/DMSans.ttf); font-weight: 100 1000; }
+:root { --ink:#080808; --ivory:#EEE9DE; --stone:#8C877E; --gold:#C9A24A; --goldlite:#E3C77F; }
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { width:1920px; height:1080px; background:var(--ink); overflow:hidden; }
+body { font-family: DM, sans-serif; color:var(--ivory); }
+#stage { position:absolute; inset:0; overflow:hidden; background:var(--ink); }
+.scene { position:absolute; inset:0; opacity:0; }
+.bg { position:absolute; inset:-2%; background-size:cover; background-position:center; will-change:transform; }
+.shade { position:absolute; inset:0; }
+.shade.left { background: linear-gradient(90deg, rgba(8,8,8,.96) 0%, rgba(8,8,8,.78) 38%, rgba(8,8,8,.15) 70%, rgba(8,8,8,0) 100%); }
+.shade.full { background: rgba(8,8,8,.72); }
+.shade.vig { background: radial-gradient(ellipse at 60% 50%, rgba(8,8,8,0) 30%, rgba(8,8,8,.85) 100%); }
+.shade.bottom { background: linear-gradient(0deg, rgba(8,8,8,.95) 0%, rgba(8,8,8,.4) 45%, rgba(8,8,8,0) 75%); }
+.mask { overflow:hidden; display:block; }
+.mask > span { display:block; }
+.kicker { font-size:22px; letter-spacing:.42em; text-transform:uppercase; color:var(--gold); }
+.display { font-family:Bebas; font-weight:400; line-height:.86; letter-spacing:.01em; }
+.statement { font-weight:300; font-size:92px; line-height:1.04; letter-spacing:-.015em; }
+.gold { color:var(--gold); }
+.rule { height:2px; background:var(--gold); width:120px; transform-origin:left; }
+.abs { position:absolute; }
+.small { font-size:26px; color:var(--stone); letter-spacing:.02em; }
+/* chrome */
+#bars:before, #bars:after { content:""; position:absolute; left:0; right:0; height:70px; background:#000; z-index:20; }
+#bars:before { top:0; } #bars:after { bottom:0; }
+#hud { position:absolute; inset:0; z-index:21; pointer-events:none; }
+#hud .id { position:absolute; left:96px; top:24px; font-size:15px; letter-spacing:.4em; color:#6d6961; }
+#hud .mark { position:absolute; right:96px; bottom:20px; font-family:Bebas; font-size:24px; letter-spacing:.55em; color:#6d6961; }
+#hud .prog { position:absolute; left:0; bottom:68px; height:2px; background:var(--gold); width:0; opacity:.7; }
+#grain { position:absolute; inset:-50%; z-index:19; opacity:.07; pointer-events:none; mix-blend-mode:screen;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='300' height='300' filter='url(%23n)'/></svg>"); }
+.row { display:flex; align-items:baseline; gap:40px; padding:26px 0; border-top:1px solid #2a2824; }
+.row .n { font-family:Bebas; font-size:64px; color:var(--gold); width:90px; }
+.row .t { font-size:46px; font-weight:500; }
+.row .d { font-size:28px; color:var(--stone); margin-top:6px; }
+.strike { position:absolute; left:0; top:52%; height:3px; width:100%; background:var(--stone); transform-origin:left; transform:scaleX(0); }
+</style>
+</head>
+<body>
+<div id="stage">
+
+  <!-- 1 cold open -->
+  <section class="scene" data-start="0" data-dur="5">
+    <div class="abs" style="left:0;right:0;top:470px;text-align:center">
+      <div class="display a" data-in="0.4" data-anim="track" style="font-size:120px;letter-spacing:.5em;padding-left:.5em">BECOMING DOOM</div>
+      <div class="rule a" data-in="1.6" data-anim="draw" style="margin:34px auto 0;width:160px;transform-origin:center"></div>
+      <div class="kicker a" data-in="2.2" data-anim="fade" style="margin-top:30px;color:var(--stone)">Become dangerous</div>
+    </div>
+  </section>
+
+  <!-- 2 title -->
+  <section class="scene" data-start="5" data-dur="9">
+    <div class="bg kb" style="background-image:url(../assets/W01-L01/title-seated.png)" data-kb="in"></div>
+    <div class="shade left"></div><div class="shade vig"></div>
+    <div class="abs" style="left:150px;top:310px;width:1000px">
+      <div class="kicker a" data-in="0.8" data-anim="fade">Week 1 &nbsp;·&nbsp; Claim the Throne &nbsp;·&nbsp; Lesson 01</div>
+      <div class="rule a" data-in="1.1" data-anim="draw" style="margin:30px 0 36px"></div>
+      <div class="display" style="font-size:230px">
+        <span class="mask"><span class="a" data-in="1.4" data-anim="rise">SELFISHNESS</span></span>
+        <span class="mask"><span class="a" data-in="1.75" data-anim="rise">AS A <span class="gold">VIRTUE</span></span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 hook -->
+  <section class="scene" data-start="14" data-dur="9">
+    <div class="bg kb" style="background-image:url(../assets/W01-L01/hourglass.png);background-position:center 40%" data-kb="out"></div>
+    <div class="shade full"></div><div class="shade vig"></div>
+    <div class="abs" style="left:0;right:0;top:330px;text-align:center">
+      <div class="statement a" data-in="0.6" data-anim="fadeup" style="font-size:70px;color:#cfcac0">You keep saying this work matters.</div>
+      <div class="statement a" data-in="3.0" data-anim="fadeup" style="margin-top:40px;font-size:96px">What has it been allowed to</div>
+      <div class="display a" data-in="4.4" data-anim="punch" style="font-size:300px;color:var(--gold);margin-top:6px">COST?</div>
+    </div>
+  </section>
+
+  <!-- 4 doom -->
+  <section class="scene" data-start="23" data-dur="8">
+    <div class="bg kb" style="background-image:url(../assets/W01-L01/throne.png);background-position:center 30%;left:38%" data-kb="up"></div>
+    <div class="abs" style="left:0;top:0;bottom:0;width:62%;background:linear-gradient(90deg,#080808 70%,rgba(8,8,8,0))"></div>
+    <div class="abs" style="left:150px;top:330px;width:900px">
+      <div class="kicker a" data-in="0.5" data-anim="fade">The Doom lens</div>
+      <div class="rule a" data-in="0.8" data-anim="draw" style="margin:30px 0 40px"></div>
+      <div class="display" style="font-size:170px">
+        <span class="mask"><span class="a" data-in="1.1" data-anim="rise">DOOM DOES NOT</span></span>
+        <span class="mask"><span class="a" data-in="1.4" data-anim="rise">WAIT TO BE</span></span>
+        <span class="mask"><span class="a gold" data-in="1.7" data-anim="rise">CHOSEN.</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 proposition -->
+  <section class="scene" data-start="31" data-dur="8">
+    <div class="abs display a" data-in="0" data-anim="ghost" style="right:80px;top:120px;font-size:900px;color:#121212;line-height:.8">01</div>
+    <div class="abs" style="left:150px;top:300px;width:1300px">
+      <div class="kicker a" data-in="0.4" data-anim="fade">The proposition</div>
+      <div class="rule a" data-in="0.6" data-anim="draw" style="margin:30px 0 40px"></div>
+      <div class="statement" style="font-size:112px">
+        <span class="mask"><span class="a" data-in="0.9" data-anim="rise">Your life is a legitimate</span></span>
+        <span class="mask"><span class="a" data-in="1.3" data-anim="rise">object of your own</span></span>
+        <span class="mask"><span class="a gold" data-in="1.9" data-anim="rise" style="font-weight:500">ambition.</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 three voices -->
+  <section class="scene" data-start="39" data-dur="10">
+    <div class="abs" style="left:150px;top:230px;width:600px">
+      <div class="kicker a" data-in="0.3" data-anim="fade">Three voices</div>
+      <div class="rule a" data-in="0.5" data-anim="draw" style="margin:30px 0 40px"></div>
+      <div class="statement a" data-in="0.7" data-anim="fadeup" style="font-size:64px">Compete for your time, money and attention.</div>
+    </div>
+    <div class="abs" style="left:900px;top:250px;width:870px">
+      <div class="row a" data-in="1.4" data-anim="fadeup"><div class="n">01</div><div style="position:relative"><div class="t">Appetite</div><div class="d">What I want right now.</div><div class="strike a" data-in="5.2" data-anim="strike"></div></div></div>
+      <div class="row a" data-in="2.4" data-anim="fadeup"><div class="n">02</div><div style="position:relative"><div class="t">Approval</div><div class="d">What I fear they will think.</div><div class="strike a" data-in="5.7" data-anim="strike"></div></div></div>
+      <div class="row a" data-in="3.4" data-anim="fadeup"><div class="n">03</div><div><div class="t gold a" data-in="6.3" data-anim="glow">Interest</div><div class="d">What I will be glad I built.</div></div></div>
+    </div>
+  </section>
+
+  <!-- 7 desk -->
+  <section class="scene" data-start="49" data-dur="8">
+    <div class="bg kb" style="background-image:url(../assets/W01-L01/desk.png)" data-kb="in"></div>
+    <div class="shade bottom"></div><div class="shade left" style="opacity:.6"></div>
+    <div class="abs" style="left:150px;bottom:190px;width:1200px">
+      <div class="kicker a" data-in="0.6" data-anim="fade">Maya · freelance designer · Thursday, 6pm</div>
+      <div class="rule a" data-in="0.9" data-anim="draw" style="margin:28px 0 34px"></div>
+      <div class="statement a" data-in="1.4" data-anim="fadeup" style="font-size:84px">Fourth unpaid revision.</div>
+      <div class="statement a" data-in="3.0" data-anim="fadeup" style="font-size:84px;color:var(--gold)">Portfolio: still closed.</div>
+    </div>
+  </section>
+
+  <!-- 8 three answers -->
+  <section class="scene" data-start="57" data-dur="10">
+    <div class="abs" style="left:150px;top:200px;width:1620px">
+      <div class="kicker a" data-in="0.3" data-anim="fade">Three ways to answer the same email</div>
+      <div class="rule a" data-in="0.5" data-anim="draw" style="margin:30px 0 50px"></div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:56px">
+        <div class="a" data-in="0.9" data-anim="fadeup" style="border-top:1px solid #2a2824;padding-top:30px">
+          <div class="display" style="font-size:96px;color:#5b5750">YES</div>
+          <div class="t" style="font-size:38px;margin:18px 0 14px">The automatic yes</div>
+          <div class="small">Revision done. Portfolio closed. Resentment banked.</div></div>
+        <div class="a" data-in="2.0" data-anim="fadeup" style="border-top:1px solid #2a2824;padding-top:30px">
+          <div class="display" style="font-size:96px;color:#5b5750">NO</div>
+          <div class="t" style="font-size:38px;margin:18px 0 14px">The honest no</div>
+          <div class="small">Evening protected. Relationship unexamined.</div></div>
+        <div class="a" data-in="3.1" data-anim="fadeup" style="border-top:2px solid var(--gold);padding-top:30px">
+          <div class="display gold" style="font-size:96px">RENEGOTIATE</div>
+          <div class="t" style="font-size:38px;margin:18px 0 14px">The renegotiated scope</div>
+          <div class="small" style="color:#cfcac0">Paid round on Monday. Portfolio built on Thursday.</div></div>
+      </div>
+      <div class="statement a" data-in="5.4" data-anim="fadeup" style="font-size:48px;margin-top:80px;color:#cfcac0">“Happy to. It’s outside the brief, so it’s billed at my day rate. You’ll have it Monday.”</div>
+    </div>
+  </section>
+
+  <!-- 9 ego -->
+  <section class="scene" data-start="67" data-dur="7">
+    <div class="abs" style="left:0;right:0;top:360px;text-align:center">
+      <div class="display" style="font-size:250px">
+        <span class="mask"><span class="a" data-in="0.5" data-anim="rise">YOUR EGO IS NOT</span></span>
+        <span class="mask"><span class="a gold" data-in="1.1" data-anim="rise">YOUR INTEREST.</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10 doctrine -->
+  <section class="scene" data-start="74" data-dur="10">
+    <div class="abs" style="left:150px;top:180px;width:1620px">
+      <div class="kicker a" data-in="0.3" data-anim="fade">Pause the video · five minutes</div>
+      <div class="rule a" data-in="0.5" data-anim="draw" style="margin:30px 0 30px"></div>
+      <div class="display a" data-in="0.7" data-anim="fadeup" style="font-size:150px">WRITE YOUR DOCTRINE</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;column-gap:90px;margin-top:40px">
+        <div class="row a" data-in="1.6" data-anim="fadeup"><div class="n">01</div><div class="t" style="font-size:36px;font-weight:400">What I am building, and why it matters to me.</div></div>
+        <div class="row a" data-in="2.3" data-anim="fadeup"><div class="n">02</div><div class="t" style="font-size:36px;font-weight:400">The resource I commit to it this week.</div></div>
+        <div class="row a" data-in="3.0" data-anim="fadeup"><div class="n">03</div><div class="t" style="font-size:36px;font-weight:400">What that resource is taken from.</div></div>
+        <div class="row a" data-in="3.7" data-anim="fadeup"><div class="n">04</div><div class="t" style="font-size:36px;font-weight:400">The responsibility I honour or renegotiate.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11 mission -->
+  <section class="scene" data-start="84" data-dur="8">
+    <div class="abs" style="left:150px;top:250px;width:1620px;display:grid;grid-template-columns:640px 1fr;gap:90px">
+      <div>
+        <div class="kicker a" data-in="0.3" data-anim="fade">Day 2 · Workbook W01-D02</div>
+        <div class="rule a" data-in="0.5" data-anim="draw" style="margin:30px 0 36px"></div>
+        <div class="display a" data-in="0.7" data-anim="fadeup" style="font-size:170px">TODAY’S<br><span class="gold">MISSION</span></div>
+      </div>
+      <div style="padding-top:20px">
+        <div class="row a" data-in="1.4" data-anim="fadeup"><div class="kicker" style="width:220px;font-size:18px">Produce</div><div class="t" style="font-size:40px;font-weight:400">Doctrine v1, with one specific resource allocation.</div></div>
+        <div class="row a" data-in="2.2" data-anim="fadeup"><div class="kicker" style="width:220px;font-size:18px">Protect</div><div class="t" style="font-size:40px;font-weight:400">Your first session, in the calendar today.</div></div>
+        <div class="row a" data-in="3.0" data-anim="fadeup"><div class="kicker" style="width:220px;font-size:18px">Evidence</div><div class="t" style="font-size:40px;font-weight:400">The cost, named. Nobody needs to approve it.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12 close -->
+  <section class="scene" data-start="92" data-dur="11">
+    <div class="bg kb" style="background-image:url(../assets/W01-L01/close-facing.png)" data-kb="in"></div>
+    <div class="shade left"></div><div class="shade vig"></div>
+    <div class="abs" style="left:150px;top:330px;width:950px">
+      <div class="statement" style="font-size:80px">
+        <span class="mask"><span class="a" data-in="1.0" data-anim="rise">Your ambition deserves</span></span>
+        <span class="mask"><span class="a" data-in="1.4" data-anim="rise">more than your belief.</span></span>
+        <span class="mask" style="margin-top:20px"><span class="a gold" data-in="3.0" data-anim="rise" style="font-weight:500">Give it work it can stand on.</span></span>
+      </div>
+      <div class="rule a" data-in="5.0" data-anim="draw" style="margin:56px 0 26px"></div>
+      <div class="kicker a" data-in="5.3" data-anim="fade">Next · Lesson 02 · The First No</div>
+    </div>
+  </section>
+
+  <div id="grain"></div>
+  <div id="bars"></div>
+  <div id="hud"><div class="id">W01-L01 &nbsp; SELFISHNESS AS A VIRTUE</div><div class="mark">BECOMING DOOM</div><div class="prog"></div></div>
+</div>
+
+<script>
+const EASE = 'cubic-bezier(.16,1,.3,1)';
+const TOTAL = 103;
+const anims = [];
+const K = {
+  fade:   [{opacity:0},{opacity:1}],
+  fadeup: [{opacity:0, transform:'translateY(40px)'},{opacity:1, transform:'none'}],
+  rise:   [{transform:'translateY(105%)'},{transform:'none'}],
+  draw:   [{transform:'scaleX(0)'},{transform:'scaleX(1)'}],
+  strike: [{transform:'scaleX(0)'},{transform:'scaleX(1)'}],
+  track:  [{opacity:0, letterSpacing:'.9em', filter:'blur(8px)'},{opacity:1, letterSpacing:'.5em', filter:'blur(0)'}],
+  punch:  [{opacity:0, transform:'scale(1.25)', filter:'blur(10px)'},{opacity:1, transform:'none', filter:'blur(0)'}],
+  ghost:  [{opacity:0, transform:'translateX(80px)'},{opacity:1, transform:'none'}],
+  glow:   [{textShadow:'0 0 0 rgba(201,162,74,0)'},{textShadow:'0 0 40px rgba(201,162,74,.55)'}],
+};
+const DUR = {fade:1200, fadeup:1300, rise:1300, draw:1100, strike:700, track:2600, punch:1100, ghost:3000, glow:1500};
+document.querySelectorAll('.scene').forEach(sc => {
+  const s = +sc.dataset.start, d = +sc.dataset.dur;
+  anims.push(sc.animate([{opacity:0},{opacity:1,offset:.9/d},{opacity:1,offset:1-.8/d},{opacity:0}],
+    {duration:d*1000, delay:s*1000, fill:'both', easing:'linear'}));
+  sc.querySelectorAll('.kb').forEach(bg => {
+    const m = {in:['scale(1.02)','scale(1.12)'], out:['scale(1.14)','scale(1.03)'], up:['scale(1.08) translateY(2%)','scale(1.14) translateY(-2%)']}[bg.dataset.kb];
+    anims.push(bg.animate([{transform:m[0]},{transform:m[1]}], {duration:d*1000, delay:s*1000, fill:'both', easing:'linear'}));
+  });
+  sc.querySelectorAll('.a').forEach(el => {
+    const k = el.dataset.anim;
+    anims.push(el.animate(K[k], {duration:DUR[k], delay:(s + +el.dataset.in)*1000, fill:'both', easing: k==='ghost'?'ease-out':EASE}));
+  });
+});
+anims.push(document.querySelector('.prog').animate([{width:'0'},{width:'100%'}], {duration:TOTAL*1000, fill:'both', easing:'linear'}));
+anims.push(document.getElementById('grain').animate(
+  Array.from({length:10},(_,i)=>({transform:`translate(${(i*37)%20-10}%,${(i*53)%20-10}%)`})),
+  {duration:1000, iterations:Infinity, easing:'steps(10)'}));
+window.TOTAL = TOTAL;
+window.seek = t => anims.forEach(a => { a.pause(); a.currentTime = t*1000; });
+if (location.hash === '#capture') window.seek(0);
+</script>
+</body>
+</html>
