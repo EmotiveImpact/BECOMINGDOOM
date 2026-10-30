@@ -140,7 +140,7 @@ def scene_html(sc, n, img, meta):
     if k == "grunge":
         return ('<div class="abs" style="left:0;right:0;top:110px;text-align:center">'
                 + a("anton grunge", 0.3, "punch", "<br>".join(esc(x) for x in sc["lines"]), f'font-size:{sc.get("size", 300)}px;line-height:.9;color:#b3231b')
-                + "</div>" + a("abs side", 1.4, "fade", f'{esc(sc["side"])}<br><span>{esc(sc["note"])}</span>', "right:150px;top:470px")
+                + "</div>" + a("abs side", 1.4, "fade", f'{esc(sc["side"])}<br><span>{esc(sc["note"])}</span>', "right:150px;top:790px")
                 + cap(n, sc["cap"]))
     if k == "card":
         w = sc["words"]
@@ -179,11 +179,11 @@ def scene_html(sc, n, img, meta):
                 + f'<div class="abs" style="left:1060px;top:170px;width:700px">{items}</div>' + cap(n, sc["cap"]))
     if k == "radial":
         pills = sc["pills"]
-        pos = [(1180, 260), (1560, 210), (1680, 420), (1600, 640), (1220, 800), (980, 560), (1450, 880)]
+        pos = [(1080, 250), (1430, 190), (1500, 410), (1440, 650), (1100, 800), (900, 560), (1330, 880)]
         ph = "".join(a("pill", 1.4 + i * 0.35, "fade", esc(p), f"left:{pos[i][0]}px;top:{pos[i][1]}px") for i, p in enumerate(pills[:7]))
-        rings = "".join(f'<div class="ring a" data-in="{0.2 + i * 0.2:.1f}" data-anim="fade" style="width:{r * 2}px;height:{r * 2}px;left:{1500 - r}px;top:{540 - r}px"></div>' for i, r in enumerate([220, 400, 580, 760]))
+        rings = "".join(f'<div class="ring a" data-in="{0.2 + i * 0.2:.1f}" data-anim="fade" style="width:{r * 2}px;height:{r * 2}px;left:{1400 - r}px;top:{540 - r}px"></div>' for i, r in enumerate([220, 400, 580, 760]))
         return ('<div class="abs glow a" data-in="0" data-anim="fade"></div>' + rings + ph
-                + a("pill core", 1.0, "fade", esc(sc["core"]), "left:1380px;top:510px")
+                + a("pill core", 1.0, "fade", esc(sc["core"]), "left:1260px;top:510px")
                 + '<div class="abs" style="left:150px;top:380px;width:760px">'
                 + a("light", 0.5, "fadeup", "<br>".join(mark(x) for x in sc["lines"]))
                 + a("small", 2.4, "fade", esc(sc["text"]), "margin-top:36px;max-width:620px") + "</div>" + cap(n, sc["cap"]))
@@ -202,7 +202,7 @@ EXTRA_CSS = """
 .sl { font-size:44px; font-weight:400; text-transform:uppercase; margin-top:6px; }
 .sn.hot, .sl.hot { color:var(--red); }
 .sc { font-size:22px; color:var(--stone); margin-top:10px; max-width:560px; line-height:1.35; }
-.glow { inset:0; background:radial-gradient(circle at 1720px 540px, rgba(232,35,26,.55) 0, rgba(140,20,14,.28) 26%, rgba(6,6,6,0) 58%); }
+.glow { inset:0; background:radial-gradient(circle at 1600px 540px, rgba(232,35,26,.55) 0, rgba(140,20,14,.28) 26%, rgba(6,6,6,0) 58%); }
 .ring { position:absolute; border-radius:50%; border:1px solid rgba(255,90,70,.28); }
 .pill { position:absolute; padding:12px 26px; border-radius:40px; font-size:24px; color:#f2efea; background:rgba(60,12,9,.75); border:1px solid rgba(255,90,70,.45); white-space:nowrap; }
 .pill.core { font-size:32px; padding:16px 34px; background:rgba(120,20,14,.85); border-color:rgba(255,120,100,.7); }

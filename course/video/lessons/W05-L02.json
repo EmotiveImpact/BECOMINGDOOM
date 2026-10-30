@@ -1,0 +1,83 @@
+{
+  "id": "W05-L02",
+  "number": 14,
+  "title": "Close the loop",
+  "day": 30,
+  "workbook": "W05-D02",
+  "principles": "P10 Manipulate chaos into currency; P09 Radical accountability is absolute power (revisited)",
+  "model": "M08 Feedback loops",
+  "evidence": "A feedback plan with a review date and limits",
+  "cast": "Mixed-race man, late 20s",
+  "scenes": [
+    {"kind": "open", "line": "Week 5. Build the Empire."},
+    {"kind": "labels", "words": ["SIGNAL", "OVER", "NOISE."]},
+    {"kind": "title", "img": "hood", "lines": ["CLOSE", "THE LOOP."], "size": 210, "cap": "Choose a useful signal",
+     "say": [
+      "You have a leverage hypothesis. Now you need a way to find out whether it is true.",
+      "This lesson is about building a feedback loop: a signal, a time to look at it and a rule for what you will change."
+     ]},
+    {"kind": "hook", "img": "concept", "lead": "They said they loved it.", "headline": "DID THEY *USE IT?*", "size": 170, "cap": "Praise and use",
+     "say": [
+      "You show someone your project and they say they love it. It feels wonderful.",
+      "Then ask the harder question. Did they use it? Did they finish the task it was built for? Did they come back?"
+     ]},
+    {"kind": "red", "kicker": "Tool 08 / Feedback loops", "lines": ["WHICH SIGNAL", "LEADS TO WHICH", "ADJUSTMENT, AND WHEN?"], "size": 120, "cap": "The eighth tool",
+     "say": [
+      "The eighth thinking tool is feedback loops. The question: which signal leads to which adjustment, and when?",
+      "Three parts. A signal you can observe. A review interval, so you actually look. And an adjustment rule, so looking changes something."
+     ]},
+    {"kind": "stats", "kicker": "A useful loop", "headline": "Signal. Interval. *Rule.*", "items": [
+      {"n": "7/10", "label": "Completed the task", "text": "A signal tied to the result you intended."},
+      {"n": "Fri", "label": "Review day", "text": "A fixed time to look, so you actually do."},
+      {"n": "<5", "label": "Then revise", "text": "If fewer than five complete it, change step two."}
+     ], "hot": 0, "cap": "The loop",
+     "say": [
+      "Here is a loop for a simple app. The signal: how many of ten testers completed the task. The interval: review every Friday. The rule: if fewer than five complete it, revise step two, where most people get stuck.",
+      "Every number on this slide is one you would collect yourself. None of them is a prediction."
+     ]},
+    {"kind": "scene", "img": "scene", "kicker": "Sam / habit app / ten testers", "a": ["EVERYONE", "SAYS IT'S GREAT."], "b": ["THREE PEOPLE", "*FINISHED SET-UP.*"], "cap": "The worked example",
+     "say": [
+      "Sam built a small habit-tracking app and gave it to ten testers. The messages are glowing. Everyone says it's great.",
+      "Then he watches two of them use it, over their shoulder, saying nothing. Both get stuck at the same screen. When he checks, only three of the ten have finished setting up."
+     ]},
+    {"kind": "compare", "kicker": "Three ways to read the feedback", "cols": [
+      {"big": "PRAISE.", "title": "Count the compliments", "text": "Ten kind messages. App unchanged. Nobody uses it."},
+      {"big": "DATA.", "title": "Track everything", "text": "Twenty metrics. No decision rule. Paralysis."},
+      {"big": "LOOP.", "title": "One signal, one rule", "text": "Set-up completion. Fix the stuck screen. Recheck Friday."}
+     ], "quote": "Signal: finished set-up. Review: Friday. Rule: under half, fix the screen they stall on.", "cap": "Three readings",
+     "say": [
+      "Three ways to read it.",
+      "Count the compliments. Ten kind messages, an unchanged app and very few users. The limit on this tool: avoid optimising a vanity measure instead of the intended result.",
+      "Track everything. Twenty metrics, no decision rule, and Sam stares at dashboards instead of fixing anything.",
+      "One signal, one rule. Set-up completion is the signal. Friday is the review. Under half means he fixes the screen where people stall. He changes one thing and checks again.",
+      "Radical accountability applies here too. You own the result your users get, not just the praise they give."
+     ]},
+    {"kind": "grunge", "lines": ["PRAISE", "IS NOT", "PROOF"], "size": 280, "side": "SIGNAL", "note": "Watch what people do, then decide.", "cap": "The warning",
+     "say": [
+      "Kind words are pleasant and they are not evidence. Watch what people do."
+     ]},
+    {"kind": "card", "words": ["Watch.", "Measure.", "Adjust."]},
+    {"kind": "steps", "kicker": "Pause the video / five minutes", "headline": "DESIGN YOUR LOOP.",
+     "items": ["Name the result your audience should get.", "Choose one signal that shows it happened.", "Set a review date in your calendar.", "Write the rule: if this, then change that."], "cap": "The design",
+     "say": [
+      "Pause the video when I tell you to.",
+      "One. Name the result your audience should get from your project.",
+      "Two. Choose one signal that shows it actually happened.",
+      "Three. Put a review date in your calendar.",
+      "Four. Write your adjustment rule: if this, then I change that. Pause now and give it five minutes."
+     ]},
+    {"kind": "mission", "rows": [["USE M08", "Set a measure, a route and a threshold."], ["SCHEDULE", "The review date, with limits."], ["EVIDENCE", "Feedback plan with review date and limits."]], "cap": "The mission",
+     "say": [
+      "Your mission is workbook page W05-D02, choose a useful signal.",
+      "Write your feedback plan: the measure, how you will collect it, the review date and the threshold that triggers a revision."
+     ]},
+    {"kind": "close", "img": "close", "lines": ["REALITY", "IS THE ONLY", "REVIEWER."], "size": 140, "give": "Ask it often. Listen every time.", "next": "Next / Lesson 15 / Make the offer", "cap": "Close",
+     "say": [
+      "Next lesson you put a clear offer in front of real people and ask them to commit.",
+      "Reality is the only reviewer that counts. Ask it often and listen every time."
+     ]}
+  ],
+  "notes": [
+    "Every number on the stats slide is illustrative of what a participant would collect. Say so on camera."
+  ]
+}

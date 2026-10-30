@@ -1,0 +1,224 @@
+{
+ "id": "W06-L01",
+ "number": 16,
+ "title": "Think in uncertainty",
+ "day": 36,
+ "workbook": "W06-D01",
+ "principles": "P14 Embrace your finite nature; P04 Hold a vision and be ruthless (revisited)",
+ "model": "M09 Probabilistic thinking",
+ "evidence": "A confidence statement, its evidence and an update condition",
+ "cast": "White man, late 40s",
+ "scenes": [
+  {
+   "kind": "open",
+   "line": "Week 6. Become Dangerous."
+  },
+  {
+   "kind": "labels",
+   "words": [
+    "HOW",
+    "SURE",
+    "ARE YOU?"
+   ]
+  },
+  {
+   "kind": "title",
+   "img": "hood",
+   "lines": [
+    "THINK IN",
+    "UNCERTAINTY."
+   ],
+   "size": 180,
+   "cap": "Name the uncertainty",
+   "say": [
+    "Welcome to the final week: become dangerous. Dangerous, in this course, means something specific. You keep your judgement when circumstances change, and you act without needing anyone to prompt you.",
+    "We begin with how to think when you do not know for sure. Which is most of the time."
+   ]
+  },
+  {
+   "kind": "hook",
+   "img": "concept",
+   "lead": "One person loved it.",
+   "headline": "IS THAT A *MARKET?*",
+   "size": 170,
+   "cap": "One data point",
+   "say": [
+    "One enthusiastic user can feel like proof. Somebody loved it, so surely others will.",
+    "It is evidence of interest. It is a long way from proof of a dependable market."
+   ]
+  },
+  {
+   "kind": "red",
+   "kicker": "Tool 09 / Probabilistic thinking",
+   "lines": [
+    "WHAT'S PLAUSIBLE,",
+    "AND WHAT WOULD",
+    "CHANGE MY MIND?"
+   ],
+   "size": 130,
+   "cap": "The ninth tool",
+   "say": [
+    "The ninth thinking tool is probabilistic thinking. The question: what outcomes are plausible, and what evidence would update my confidence?",
+    "You stop asking whether something is true or false and start asking how confident you should be, and why."
+   ]
+  },
+  {
+   "kind": "stats",
+   "kicker": "A confidence statement",
+   "headline": "Say it in *ranges, not certainties.*",
+   "items": [
+    {
+     "n": "LOW",
+     "label": "Today",
+     "text": "One keen user. Interest, not demand."
+    },
+    {
+     "n": "MEDIUM",
+     "label": "After the next test",
+     "text": "Three of the next ten complete the task unprompted."
+    },
+    {
+     "n": "HIGH",
+     "label": "After a real commitment",
+     "text": "Two of them pay, or commit, without a discount."
+    }
+   ],
+   "hot": 0,
+   "cap": "Confidence levels",
+   "say": [
+    "Write confidence in plain words. Low, medium, high. Then say what would move it.",
+    "Low today: one keen user. Medium if three of the next ten complete the task without being prompted. High if two of them pay or commit without a discount.",
+    "The limit on this tool: numbers without a basis are false precision. Saying seventy-three percent sounds rigorous and means nothing unless you can say where it came from."
+   ]
+  },
+  {
+   "kind": "scene",
+   "img": "scene",
+   "kicker": "Paul / career change / one enthusiastic client",
+   "a": [
+    "ONE CLIENT",
+    "LOVED IT."
+   ],
+   "b": [
+    "QUIT THE JOB?",
+    "*NOT YET.*"
+   ],
+   "cap": "The worked example",
+   "say": [
+    "Paul is changing career. His first client, a friend of a friend, loved his work and has told everyone. Paul is tempted to resign from his job next month.",
+    "He writes a confidence statement instead."
+   ]
+  },
+  {
+   "kind": "compare",
+   "kicker": "Three readings of the same evidence",
+   "cols": [
+    {
+     "big": "LEAP.",
+     "title": "Certain success",
+     "text": "Resigns on one data point. No buffer, no plan."
+    },
+    {
+     "big": "FREEZE.",
+     "title": "Certain failure",
+     "text": "Dismisses the signal. Never tests again."
+    },
+    {
+     "big": "UPDATE.",
+     "title": "Confidence with conditions",
+     "text": "Five more clients by March, then decide."
+    }
+   ],
+   "quote": "Confidence: low to medium. I'll update if five paying clients book by the end of March.",
+   "cap": "Three readings",
+   "say": [
+    "Three ways to read it.",
+    "Certain success. He resigns on one data point, with no buffer and no plan for a quiet month.",
+    "Certain failure. He decides it was luck and never tests again.",
+    "Update. Confidence low to medium. He will revisit the decision if five paying clients book by the end of March. Until then, he keeps building evidence.",
+    "Principle fourteen says embrace your finite nature. Your time is limited, which is exactly why you cannot afford to bet it all on one data point, or waste it ignoring a real signal."
+   ]
+  },
+  {
+   "kind": "question",
+   "lead": "So ask yourself...",
+   "question": "What _evidence_ would _change_ *your mind?*",
+   "sub": "If the answer is nothing, you are holding a belief, not a judgement.",
+   "cap": "The update condition",
+   "say": [
+    "The most useful question in this lesson: what evidence would change your mind?",
+    "If the honest answer is nothing, you are holding a belief rather than making a judgement. That is fine for your values. It is dangerous for your plans."
+   ]
+  },
+  {
+   "kind": "card",
+   "words": [
+    "Hold.",
+    "It.",
+    "Loosely."
+   ]
+  },
+  {
+   "kind": "steps",
+   "kicker": "Pause the video / five minutes",
+   "headline": "STATE YOUR CONFIDENCE.",
+   "items": [
+    "Name the biggest unknown in your project.",
+    "State your confidence in plain words.",
+    "List the evidence behind it.",
+    "Write what would move it up or down."
+   ],
+   "cap": "The statement",
+   "say": [
+    "Pause the video when I tell you to.",
+    "One. Name the biggest remaining unknown in your Doom Project.",
+    "Two. State your confidence in plain words.",
+    "Three. List the evidence behind that confidence.",
+    "Four. Write what would move it up, and what would move it down. Pause now and give it five minutes."
+   ]
+  },
+  {
+   "kind": "mission",
+   "rows": [
+    [
+     "USE M09",
+     "Map the remaining unknowns."
+    ],
+    [
+     "CHECK",
+     "Choose one useful check and run it."
+    ],
+    [
+     "EVIDENCE",
+     "Confidence, evidence and update condition."
+    ]
+   ],
+   "cap": "The mission",
+   "say": [
+    "Your mission is workbook page W06-D01, name the uncertainty.",
+    "Map what you still do not know, choose one useful check and run it before Doomsday."
+   ]
+  },
+  {
+   "kind": "close",
+   "img": "close",
+   "lines": [
+    "CERTAINTY",
+    "IS RARE.",
+    "JUDGEMENT",
+    "IS DAILY."
+   ],
+   "size": 130,
+   "give": "Decide with what you know. Update with what you learn.",
+   "next": "Next / Lesson 17 / Preserve room to recover",
+   "cap": "Close",
+   "say": [
+    "Next lesson we build the margin that keeps a bad day from becoming a disaster.",
+    "Certainty is rare. Judgement is daily. Decide with what you know, and update with what you learn."
+   ]
+  }
+ ],
+ "notes": [
+  "No outcome claims. The confidence levels are illustrative and set by the participant."
+ ]
+}

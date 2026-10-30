@@ -1,0 +1,220 @@
+{
+ "id": "W04-L02",
+ "number": 11,
+ "title": "Hold the line; consider what follows",
+ "day": 23,
+ "workbook": "W04-D02",
+ "principles": "P03 Develop your killer instinct; P08 Burn the bridge of permission (revisited)",
+ "model": "M06 Second-order consequences",
+ "evidence": "A consequences sheet that includes a future cost",
+ "cast": "Latino man, mid 30s",
+ "scenes": [
+  {
+   "kind": "open",
+   "line": "Week 4. Command the Room."
+  },
+  {
+   "kind": "labels",
+   "words": [
+    "AND",
+    "THEN",
+    "WHAT?"
+   ]
+  },
+  {
+   "kind": "title",
+   "img": "hood",
+   "lines": [
+    "HOLD",
+    "THE LINE."
+   ],
+   "size": 210,
+   "cap": "Think beyond the answer",
+   "say": [
+    "Last lesson you learned to ask what the other person wants. Today you learn to look past the answer you are about to give, to what follows from it.",
+    "Most bad deals feel good on the day they are made."
+   ]
+  },
+  {
+   "kind": "hook",
+   "img": "concept",
+   "lead": "The deal is on the table.",
+   "headline": "WHAT HAPPENS *NEXT MONTH?*",
+   "size": 150,
+   "cap": "The next step",
+   "say": [
+    "The immediate result is easy to see. They said yes. The sale closed. The argument ended.",
+    "The question that protects you is: and then what? What happens next month, and the month after that?"
+   ]
+  },
+  {
+   "kind": "red",
+   "kicker": "Tool 06 / Second-order consequences",
+   "lines": [
+    "WHAT FOLLOWS",
+    "THE IMMEDIATE",
+    "RESULT?"
+   ],
+   "size": 140,
+   "cap": "The sixth tool",
+   "say": [
+    "The sixth thinking tool is second-order consequences. The question: what follows the immediate result?",
+    "First-order thinking asks whether this works today. Second-order thinking asks what it sets in motion."
+   ]
+  },
+  {
+   "kind": "radial",
+   "core": "The discount",
+   "pills": [
+    "Sale today",
+    "New price anchor",
+    "Referrals expect it",
+    "Thinner margin",
+    "Harder renewal",
+    "Resentment later",
+    "Brand looks cheap"
+   ],
+   "lines": [
+    "One yes.",
+    "Many ripples.",
+    "*Name them first.*"
+   ],
+   "text": "Each consequence is a guess with a confidence level. State the uncertainty, then decide.",
+   "cap": "The ripples",
+   "say": [
+    "Put the decision in the middle and trace the ripples.",
+    "A discount wins today's sale. It also sets a new price anchor. The client's referral expects the same deal. Your margin for doing good work shrinks. Next year's renewal starts from a lower base.",
+    "The limit on this tool: speculation is not prediction. Each ripple is a guess. Say how confident you are, then decide."
+   ]
+  },
+  {
+   "kind": "scene",
+   "img": "scene",
+   "kicker": "Diego / first big client / asked for 30% off",
+   "a": [
+    "30% OFF",
+    "WINS THE SALE."
+   ],
+   "b": [
+    "IT ALSO SETS",
+    "*NEXT YEAR'S PRICE.*"
+   ],
+   "cap": "The worked example",
+   "say": [
+    "Diego is close to landing his biggest client yet. In the final meeting they ask for thirty percent off.",
+    "He wants this badly. The first-order answer is obvious: say yes and win the sale. He takes a breath and asks what follows."
+   ]
+  },
+  {
+   "kind": "compare",
+   "kicker": "Three answers to the same ask",
+   "cols": [
+    {
+     "big": "YES.",
+     "title": "Accept the discount",
+     "text": "Sale won. Price anchored low for years."
+    },
+    {
+     "big": "NEVER.",
+     "title": "Refuse flatly",
+     "text": "Price protected. Client walks. No alternative offered."
+    },
+    {
+     "big": "TRADE.",
+     "title": "Hold the line, offer options",
+     "text": "Full price, or a smaller scope at a lower price."
+    }
+   ],
+   "quote": "I can't move the price for this scope. I can reduce the scope to fit your budget, or start with a paid pilot.",
+   "cap": "Three answers",
+   "say": [
+    "Three answers.",
+    "Yes. He wins the sale and anchors his price low for years. Every future conversation with this client starts thirty percent down.",
+    "Never. He protects his price and the client walks, because he offered nothing else.",
+    "Trade. He holds the price and offers alternatives. I can't move the price for this scope. I can reduce the scope to fit your budget, or we can start with a paid pilot.",
+    "Holding the line does not mean refusing to move. It means you only move something in exchange for something. A clear request, alternatives and limits, all prepared before you walk in."
+   ]
+  },
+  {
+   "kind": "grunge",
+   "lines": [
+    "CHEAP",
+    "TODAY",
+    "COSTLY LATER"
+   ],
+   "size": 250,
+   "side": "CONSEQUENCE",
+   "note": "Price the future cost before you agree.",
+   "cap": "The warning",
+   "say": [
+    "Some of the most expensive decisions you will make feel cheap on the day. Price the future cost before you agree."
+   ]
+  },
+  {
+   "kind": "card",
+   "words": [
+    "And.",
+    "Then.",
+    "What?"
+   ]
+  },
+  {
+   "kind": "steps",
+   "kicker": "Pause the video / five minutes",
+   "headline": "PREPARE YOUR LINE.",
+   "items": [
+    "Write the clear request you will make.",
+    "List what accepting, negotiating and declining each lead to.",
+    "Prepare two alternatives you could offer.",
+    "Set the limit you will not cross."
+   ],
+   "cap": "The preparation",
+   "say": [
+    "Pause the video when I tell you to.",
+    "One. Write the clear request you will make in your next important conversation.",
+    "Two. For accepting, negotiating and declining, write what each leads to. Include at least one future cost.",
+    "Three. Prepare two alternatives you could offer.",
+    "Four. Set the limit you will not cross, and write it down now, while you are calm. Pause and give it five minutes."
+   ]
+  },
+  {
+   "kind": "mission",
+   "rows": [
+    [
+     "USE M06",
+     "Compare accept, negotiate and decline."
+    ],
+    [
+     "PREPARE",
+     "Request, alternatives and limits."
+    ],
+    [
+     "EVIDENCE",
+     "Consequences sheet with a future cost."
+    ]
+   ],
+   "cap": "The mission",
+   "say": [
+    "Your mission is workbook page W04-D02, think beyond the answer.",
+    "Complete the consequences sheet for a real proposal, including at least one future cost."
+   ]
+  },
+  {
+   "kind": "close",
+   "img": "close",
+   "lines": [
+    "WIN THE DEAL",
+    "YOU CAN STILL",
+    "AFFORD NEXT YEAR."
+   ],
+   "size": 125,
+   "give": "Hold the line. Offer the options.",
+   "next": "Next / Lesson 12 / Choose the engagement",
+   "cap": "Close",
+   "say": [
+    "Next lesson we deal with the hardest part of the room: criticism, pressure and knowing when to walk away.",
+    "Win the deal you can still afford next year. Hold the line, and offer the options."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "id": "W02-L03",
+ "number": 6,
+ "title": "Body, standards and recovery",
+ "day": 10,
+ "workbook": "W02-D03",
+ "principles": "P12 Treat your body as the ultimate weapon; P09 Radical accountability is absolute power (revisited)",
+ "evidence": "A readiness baseline and a realistic daily command sheet",
+ "cast": "Latina woman, early 30s, athletic",
+ "scenes": [
+  {
+   "kind": "open",
+   "line": "Week 2. Build the Fortress."
+  },
+  {
+   "kind": "labels",
+   "words": [
+    "MISS.",
+    "REPAIR.",
+    "RESUME."
+   ]
+  },
+  {
+   "kind": "title",
+   "img": "hood",
+   "lines": [
+    "BODY,",
+    "STANDARDS",
+    "AND RECOVERY."
+   ],
+   "size": 160,
+   "cap": "Forge readiness",
+   "say": [
+    "Every session you run, every conversation you hold and every decision you make runs on one piece of equipment. Your body.",
+    "This lesson is about keeping that equipment ready, and about what you do on the day it lets you down."
+   ]
+  },
+  {
+   "kind": "hook",
+   "img": "concept",
+   "lead": "You missed a session.",
+   "headline": "NOW WHAT DO YOU *DO?*",
+   "size": 150,
+   "cap": "The miss",
+   "say": [
+    "At some point in the next five weeks you will miss a session. You will be ill, or the train will be late, or you will simply not show up.",
+    "What you do in the next twenty-four hours matters more than the miss itself."
+   ]
+  },
+  {
+   "kind": "red",
+   "kicker": "Principle 12",
+   "lines": [
+    "TREAT YOUR BODY",
+    "AS THE ULTIMATE",
+    "WEAPON."
+   ],
+   "size": 130,
+   "cap": "The principle",
+   "say": [
+    "Principle twelve: treat your body as the ultimate weapon.",
+    "A weapon is maintained, not punished. You clean it, you store it properly and you know its limits. Sleep, movement, food and recovery are the maintenance. None of it is a reward you earn after the work. It is what makes the work possible."
+   ]
+  },
+  {
+   "kind": "stats",
+   "kicker": "A realistic standard",
+   "headline": "Set the floor, *not the fantasy.*",
+   "items": [
+    {
+     "n": "20",
+     "label": "Minutes of movement",
+     "text": "A walk, a session, mobility. Chosen for you, adapted to you."
+    },
+    {
+     "n": "7h+",
+     "label": "Sleep, protected",
+     "text": "Late-night catch-ups borrow from tomorrow at a bad rate."
+    },
+    {
+     "n": "1",
+     "label": "Reset procedure",
+     "text": "Written before you need it."
+    }
+   ],
+   "hot": 2,
+   "cap": "The standard",
+   "say": [
+    "Set a floor, not a fantasy. A floor is the standard you can keep on a bad week.",
+    "For movement, something you can actually do, adapted to your body and any health constraints. For sleep, protect it, because a late-night catch-up borrows from tomorrow at a terrible rate. And one reset procedure, written down before you need it.",
+    "Physical training is personal. If you have a health condition, follow the advice of a qualified professional. This course is not medical advice."
+   ]
+  },
+  {
+   "kind": "scene",
+   "img": "scene",
+   "kicker": "Lucia / Monday / missed Sunday's session",
+   "a": [
+    "SHE MISSED",
+    "SUNDAY."
+   ],
+   "b": [
+    "MONDAY DECIDES",
+    "*THE WEEK.*"
+   ],
+   "cap": "The worked example",
+   "say": [
+    "Lucia planned a project session on Sunday afternoon. Family plans ran long and she missed it entirely.",
+    "On Monday morning she has a choice about what kind of week this becomes."
+   ]
+  },
+  {
+   "kind": "compare",
+   "kicker": "Three responses to the same miss",
+   "cols": [
+    {
+     "big": "QUIT.",
+     "title": "The spiral",
+     "text": "Week ruined. Start again next Monday. Maybe."
+    },
+    {
+     "big": "PUNISH.",
+     "title": "The all-nighter",
+     "text": "Catch up until 2am. Tuesday lost to exhaustion."
+    },
+    {
+     "big": "RESET.",
+     "title": "Notice, record, repair, resume",
+     "text": "One shorter session tonight. Plan unchanged."
+    }
+   ],
+   "quote": "Missed Sunday. Family ran long. Tonight: 40 minutes on the first task. Back on plan.",
+   "cap": "Three responses",
+   "say": [
+    "Three responses.",
+    "The spiral. The week is ruined, so she will start again next Monday. Most programmes die exactly here.",
+    "The punishment. She stays up until two to catch up. It feels like accountability. On Tuesday she is exhausted and loses that day too.",
+    "The reset. Notice, record, repair, resume. She writes one line about what happened, separates what she controlled from what she did not, and runs a forty-minute session tonight on the first task. The plan stays.",
+    "That is radical accountability without self-punishment. You own the miss and you own the repair."
+   ]
+  },
+  {
+   "kind": "grunge",
+   "lines": [
+    "NO ZERO",
+    "DAYS",
+    "NO MARTYRS"
+   ],
+   "size": 240,
+   "side": "RECOVERY",
+   "note": "A missed session is information, not a verdict.",
+   "cap": "The rule",
+   "say": [
+    "Keep two rules in tension. No zero days: something small always counts. And no martyrs: nobody earns anything here by wrecking their sleep or their health.",
+    "A missed session is information. Use it."
+   ]
+  },
+  {
+   "kind": "card",
+   "words": [
+    "Notice.",
+    "Record.",
+    "Repair.",
+    "Resume."
+   ]
+  },
+  {
+   "kind": "steps",
+   "kicker": "Pause the video / five minutes",
+   "headline": "WRITE YOUR RESET.",
+   "items": [
+    "Your movement floor for a bad week.",
+    "Your sleep boundary, with a time.",
+    "The shortest session that still counts.",
+    "Your four-line reset, ready to use."
+   ],
+   "cap": "The reset",
+   "say": [
+    "Pause the video when I tell you to.",
+    "One. Your movement floor for a bad week.",
+    "Two. Your sleep boundary, with an actual time.",
+    "Three. The shortest session that still counts as keeping the promise.",
+    "Four. Your reset in four lines: notice, record, repair, resume. Pause now and write them."
+   ]
+  },
+  {
+   "kind": "mission",
+   "rows": [
+    [
+     "SELECT",
+     "One movement or recovery practice that suits you."
+    ],
+    [
+     "PROTECT",
+     "One focused session, today."
+    ],
+    [
+     "EVIDENCE",
+     "Readiness baseline and daily command sheet."
+    ]
+   ],
+   "cap": "The mission",
+   "say": [
+    "Your mission is workbook page W02-D03, forge readiness.",
+    "Choose one movement or recovery practice that suits your body and circumstances, protect one focused session today, and complete your daily command sheet."
+   ]
+  },
+  {
+   "kind": "close",
+   "img": "close",
+   "lines": [
+    "DISCIPLINE",
+    "IS NOT",
+    "PUNISHMENT."
+   ],
+   "size": 140,
+   "give": "It is maintenance. Do it daily.",
+   "next": "Next / Week 3 / Enter the Laboratory",
+   "cap": "Close",
+   "say": [
+    "That completes the fortress lessons. On Saturday the Council stress-tests your system, and on Sunday you review the week.",
+    "Then week three: the laboratory, where we find out what you can actually do.",
+    "Discipline is not punishment. It is maintenance. Do it daily."
+   ]
+  }
+ ],
+ "notes": [
+  "Health: no prescriptions. Participants adapt movement to their bodies and follow professional advice where relevant.",
+  "The sleep figure is a general guide, not a medical target. The presenter should say so if challenged."
+ ]
+}

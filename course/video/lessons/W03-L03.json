@@ -1,0 +1,87 @@
+{
+  "id": "W03-L03",
+  "number": 9,
+  "title": "Build your first Doombot",
+  "day": 19,
+  "workbook": "W03-D05",
+  "principles": "P07 Vow to become a master; P05 Build your empire (preview)",
+  "model": "M03 First principles and M04 Inversion, applied",
+  "evidence": "The aid, a test case, a quality check and a keep, change or discard decision",
+  "cast": "East Asian woman, late 20s",
+  "scenes": [
+    {"kind": "open", "line": "Week 3. Enter the Laboratory."},
+    {"kind": "labels", "words": ["BUILD", "THE", "DOOMBOT."]},
+    {"kind": "title", "img": "hood", "lines": ["BUILD YOUR", "FIRST DOOMBOT."], "size": 160, "cap": "The Doombot",
+     "say": [
+      "In the stories, Doom builds machines to carry out his will. Doombots. Copies that do the repetitive work while he does the work only he can do.",
+      "Today you build your first one. It will be far less dramatic and far more useful."
+     ]},
+    {"kind": "hook", "img": "concept", "lead": "What do you do again and again?", "headline": "WHAT COULD A *MACHINE* CARRY?", "size": 140, "cap": "The repetition",
+     "say": [
+      "Look at the last two weeks. What did you do more than three times? Writing similar emails. Formatting the same report. Checking the same list before every session.",
+      "That repetition is where your first Doombot lives."
+     ]},
+    {"kind": "red", "kicker": "The definition", "lines": ["A BOUNDED AID", "YOU CAN REPEAT", "AND CHECK."], "size": 140, "cap": "What counts",
+     "say": [
+      "A Doombot is a bounded, repeatable aid that you can check. Three words do the work.",
+      "Bounded: it does one defined job. Repeatable: it works the same way next week. Checkable: you can tell whether its output is right.",
+      "It can be a template. It can be a checklist. It can be an automation or an AI prompt. The technology matters far less than the boundary and the check."
+     ]},
+    {"kind": "radial", "core": "Your Doombot", "pills": ["Template", "Checklist", "Saved prompt", "Spreadsheet", "Automation", "Script", "Swipe file"], "lines": ["Many forms.", "One job.", "*One check.*"], "text": "Pick the simplest form that does the job. A good checklist beats a fragile automation.", "cap": "Forms of the Doombot",
+     "say": [
+      "Here are the common forms. A template. A checklist. A saved prompt. A spreadsheet. A small automation.",
+      "Choose the simplest form that does the job. A good checklist beats a clever automation that breaks every week."
+     ]},
+    {"kind": "scene", "img": "scene", "kicker": "Mei / weekly client reports / two hours each", "a": ["SAME REPORT.", "EVERY FRIDAY."], "b": ["A HELPER DRAFTS.", "*SHE CHECKS.*"], "cap": "The worked example",
+     "say": [
+      "Mei writes a weekly progress report for each of her clients. Each one takes about two hours, and most of the structure is the same every week.",
+      "She builds a draft-report helper: a template and a saved prompt that turns her rough notes into a first draft in her own structure."
+     ]},
+    {"kind": "compare", "kicker": "Three ways to use the helper", "cols": [
+      {"big": "TRUST.", "title": "Send what it writes", "text": "Fast. One wrong figure and the client stops trusting her."},
+      {"big": "IGNORE.", "title": "Never build it", "text": "Two hours a client, every week, indefinitely."},
+      {"big": "CHECK.", "title": "Draft, then verify", "text": "Forty minutes. Every figure checked against the source."}
+     ], "quote": "The helper drafts. I check every number. No client names or private data go into the tool.", "cap": "Three ways to use it",
+     "say": [
+      "Three ways to use it.",
+      "Trust it completely and send whatever it writes. Fast, until one wrong figure costs her a client's trust.",
+      "Never build it. Two hours per client per week, for as long as she does the work.",
+      "Draft, then verify. The helper produces a draft in ten minutes. She checks every figure against the source and edits the wording. Forty minutes instead of two hours.",
+      "And one rule she never breaks. Private client information does not go into a tool unless she knows exactly where it is stored and has permission. When in doubt, she anonymises."
+     ]},
+    {"kind": "stats", "kicker": "The test", "headline": "Compare it with *the manual version.*", "items": [
+      {"n": "1", "label": "Bounded task", "text": "One job, clearly defined, with a known correct answer."},
+      {"n": "2", "label": "Outputs compared", "text": "The Doombot's version and yours, side by side."},
+      {"n": "3", "label": "Possible decisions", "text": "Keep it, change it, or discard it."}
+     ], "hot": 2, "cap": "The rubric",
+     "say": [
+      "Test it properly. Run the Doombot on one bounded task where you know the right answer. Do the same task manually. Compare the two against an explicit rubric: accuracy, time and how much editing it needed.",
+      "Then decide. Keep it, change it, or discard it. Discarding is a perfectly good result. You learned something cheaply."
+     ]},
+    {"kind": "card", "words": ["Build.", "Check.", "Decide."]},
+    {"kind": "steps", "kicker": "Pause the video / five minutes", "headline": "DESIGN YOUR DOOMBOT.",
+     "items": ["Name the repeated task it will carry.", "Choose the simplest form that could do it.", "Write the rubric you will check it against.", "List what it must never touch."], "cap": "The design",
+     "say": [
+      "Pause the video when I tell you to.",
+      "One. Name the repeated task it will carry.",
+      "Two. Choose the simplest form that could do it.",
+      "Three. Write the rubric you will use to check its output.",
+      "Four. List what it must never touch: private data, final decisions, anything you cannot verify. Pause now and give it five minutes."
+     ]},
+    {"kind": "mission", "rows": [["BUILD", "One Doombot for one bounded task."], ["TEST", "Against a manual result, with a rubric."], ["EVIDENCE", "Aid, test case, check and decision."]], "cap": "The mission",
+     "say": [
+      "Your mission is workbook page W03-D05, build the Doombot.",
+      "Build it, test it against the manual version, and record whether you keep, change or discard it."
+     ]},
+    {"kind": "close", "img": "close", "lines": ["LET THE MACHINE", "CARRY THE", "REPETITION."], "size": 130, "give": "Keep the judgement for yourself.", "next": "Next / Week 4 / Command the Room", "cap": "Close",
+     "say": [
+      "That completes the laboratory lessons. On Saturday you show the Council what you have built.",
+      "Next week we take your work into contact with other people. Week four: command the room.",
+      "Let the machine carry the repetition. Keep the judgement for yourself."
+     ]}
+  ],
+  "notes": [
+    "Privacy: never show real client data on screen. The worked example uses an invented consultant.",
+    "Avoid naming specific AI products; the lesson is tool-agnostic."
+  ]
+}
