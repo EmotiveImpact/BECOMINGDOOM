@@ -86,14 +86,14 @@ def scene_html(sc, n, img, meta):
                 + "<br>".join(a(f"lbl {cls[i % 3]}", 0.2 + i * 0.5, "slam", esc(w)) for i, w in enumerate(sc["words"]))
                 + "</div>")
     if k == "title":
-        return (bg(img(sc["img"]), sc.get("shift", 0))
+        return (bg(img(sc["img"]), sc.get("shift", 180))
                 + '<div class="abs" style="left:150px;top:330px;width:1100px">'
                 + a("kick", 0.8, "fade", f'Week {meta["week"]} &nbsp;/&nbsp; {WEEKS[meta["week"]]} &nbsp;/&nbsp; Lesson {meta["lesson"]:02d}')
                 + f'<div class="anton" style="font-size:{sc.get("size", 180)}px;margin-top:30px">{rise_lines(sc["lines"], 1.2)}</div></div>'
                 + cap(n, sc["cap"]))
     if k == "hook":
-        return (bg(img(sc["img"]), sc.get("shift", 0))
-                + '<div class="abs" style="left:150px;top:300px;width:1000px">'
+        return (bg(img(sc["img"]), sc.get("shift", 240))
+                + '<div class="abs" style="left:150px;top:300px;width:860px">'
                 + a("kick", 0.5, "fade", mark(sc["lead"]), "font-size:30px;color:#cfcac3;letter-spacing:0;text-transform:none")
                 + a("anton", 2.2, "fadeup", dot(sc["headline"]), f'font-size:{sc.get("size", 140)}px;margin-top:30px')
                 + "</div>" + cap(n, sc["cap"]))
@@ -120,7 +120,7 @@ def scene_html(sc, n, img, meta):
                 + a("anton", 0.7, "fadeup", dot(sc["headline"]), f'font-size:{sc.get("size", 120)}px;margin-top:30px') + "</div>"
                 + '<div class="abs" style="left:950px;top:280px;width:820px">' + "".join(rows) + "</div>" + cap(n, sc["cap"]))
     if k == "scene":
-        return (bg(img(sc["img"]), sc.get("shift", 420))
+        return (bg(img(sc["img"]), sc.get("shift", 120))
                 + '<div class="abs" style="left:150px;top:300px;width:900px">' + a("kick", 0.6, "fade", esc(sc["kicker"]))
                 + a("anton", 1.4, "fadeup", "<br>".join(dot(x) for x in sc["a"]), "font-size:124px;margin-top:30px;line-height:.95")
                 + a("anton", 3.0, "fadeup", "<br>".join(dot(x) for x in sc["b"]), "font-size:124px;margin-top:24px;line-height:.95")
