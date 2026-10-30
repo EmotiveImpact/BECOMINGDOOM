@@ -1,0 +1,84 @@
+{
+  "id": "W02-L02",
+  "number": 5,
+  "title": "Build conditions for execution",
+  "day": 9,
+  "workbook": "W02-D02",
+  "principles": "P13 Despise comfort and seek the friction",
+  "model": "M02 Control and influence",
+  "evidence": "A control map plus one if-then plan",
+  "cast": "East Asian man, late 20s",
+  "scenes": [
+    {"kind": "open", "line": "Week 2. Build the Fortress."},
+    {"kind": "labels", "words": ["GUARD", "THE", "GATES."]},
+    {"kind": "title", "img": "hood", "lines": ["BUILD THE", "CONDITIONS."], "size": 190, "cap": "Control the gates",
+     "say": [
+      "You have priced your yeses. Now we make the work likely to happen.",
+      "Most people try to execute through willpower. They sit down in a noisy room with a phone beside them and call the result a lack of discipline. This lesson is about building the conditions instead."
+     ]},
+    {"kind": "question", "lead": "Be honest...", "question": "How many times did your _phone_ win the _last_ *session?*", "sub": "Discipline is easier when the room is on your side.", "cap": "The leak",
+     "say": [
+      "Think about your last work session. How many times did something else win? A notification. A message. A quick check that became twenty minutes.",
+      "Every one of those was a gate left open. Discipline is easier when the room is on your side."
+     ]},
+    {"kind": "red", "kicker": "Tool 02 / Control and influence", "lines": ["WHAT CAN I DECIDE,", "INFLUENCE OR ONLY", "RESPOND TO?"], "size": 120, "cap": "The second tool",
+     "say": [
+      "The second thinking tool is control and influence. The question: what can I decide, what can I influence, and what can I only respond to?",
+      "Sort everything that touches your session into those three boxes. Then spend your effort where it actually moves something."
+     ]},
+    {"kind": "radial", "core": "Your session", "pills": ["Phone", "Notifications", "Family noise", "Work emails", "Fatigue", "Start time", "Location"], "lines": ["Decide.", "Influence.", "*Respond.*"], "text": "Phone, start time and location are decisions. Family noise is influence. A late train is a response.", "cap": "The control map",
+     "say": [
+      "Here is a session and everything around it.",
+      "Some of it you decide outright. Where your phone is. When you start. Where you sit.",
+      "Some of it you can only influence. You can ask the people you live with for quiet, and you can agree a signal, but you cannot guarantee it.",
+      "And some of it you can only respond to. A late train. A sick child. A work emergency.",
+      "The limit on this tool: influence is partial. Do not pretend you control everything, and do not collapse into thinking you control nothing."
+     ]},
+    {"kind": "scene", "img": "scene", "kicker": "Jun / Tuesday, 8pm / shared flat", "a": ["CAN'T GUARANTEE", "A QUIET EVENING."], "b": ["CAN GUARANTEE", "*A READY DESK.*"], "cap": "The worked example",
+     "say": [
+      "Jun shares a flat. He cannot guarantee an uninterrupted evening. His flatmates have their own lives.",
+      "What he can do is decide the parts that are his. His phone goes in a drawer. Notifications are off. The first task of the session is written on a card and propped against the monitor before he sits down."
+     ]},
+    {"kind": "compare", "kicker": "Three plans for the same evening", "cols": [
+      {"big": "HOPE.", "title": "Rely on willpower", "text": "No plan. First interruption ends the session."},
+      {"big": "CONTROL.", "title": "Demand perfection", "text": "Anger at every noise. Session spent managing others."},
+      {"big": "IF-THEN.", "title": "Plan the likely break", "text": "If interrupted, run a 25-minute fallback session."}
+     ], "quote": "If the flat gets loud, then I put on headphones and run the 25-minute version.", "cap": "Three plans",
+     "say": [
+      "Three plans.",
+      "Hope. He sits down and relies on willpower. The first knock at the door ends the session.",
+      "Demand total control. He gets angry at every noise and spends the session managing other people.",
+      "The if-then plan. He predicts the most likely interruption and decides his response in advance. If the flat gets loud, then I put on headphones and run the twenty-five minute version.",
+      "The third plan accepts what he cannot control and prepares for it. That is the fortress."
+     ]},
+    {"kind": "grunge", "lines": ["COMFORT", "IS THE", "LEAK"], "size": 270, "side": "FRICTION", "note": "Make distraction slightly harder than work.", "cap": "The principle",
+     "say": [
+      "Principle thirteen says despise comfort and seek the friction. Here it has a practical meaning. Put friction in front of distraction and remove it from in front of the work.",
+      "A phone in another room takes effort to check. A card with your first task removes the effort of starting."
+     ]},
+    {"kind": "card", "words": ["Close.", "The.", "Gates."]},
+    {"kind": "steps", "kicker": "Pause the video / five minutes", "headline": "DRAW YOUR CONTROL MAP.",
+     "items": ["List everything that has broken a session recently.", "Sort each into decide, influence or respond.", "Set one condition you decide, starting tonight.", "Write one if-then plan for the likeliest interruption."], "cap": "The map",
+     "say": [
+      "Pause the video when I tell you to.",
+      "One. List everything that has broken a session recently.",
+      "Two. Sort each one into decide, influence or respond.",
+      "Three. Choose one condition you decide and set it starting tonight.",
+      "Four. Write one if-then plan for the interruption that is most likely. Pause now and give it five minutes."
+     ]},
+    {"kind": "mission", "rows": [["USE M02", "Map control, influence and conditions."], ["PLAN", "One if-then response to a likely interruption."], ["EVIDENCE", "Control map plus one if-then plan."]], "cap": "The mission",
+     "say": [
+      "Your mission is workbook page W02-D02, control the gates.",
+      "Build your control map and one if-then plan. Then use the plan in your next session and note whether it held."
+     ]},
+    {"kind": "close", "img": "close", "lines": ["DON'T RELY", "ON WILLPOWER.", "BUILD THE ROOM."], "size": 130, "give": "Then walk in and work.", "next": "Next / Lesson 06 / Body, standards and recovery", "cap": "Close",
+     "say": [
+      "Next lesson we turn to the body: the capacity that every session runs on.",
+      "Don't rely on willpower. Build the room, then walk in and work."
+     ]}
+  ],
+  "notes": [
+    "Delivery: calm and methodical, like setting up a workshop.",
+    "Respect the people participants live with. Influence means asking, never controlling."
+  ]
+}

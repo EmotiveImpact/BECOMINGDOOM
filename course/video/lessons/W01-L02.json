@@ -1,0 +1,250 @@
+{
+ "id": "W01-L02",
+ "number": 2,
+ "title": "The courage to be disliked",
+ "day": 3,
+ "workbook": "W01-D03",
+ "principles": "P08 Burn the bridge of permission; P01 Put yourself above all people (revisited)",
+ "evidence": "A boundary record: the words used, the predicted reaction, the actual reaction and a reflection",
+ "cast": "Black man, early 30s, short beard (continues from lesson 1)",
+ "scenes": [
+  {
+   "kind": "open",
+   "line": "Week 1. Claim the Throne."
+  },
+  {
+   "kind": "labels",
+   "words": [
+    "NO",
+    "EXPLANATION",
+    "OWED."
+   ]
+  },
+  {
+   "kind": "title",
+   "img": "hood",
+   "lines": [
+    "THE COURAGE",
+    "TO BE DISLIKED."
+   ],
+   "size": 170,
+   "cap": "The first no",
+   "say": [
+    "Yesterday you wrote a doctrine. You named what you are building and what it will cost. Today that doctrine meets its first real test: another person who wants the time you just protected.",
+    "This lesson is about the courage to be disliked. By the end of it you will have the words for a clean no, and you will have used them."
+   ],
+   "shift": 160
+  },
+  {
+   "kind": "hook",
+   "img": "concept",
+   "lead": "Someone asks for your protected hour.",
+   "headline": "HOW LONG BEFORE YOU SAY *YES?*",
+   "cap": "The reflex",
+   "say": [
+    "Notice how fast the yes arrives. Someone asks for your time and, before you have checked your doctrine, your calendar or your energy, the word is already out of your mouth.",
+    "That speed is the problem. A yes that arrives before a decision was made by habit. Most of us were trained to keep the room comfortable, and the training runs deep."
+   ]
+  },
+  {
+   "kind": "question",
+   "lead": "So the real question is...",
+   "question": "Whose _reaction_ are you _actually_ *protecting?*",
+   "sub": "Their disappointment is information about their plans. Your decision is information about yours.",
+   "cap": "Reaction and decision",
+   "say": [
+    "So ask yourself whose reaction you are protecting when you say yes too quickly.",
+    "Here is the distinction that makes this lesson work. Another person's reaction belongs to them. Your decision and your responsibilities belong to you. When you mix the two together, you end up managing everyone's feelings and owning nobody's results.",
+    "Their disappointment tells you something about their plans. It does not tell you that your decision was wrong."
+   ]
+  },
+  {
+   "kind": "red",
+   "kicker": "Principle 08",
+   "lines": [
+    "BURN THE BRIDGE",
+    "OF PERMISSION."
+   ],
+   "cap": "The principle",
+   "say": [
+    "Principle eight in our creed says: burn the bridge of permission.",
+    "Read it carefully. It does not tell you to burn relationships. It tells you to stop waiting for a permission that nobody is going to issue. Nobody signs off your priorities. If you wait for everyone to agree that your work deserves the evening, the evening will go to whoever asks first."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Three ways to refuse badly",
+   "headline": "WHERE A NO GOES WRONG.",
+   "size": 110,
+   "items": [
+    {
+     "t": "THE BIOGRAPHY",
+     "d": "Five reasons, an apology and your week's schedule."
+    },
+    {
+     "t": "THE ACCUSATION",
+     "d": "Making them wrong for asking."
+    },
+    {
+     "t": "THE CLEAN NO",
+     "d": "Availability, stated once, kindly."
+    }
+   ],
+   "strike": [
+    0,
+    1
+   ],
+   "hot": 2,
+   "cap": "Biography, accusation, clean no",
+   "say": [
+    "There are three ways a refusal tends to go.",
+    "The biography. You explain everything. The deadline, the tiredness, the history of the project, the reason you feel bad. You hand the other person a list of arguments to negotiate with, and you teach them that your time is open to debate.",
+    "The accusation. You make them wrong for asking. That protects your hour and damages a relationship that did nothing to deserve it.",
+    "The clean no. You state your availability once, without blame and without a lecture. It is the shortest of the three and the kindest."
+   ]
+  },
+  {
+   "kind": "scene",
+   "img": "scene",
+   "kicker": "Daniel / Wednesday, 7pm / protected session",
+   "a": [
+    "A FRIEND NEEDS",
+    "A HAND TONIGHT."
+   ],
+   "b": [
+    "THE HOUR IS",
+    "*ALREADY SPENT.*"
+   ],
+   "cap": "The worked example",
+   "say": [
+    "Here is Daniel. Wednesday evening, seven till nine, is his protected session. It is in the calendar and it is in his doctrine.",
+    "At ten to seven a good friend messages. He is moving flat this weekend and wants help packing tonight. It is not an emergency. It is a favour, and a reasonable one."
+   ],
+   "shift": 120
+  },
+  {
+   "kind": "compare",
+   "kicker": "Three replies to the same message",
+   "cols": [
+    {
+     "big": "SURE.",
+     "title": "The automatic yes",
+     "text": "Session gone. Friend helped. Doctrine quietly broken."
+    },
+    {
+     "big": "SORRY...",
+     "title": "The defensive biography",
+     "text": "Four paragraphs. Guilt on both sides. Still negotiable."
+    },
+    {
+     "big": "SATURDAY.",
+     "title": "The clean no",
+     "text": "Tonight protected. Real help offered at a real time."
+    }
+   ],
+   "quote": "I can't tonight, I'm working on something I've committed to. I can give you three hours on Saturday morning.",
+   "cap": "Three replies",
+   "say": [
+    "Three replies.",
+    "The automatic yes. He packs boxes all evening. His friend is grateful, and his doctrine lasted one day.",
+    "The defensive biography. He writes four paragraphs about the project, the deadline and how bad he feels. His friend now has a list of reasons to argue with, and both of them feel guilty.",
+    "The clean no. I can't tonight, I'm working on something I've committed to. I can give you three hours on Saturday morning.",
+    "Look at what the third reply does. It protects tonight. It offers real help at a time Daniel can actually give it. And it blames nobody. That is a considered choice, and it is also the most generous of the three."
+   ]
+  },
+  {
+   "kind": "grunge",
+   "lines": [
+    "NO IS A",
+    "COMPLETE",
+    "SENTENCE"
+   ],
+   "size": 250,
+   "side": "BOUNDARY",
+   "note": "Kindness without a timetable becomes a debt.",
+   "cap": "The boundary",
+   "say": [
+    "You will hear people say that no is a complete sentence. It is. You are allowed to stop there.",
+    "In practice, a short reason and a real alternative often serve the relationship better. What matters is that the reason is short and the decision is already made before you start typing."
+   ]
+  },
+  {
+   "kind": "card",
+   "words": [
+    "You.",
+    "Can.",
+    "Say.",
+    "No."
+   ]
+  },
+  {
+   "kind": "steps",
+   "kicker": "Pause the video / five minutes",
+   "headline": "SCRIPT YOUR FIRST NO.",
+   "items": [
+    "The request you are most likely to face this week.",
+    "Your availability, in one sentence.",
+    "An alternative you can genuinely honour, or none.",
+    "The reaction you predict, written down now."
+   ],
+   "cap": "The rehearsal",
+   "say": [
+    "Now we rehearse. Pause the video when I tell you to.",
+    "One. Write down the request you are most likely to face this week. Be specific about who and when.",
+    "Two. Write your availability in one sentence. No biography.",
+    "Three. Add an alternative only if you can genuinely honour it. If you cannot, leave it out.",
+    "Four. Predict the reaction. Write it down now, before it happens. You will compare it with reality later.",
+    "Then say your sentence out loud three times. It will sound strange the first time and ordinary by the third. Pause now and give it five minutes."
+   ]
+  },
+  {
+   "kind": "mission",
+   "rows": [
+    [
+     "PRODUCE",
+     "One rehearsed refusal, in your own words."
+    ],
+    [
+     "USE IT",
+     "On an appropriate, low-stakes request today."
+    ],
+    [
+     "EVIDENCE",
+     "Words, predicted reaction, actual reaction, reflection."
+    ]
+   ],
+   "cap": "The mission",
+   "say": [
+    "Your mission today is workbook page W01-D03, the first no.",
+    "Use your rehearsed refusal on an appropriate, low-stakes request. Choose something real but small. A meeting that could be an email. An extra task that can wait. A favour that can move to another day.",
+    "Then fill in your boundary record. The words you used. The reaction you predicted. The reaction you actually got. What you learned.",
+    "Most people discover that the reaction they feared was larger than the one that arrived. Find out for yourself."
+   ]
+  },
+  {
+   "kind": "close",
+   "img": "close",
+   "lines": [
+    "THEIR REACTION",
+    "IS THEIRS.",
+    "YOUR LIFE",
+    "IS YOURS."
+   ],
+   "size": 120,
+   "give": "Decide first. Then speak.",
+   "next": "Next / Lesson 03 / Become nothing; choose something",
+   "cap": "Close",
+   "say": [
+    "Tomorrow, before anything else, recall what your first no actually showed you.",
+    "Then we go after the labels that keep you small. Lesson three: become nothing, choose something.",
+    "Their reaction is theirs. Your life is yours. Decide first, then speak."
+   ]
+  }
+ ],
+ "notes": [
+  "Delivery: relaxed and certain. The refusal lines should sound ordinary, never theatrical.",
+  "Pause: slide 10 runs a five-minute timer overlay in the edit.",
+  "Safety: the mission is a low-stakes request. Never practise on someone vulnerable or on a genuine emergency.",
+  "Doom references describe traits only. No Marvel artwork, footage or dialogue."
+ ]
+}
