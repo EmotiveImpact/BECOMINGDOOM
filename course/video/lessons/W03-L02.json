@@ -75,7 +75,7 @@
       "Your mission is workbook page W03-D02, design against failure.",
       "Complete your three-risk prevention sheet and take the first preventive action today if you can."
      ]},
-    {"kind": "close", "img": "close", "lines": ["KNOW HOW", "IT DIES.", "THEN DON'T", "LET IT."], "size": 140, "give": "Prevention is the cheapest fix.", "next": "Next / Lesson 09 / Build your first Doombot", "cap": "Close",
+    {"kind": "close", "img": "close", "lines": ["KNOW HOW", "IT DIES.", "THEN DON'T", "LET IT."], "size": 120, "give": "Prevention is the cheapest fix.", "next": "Next / Lesson 09 / Build your first Doombot", "cap": "Close",
      "say": [
       "Next lesson you build your first Doombot: a small, reusable aid that takes repetition off your hands.",
       "Know how it dies. Then don't let it. Prevention is the cheapest fix you will ever make."
