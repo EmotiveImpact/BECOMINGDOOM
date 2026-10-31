@@ -14,7 +14,8 @@ Six weeks of cumulative practice in sovereign self-interest, clear thinking, cap
 6. [Research index](research/README.md): source cards, access status and claim boundaries.
 7. [Production plan](production/ROADMAP.md): lessons, workbooks, slides, pilot and promotion.
 8. [Claude handoff](production/CLAUDE_HANDOFF.md): drafting instructions and a first assignment.
-9. [Demo lesson](demo/01_THE_FIRST_NO.md), [workbook](demo/02_WORKBOOK.md), [slide brief](demo/03_SLIDE_BRIEF.md) and [promo](demo/04_PROMO.md).
+9. [Launch funnel](launch/README.md): free lesson page, cohort sales page, application, email sequence, posts and sales scripts. Website in [site/](site/index.html).
+10. [Demo lesson](demo/01_THE_FIRST_NO.md), [workbook](demo/02_WORKBOOK.md), [slide brief](demo/03_SLIDE_BRIEF.md) and [promo](demo/04_PROMO.md).
 
 ## Weekly briefs
 
