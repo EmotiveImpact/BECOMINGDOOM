@@ -24,7 +24,7 @@ Keep it short. Ask, listen, reflect, check fit, offer.
 2. **Listen:** "What is the project you keep putting off? What usually gets in the way?" Let them describe it in their own words. Do not pitch yet.
 3. **Reflect:** "So the project is X, and the pattern is that time keeps going to Y." Check you have it right.
 4. **Fit check:** "The course asks for about six hours a week for six weeks, a live Council every Saturday and one real project you put in front of people in week five. Is that realistic for you right now?"
-5. **Offer:** "The founding cohort starts [6 November], [8] places, [£297]. Every lesson, the Saturday Council and direct feedback from me each week. Would you like the link to secure your place?"
+5. **Offer:** "The founding cohort starts [6 November], [8] places, [£197]. Every lesson, the Saturday Council and direct feedback from me each week. Would you like the link to secure your place?"
 6. **If yes:** send the checkout link with the start date, the time of the first Council and what to prepare (one sentence describing their project).
 7. **If no:** accept it. "That is a good no. Want me to let you know when the next cohort opens?"
 

@@ -166,7 +166,7 @@ The details:
 - Starts [Friday 6 November]. Doomsday demonstration on [Friday 18 December].
 - [8] places. Small on purpose, so everyone gets real feedback.
 - About six hours a week, including the live Council each Saturday.
-- Founding price [£297]. Later cohorts will cost more.
+- Founding price [£197]. Later cohorts will cost more.
 - Applications close [Thursday 5 November at 23:59 UK time].
 
 One honest thing: this is the first time the course runs in full. There are no testimonials yet because nobody has finished it. You would be one of the people who proves whether it works, and you get more of my attention than any later group will.

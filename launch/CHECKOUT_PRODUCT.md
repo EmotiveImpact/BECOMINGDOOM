@@ -6,7 +6,7 @@ Copy and settings for the founding cohort product on Whop (or any checkout platf
 
 - Product name: Becoming Doom: Founding Cohort
 - Type: one-time payment
-- Price: [£297], in GBP
+- Price: [£197], in GBP
 - Stock: [8]
 - Sales close: [Thursday 5 November 2026, 23:59 UK time]
 - Access granted: course files, Council community channel, Council call links

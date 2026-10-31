@@ -23,7 +23,7 @@ Every public value lives in `site/assets/config.js`. Change it there and every p
 
 | Decision | Current proposal | Where to change |
 |---|---|---|
-| Founding price | £297 | `cohort.priceGBP` |
+| Founding price | £197 (confirmed by Edem, 31 October) | `cohort.priceGBP` |
 | Places | 8 | `cohort.places` |
 | Applications close | Thursday 5 November, 23:59 UK time | `cohort.enrolmentCloses` |
 | Course starts | Friday 6 November | `cohort.courseStarts` |

@@ -10,7 +10,7 @@ window.DOOM_CONFIG = {
 
   cohort: {
     name: "Founding cohort",
-    priceGBP: 297,            // proposed, not confirmed
+    priceGBP: 197,            // confirmed by Edem 31 Oct 2026
     places: 8,                // proposed, not confirmed
     // All times are Europe/London. Three distinct events, never merged into one clock.
     enrolmentCloses: "2026-11-05T23:59:00+00:00",

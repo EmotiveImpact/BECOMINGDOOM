@@ -272,7 +272,7 @@ Becoming Doom starts [Friday 6 November].
 
 Six weeks. 42 days. One real project. A live Council every Saturday. A Doomsday demonstration on [18 December] where you show what you built.
 
-The founding cohort is [8] people at [£297]. It is the first full run, so there are no testimonials yet. You get more of my direct attention than any later group will.
+The founding cohort is [8] people at [£197]. It is the first full run, so there are no testimonials yet. You get more of my direct attention than any later group will.
 
 Applications close [Thursday 5 November]: [LINK TO cohort page]
 
