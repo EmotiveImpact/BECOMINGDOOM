@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apply | Becoming Doom</title>
+<meta name="description" content="Apply for a place in the Becoming Doom founding cohort.">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0b0b0c">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230b0b0c'/%3E%3Ctext x='16' y='23' font-family='Georgia' font-size='20' fill='%23c8913a' text-anchor='middle'%3ED%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html">Becoming Doom</a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Free lesson</a>
+      <a href="cohort.html">The course</a>
+    </nav>
+  </div>
+</header>
+
+<main class="narrow">
+  <section class="hero" style="padding-bottom:1rem">
+    <span class="eyebrow">Apply &middot; <span data-fill="cohortName">Founding cohort</span></span>
+    <h1>Apply for a place</h1>
+    <p class="lede">Five short questions. They help us both judge whether the next six weeks are the right six weeks for you.</p>
+    <p class="small muted">There are <span data-fill="places">8</span> places. Applications close <span data-fill="closes">to be confirmed</span>. Edem reads every application and replies personally, usually within two days.</p>
+  </section>
+
+  <form id="apply" class="panel">
+    <label for="a_name">First name</label>
+    <input id="a_name" name="first_name" type="text" autocomplete="given-name" required maxlength="60">
+    <label for="a_email">Email</label>
+    <input id="a_email" name="email" type="email" autocomplete="email" required>
+    <label for="a_x">X handle or best way to reach you (optional)</label>
+    <input id="a_x" name="contact" type="text" maxlength="80">
+
+    <label for="a1">1. What project would you build over the six weeks? A rough idea is fine.</label>
+    <textarea id="a1" name="project" required></textarea>
+
+    <label for="a2">2. What usually gets in the way of it? Be specific about the last time.</label>
+    <textarea id="a2" name="obstacle" required></textarea>
+
+    <label for="a3">3. Where does your time and energy currently go that you did not really choose?</label>
+    <textarea id="a3" name="borrowed_time" required></textarea>
+
+    <label for="a4">4. The course asks for about six hours a week for six weeks, including a live Council each Saturday. Is that realistic for you right now?</label>
+    <select id="a4" name="time_commitment" required>
+      <option value="">Choose one</option>
+      <option>Yes, I can protect that time</option>
+      <option>Mostly, but I would need to reduce my project scope</option>
+      <option>Not sure yet</option>
+    </select>
+
+    <label for="a5">5. Six weeks from now, what would you want to be able to show someone?</label>
+    <textarea id="a5" name="evidence_goal" required></textarea>
+
+    <label for="a6">Did you try The First No? If so, what happened? (optional)</label>
+    <textarea id="a6" name="first_no"></textarea>
+
+    <div class="hp" aria-hidden="true"><label for="a_company">Leave this empty</label><input id="a_company" name="company" type="text" tabindex="-1" autocomplete="off"></div>
+    <label class="check"><input type="checkbox" name="consent" value="yes" required> <span>I am happy for Becoming Doom to store these answers and contact me about my application. <a href="privacy.html">Privacy</a>.</span></label>
+    <button class="btn" type="submit">Send application</button>
+    <p class="form-msg" role="status" aria-live="polite"></p>
+  </form>
+
+  <section id="apply-done" class="panel" hidden>
+    <h2 style="margin-top:0">Application received</h2>
+    <p>Thank you. Edem will read it and reply personally, usually within two days. If it looks like a good fit, the next step is a short conversation by message or a fifteen-minute call.</p>
+    <p>While you wait, if you have not done it yet, <a href="index.html">The First No</a> is the best preview of how the course works.</p>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <span>Becoming Doom. Become Dangerous.</span>
+    <span><a href="privacy.html">Privacy</a> &nbsp; <a data-contact="email" hidden></a> &nbsp; <a data-contact="x" hidden></a></span>
+  </div>
+</footer>
+<script src="assets/config.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
