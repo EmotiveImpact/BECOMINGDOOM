@@ -2,7 +2,7 @@
 @font-face { font-family: Anton; src: url(fonts/Anton-Regular.ttf); }
 @font-face { font-family: Archivo; src: url(fonts/ArchivoBlack-Regular.ttf); }
 @font-face { font-family: IT; src: url(fonts/InterTight.ttf); font-weight: 100 900; }
-:root { --ink:#060606; --ivory:#F2EFEA; --stone:#8a8580; --red:#E8231A; --neon:#FF2A1F; }
+:root { --ink:#030303; --ivory:#EDEDED; --stone:#7c7c80; --red:#D90D0D; --neon:#FF1F1F; }
 * { margin:0; padding:0; box-sizing:border-box; }
 html, body { width:1920px; height:1080px; background:var(--ink); overflow:hidden; }
 body { font-family: IT, sans-serif; color:var(--ivory); }
@@ -17,65 +17,65 @@ body { font-family: IT, sans-serif; color:var(--ivory); }
 .mask > span { display:block; }
 .anton { font-family:Anton; line-height:.95; letter-spacing:.005em; text-transform:uppercase; }
 .dot, .redt { color:var(--red); }
-.kick { font-weight:700; font-size:20px; letter-spacing:.16em; text-transform:uppercase; color:#cfcac3; }
-.cap { position:absolute; left:150px; right:150px; bottom:56px; padding-top:16px; border-top:1px solid rgba(242,239,234,.25); font-weight:700; font-size:17px; letter-spacing:.14em; text-transform:uppercase; z-index:22; }
+.kick { font-weight:700; font-size:20px; letter-spacing:.16em; text-transform:uppercase; color:#b4b4b8; }
+.cap { position:absolute; left:150px; right:150px; bottom:56px; padding-top:16px; border-top:1px solid rgba(237,237,237,.25); font-weight:700; font-size:17px; letter-spacing:.14em; text-transform:uppercase; z-index:22; }
 .cap .cn { color:var(--red); margin-right:22px; }
 .onred .cap { color:#0a0a0a; border-top-color:rgba(0,0,0,.4); } .onred .cap .cn { color:#fff; }
 .redpanel { inset:0; background:var(--red); transform-origin:left; }
-.lbl { display:inline-block; font-family:Archivo; font-size:120px; line-height:1; padding:10px 26px 14px; margin-bottom:22px; }
-.lbl.grey { background:#cfcac3; color:#0a0a0a; } .lbl.red { background:var(--red); color:#0a0a0a; } .lbl.ink { background:#fff; color:#0a0a0a; }
-.beam { position:absolute; height:6px; border-radius:3px; background:#fff; box-shadow:0 0 8px #fff, 0 0 18px var(--neon), 0 0 40px var(--neon), 0 0 90px rgba(255,42,31,.8); transform-origin:left; }
-.row { display:flex; align-items:baseline; gap:36px; padding:26px 0; border-top:1px solid #262321; }
+.lbl { display:inline-block; font-family:Anton; font-size:120px; line-height:1; padding:10px 26px 14px; margin-bottom:22px; }
+.lbl.grey { background:#b4b4b8; color:#0a0a0a; } .lbl.red { background:var(--red); color:#0a0a0a; } .lbl.ink { background:#fff; color:#0a0a0a; }
+.beam { position:absolute; height:6px; border-radius:3px; background:#fff; box-shadow:0 0 8px #fff, 0 0 18px var(--neon), 0 0 40px var(--neon), 0 0 90px rgba(255,31,31,.8); transform-origin:left; }
+.row { display:flex; align-items:baseline; gap:36px; padding:26px 0; border-top:1px solid #1a1a1c; }
 .row .n { font-weight:700; font-size:22px; letter-spacing:.14em; color:var(--red); width:70px; }
 .row .t { font-family:Anton; font-size:64px; line-height:1; }
 .row .d { font-size:26px; color:var(--stone); margin-top:8px; }
 .d2 { font-size:34px; font-weight:400; line-height:1.25; }
 .strike { position:absolute; left:-10px; top:30px; height:6px; width:calc(100% + 20px); background:var(--red); transform-origin:left; transform:scaleX(0); }
-.col { border-top:1px solid #2a2724; padding-top:30px; } .col.hot { border-top:3px solid var(--red); }
+.col { border-top:1px solid #1c1c1e; padding-top:30px; } .col.hot { border-top:3px solid var(--red); }
 .ct { font-weight:700; font-size:22px; letter-spacing:.12em; text-transform:uppercase; margin:20px 0 12px; }
 .small { font-size:26px; color:var(--stone); line-height:1.35; }
-.quote { font-size:44px; font-weight:300; margin-top:90px; color:#e2ddd6; }
+.quote { font-size:44px; font-weight:300; margin-top:90px; color:#d8d8da; }
 .grunge { filter:url(#grunge); }
-.side { font-weight:700; font-size:18px; letter-spacing:.4em; color:#9b958e; width:300px; }
-.side span { display:block; margin-top:18px; letter-spacing:0; font-weight:400; font-size:22px; line-height:1.4; color:#6f6a64; }
+.side { font-weight:700; font-size:18px; letter-spacing:.4em; color:#8c8c90; width:300px; }
+.side span { display:block; margin-top:18px; letter-spacing:0; font-weight:400; font-size:22px; line-height:1.4; color:#5e5e62; }
 .bold { font-weight:800; font-size:150px; line-height:1.0; letter-spacing:-.02em; }
 .red2 { color:var(--red); }
 .give { font-weight:600; font-size:52px; color:var(--red); margin-top:34px; }
 #grain { position:absolute; inset:-50%; z-index:19; opacity:.10; pointer-events:none; mix-blend-mode:screen;
   background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/></filter><rect width='300' height='300' filter='url(%23n)'/></svg>"); }
-#hud { position:absolute; right:150px; top:44px; z-index:21; font-weight:700; font-size:17px; letter-spacing:.3em; color:#8a8580; }
+#hud { position:absolute; right:150px; top:44px; z-index:21; font-weight:700; font-size:17px; letter-spacing:.3em; color:#7c7c80; }
 #hud b { color:var(--red); }
 #prog { position:absolute; left:0; bottom:0; height:3px; background:var(--red); width:0; z-index:23; }
 
 .lbl { font-family:Anton; font-size:140px; letter-spacing:.01em; padding:6px 26px 10px; }
 .bold { font-weight:500; }
 .logo-top { font-weight:600; font-size:44px; letter-spacing:.62em; margin-left:8px; }
-.bt { font-size:34px; font-weight:400; line-height:1.3; margin-top:18px; color:#e2ddd6; }
+.bt { font-size:34px; font-weight:400; line-height:1.3; margin-top:18px; color:#d8d8da; }
 .rc { font-size:46px; font-weight:400; line-height:1.15; letter-spacing:-.01em; }
-.shade.under { position:absolute; inset:0; background:radial-gradient(ellipse at 50% 46%, rgba(6,6,6,.55) 0%, rgba(6,6,6,.25) 45%, rgba(6,6,6,.7) 100%); }
+.shade.under { position:absolute; inset:0; background:radial-gradient(ellipse at 50% 46%, rgba(3,3,3,.62) 0%, rgba(3,3,3,.35) 45%, rgba(3,3,3,.85) 100%); }
 .trk { font-weight:600; font-size:96px; letter-spacing:.42em; line-height:1.15; text-transform:uppercase; margin-right:-.42em; }
 .trk .gap { display:inline-block; width:.9em; }
-.pline { font-size:30px; font-weight:400; line-height:1.4; color:#cfcac3; margin-top:34px; max-width:760px; }
+.pline { font-size:30px; font-weight:400; line-height:1.4; color:#b4b4b8; margin-top:34px; max-width:760px; }
 .hudf { position:absolute; inset:40px 60px; z-index:18; pointer-events:none; }
-.hudf .c { position:absolute; width:46px; height:46px; border:2px solid rgba(242,239,234,.55); }
+.hudf .c { position:absolute; width:46px; height:46px; border:2px solid rgba(237,237,237,.55); }
 .hudf .tl { left:0; top:0; border-right:0; border-bottom:0; } .hudf .tr { right:0; top:0; border-left:0; border-bottom:0; }
 .hudf .bl { left:0; bottom:0; border-right:0; border-top:0; } .hudf .br { right:0; bottom:0; border-left:0; border-top:0; }
-.hudf .hl, .hudf .hr { position:absolute; top:14px; font-weight:600; font-size:15px; letter-spacing:.34em; color:rgba(242,239,234,.7); }
+.hudf .hl, .hudf .hr { position:absolute; top:14px; font-weight:600; font-size:15px; letter-spacing:.34em; color:rgba(237,237,237,.7); }
 .hudf .hl { left:70px; } .hudf .hr { right:70px; } .hudf .hr b { color:var(--red); font-weight:400; }
-.hudf .xh { position:absolute; right:-1px; top:50%; width:22px; height:2px; background:rgba(242,239,234,.55); }
+.hudf .xh { position:absolute; right:-1px; top:50%; width:22px; height:2px; background:rgba(237,237,237,.55); }
 .dossier-edge { left:960px; top:0; bottom:0; width:2px; background:var(--red); }
-.fields { margin-top:34px; border-top:1px solid #2a2724; }
-.fd { display:flex; gap:28px; padding:14px 0; border-bottom:1px solid #2a2724; font-size:26px; }
+.fields { margin-top:34px; border-top:1px solid #1c1c1e; }
+.fd { display:flex; gap:28px; padding:14px 0; border-bottom:1px solid #1c1c1e; font-size:26px; }
 .fd > span { width:170px; flex:0 0 170px; font-weight:600; font-size:16px; letter-spacing:.3em; color:var(--stone); padding-top:7px; }
 .meter { margin-top:30px; }
 .ml { display:flex; justify-content:space-between; font-weight:600; font-size:18px; letter-spacing:.3em; }
-.ml b { font-weight:600; color:#cfcac3; } .ml b.hot { color:var(--red); }
-.mb { height:8px; background:#1d1b1a; margin-top:12px; } .mb i { display:block; height:100%; background:#cfcac3; transform-origin:left; } .mb i.hot { background:var(--red); }
+.ml b { font-weight:600; color:#b4b4b8; } .ml b.hot { color:var(--red); }
+.mb { height:8px; background:#1d1b1a; margin-top:12px; } .mb i { display:block; height:100%; background:#b4b4b8; transform-origin:left; } .mb i.hot { background:var(--red); }
 .md { font-size:22px; color:var(--stone); margin-top:10px; }
 .vc { top:0; bottom:0; display:flex; flex-direction:column; justify-content:center; }
 .grey { color:#6d6863; }
 .onred .dot { color:#fff; }
-.qlead { font-size:34px; font-weight:400; color:#cfcac3; }
+.qlead { font-size:34px; font-weight:400; color:#b4b4b8; }
 .qbig { font-size:128px; font-weight:500; line-height:1.08; letter-spacing:-.02em; margin-top:46px; }
 .qsub { font-size:28px; color:var(--stone); margin:56px auto 0; max-width:900px; line-height:1.4; }
 .light { font-size:84px; font-weight:400; line-height:1.08; letter-spacing:-.02em; }
@@ -86,7 +86,7 @@ body { font-family: IT, sans-serif; color:var(--ivory); }
 .sc { font-size:22px; color:var(--stone); margin-top:10px; max-width:560px; line-height:1.35; }
 .glow { inset:0; background:radial-gradient(circle at 1600px 540px, rgba(232,35,26,.55) 0, rgba(140,20,14,.28) 26%, rgba(6,6,6,0) 58%); }
 .ring { position:absolute; border-radius:50%; border:1px solid rgba(255,90,70,.28); }
-.pill { position:absolute; padding:12px 26px; border-radius:40px; font-size:24px; color:#f2efea; background:rgba(60,12,9,.75); border:1px solid rgba(255,90,70,.45); white-space:nowrap; }
+.pill { position:absolute; padding:12px 26px; border-radius:40px; font-size:24px; color:#EDEDED; background:rgba(60,12,9,.75); border:1px solid rgba(255,90,70,.45); white-space:nowrap; }
 .pill.core { font-size:32px; padding:16px 34px; background:rgba(120,20,14,.85); border-color:rgba(255,120,100,.7); }
 </style></head><body><svg width="0" height="0" style="position:absolute"><filter id="grunge" x="0" y="0" width="100%" height="100%">
 <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="4" seed="7" result="t"/>
@@ -106,7 +106,7 @@ body { font-family: IT, sans-serif; color:var(--ivory); }
 <section class="scene " data-start="65" data-dur="8" data-kind="poster"><div class="kb" data-kb="in"><div class="bg" style="background-image:url(../assets/W01-L01/g-command.png)"></div><div class="shade left"></div></div><div class="hudf a" data-in="0.2" data-anim="fade"><i class="c tl"></i><i class="c tr"></i><i class="c bl"></i><i class="c br"></i><span class="hl">SIGNAL / 3 VOICES</span><i class="xh"></i></div><div class="abs vc" style="left:150px;width:1150px"><div style=""><div class="kick a" data-in="0.4" data-anim="fade" style="letter-spacing:.42em">Three voices</div><div class="trk a" data-in="0.9" data-anim="fade" style="font-size:78px;margin-top:30px">WHO IS<br>SPENDING<br>YOUR LIFE?</div><div class="beam a" data-in="1.8" data-anim="beam" style="position:relative;left:0;top:0;width:180px;height:3px;border-radius:0;background:var(--red);box-shadow:none;margin:34px 0 0"></div><div class="pline a" data-in="2.4" data-anim="fade">Three voices compete for every hour you have. Only one of them is <span class="redt">yours.</span></div></div></div><div class="cap a" data-in="0.6" data-anim="fade"><span class="cn">08</span>Appetite, approval, interest</div></section>
 <section class="scene " data-start="73" data-dur="12" data-kind="dossier"><div class="kb" data-kb="in" style="right:960px"><div class="bg" style="background-image:url(../assets/W01-L01/g-dossier.png);background-size:cover;background-position:center 30%"></div></div><div class="abs dossier-edge"></div><div class="hudf a" data-in="0.2" data-anim="fade"><i class="c tl"></i><i class="c tr"></i><i class="c bl"></i><i class="c br"></i><span class="hl">SUBJECT FILE / 001</span><i class="xh"></i></div><div class="abs vc" style="left:1060px;width:710px"><div style=""><div class="kick a" data-in="0.3" data-anim="fade" style="letter-spacing:.42em">Subject file / 001</div><div class="anton a" data-in="0.6" data-anim="fadeup" style="font-size:92px;margin-top:22px">WHERE YOUR HOURS GO<span class="dot">.</span></div><div class="fields a" data-in="1.0" data-anim="fade"><div class="fd"><span>SUBJECT</span><div>You</div></div><div class="fd"><span>STATUS</span><div><span class="redt">Unclaimed</span></div></div><div class="fd"><span>WEEK</span><div>One / Claim the Throne</div></div></div><div class="meter a" data-in="1.6" data-anim="fadeup"><div class="ml"><span>APPETITE</span><b>42%</b></div><div class="mb"><i class="a" data-in="2.0" data-anim="beam" style="width:42%"></i></div><div class="md">What I want right now. Loud, fast, never your interest.</div></div><div class="meter a" data-in="2.2" data-anim="fadeup"><div class="ml"><span>APPROVAL</span><b>46%</b></div><div class="mb"><i class="a" data-in="2.6" data-anim="beam" style="width:46%"></i></div><div class="md">What I fear they will think. Quiet and respectable.</div></div><div class="meter a" data-in="2.8" data-anim="fadeup"><div class="ml"><span>INTEREST</span><b class=hot>12%</b></div><div class="mb"><i class="a hot" data-in="3.2" data-anim="beam" style="width:12%"></i></div><div class="md">What I will be glad I built in five years.</div></div></div></div><div class="cap a" data-in="0.6" data-anim="fade"><span class="cn">09</span>The three voices</div></section>
 <section class="scene " data-start="85" data-dur="8" data-kind="scene"><div class="kb" data-kb="in"><div class="bg" style="background-image:url(../assets/W01-L01/g-scene.png)"></div><div class="shade left"></div></div><div class="abs vc" style="left:150px;width:900px"><div style=""><div class="kick a" data-in="0.6" data-anim="fade">Daniel / freelance designer / Thursday, 4pm</div><div class="anton a" data-in="1.4" data-anim="fadeup" style="font-size:124px;margin-top:30px;line-height:.95">FOURTH UNPAID<br>REVISION<span class="dot">.</span></div><div class="anton a" data-in="3.0" data-anim="fadeup" style="font-size:124px;margin-top:24px;line-height:.95">PORTFOLIO:<br><span class="redt">STILL CLOSED.</span></div></div></div><div class="cap a" data-in="0.6" data-anim="fade"><span class="cn">10</span>The worked example</div></section>
-<section class="scene " data-start="93" data-dur="10" data-kind="compare"><div class="abs vc" style="left:150px;width:1620px"><div style=""><div class="kick a" data-in="0.3" data-anim="fade">Three ways to answer the same email</div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:56px;margin-top:60px"><div class="col a" data-in="0.9" data-anim="fadeup"><div class="anton" style="font-size:110px;color:#4a4642">SURE.</div><div class="ct">The automatic yes</div><div class="small">Revision done. Portfolio closed. Resentment banked.</div></div><div class="col a" data-in="2.0" data-anim="fadeup"><div class="anton" style="font-size:110px;color:#4a4642">NO.</div><div class="ct">The flat refusal</div><div class="small">Evening protected. Relationship unexamined. Goodwill spent.</div></div><div class="col hot a" data-in="3.1" data-anim="fadeup"><div class="anton" style="font-size:110px">MONDAY<span class="dot">.</span></div><div class="ct">The renegotiated scope</div><div class="small" style="color:#d6d1ca">Paid round on Monday. Portfolio built on Thursday.</div></div></div><div class="quote a" data-in="5.0" data-anim="fadeup">“It is outside the brief, so it is billed at my day rate. You will have it Monday.”</div></div></div><div class="cap a" data-in="0.6" data-anim="fade"><span class="cn">11</span>Three answers</div></section>
+<section class="scene " data-start="93" data-dur="10" data-kind="compare"><div class="abs vc" style="left:150px;width:1620px"><div style=""><div class="kick a" data-in="0.3" data-anim="fade">Three ways to answer the same email</div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:56px;margin-top:60px"><div class="col a" data-in="0.9" data-anim="fadeup"><div class="anton" style="font-size:110px;color:#3a3a3d">SURE.</div><div class="ct">The automatic yes</div><div class="small">Revision done. Portfolio closed. Resentment banked.</div></div><div class="col a" data-in="2.0" data-anim="fadeup"><div class="anton" style="font-size:110px;color:#3a3a3d">NO.</div><div class="ct">The flat refusal</div><div class="small">Evening protected. Relationship unexamined. Goodwill spent.</div></div><div class="col hot a" data-in="3.1" data-anim="fadeup"><div class="anton" style="font-size:110px">MONDAY<span class="dot">.</span></div><div class="ct">The renegotiated scope</div><div class="small" style="color:#c8c8ca">Paid round on Monday. Portfolio built on Thursday.</div></div></div><div class="quote a" data-in="5.0" data-anim="fadeup">“It is outside the brief, so it is billed at my day rate. You will have it Monday.”</div></div></div><div class="cap a" data-in="0.6" data-anim="fade"><span class="cn">11</span>Three answers</div></section>
 <section class="scene " data-start="103" data-dur="8" data-kind="scene"><div class="kb" data-kb="in"><div class="bg" style="background-image:url(../assets/W01-L01/g-nurse.png)"></div><div class="shade left"></div></div><div class="abs vc" style="left:150px;width:900px"><div style=""><div class="kick a" data-in="0.6" data-anim="fade">Amara / ward nurse / end of a night shift</div><div class="anton a" data-in="1.4" data-anim="fadeup" style="font-size:124px;margin-top:30px;line-height:.95">TUESDAY<span class="dot">.</span><br>THURSDAY<span class="dot">.</span></div><div class="anton a" data-in="3.0" data-anim="fadeup" style="font-size:124px;margin-top:24px;line-height:.95"><span class="redt">FIXED.</span></div></div></div><div class="cap a" data-in="0.6" data-anim="fade"><span class="cn">12</span>A second example</div></section>
 <section class="scene " data-start="111" data-dur="11" data-kind="story"><div class="abs vc" style="left:150px;width:1620px"><div style=""><div class="kick a" data-in="0.3" data-anim="fade">A second case / Amara / ward nurse</div><div class="anton a" data-in="0.7" data-anim="fadeup" style="font-size:110px;margin-top:26px">THE SHIFTS THAT ATE HER STUDY<span class="dot">.</span></div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:64px;margin-top:64px"><div class="beat a" data-in="1.4" data-anim="fadeup"><div class="kick" style="color:var(--red)">Before</div><div class="bt">She wants the senior nurse role, which needs a course. Every week someone asks her to swap a shift, and she always says yes.</div></div><div class="beat a" data-in="2.5999999999999996" data-anim="fadeup"><div class="kick" style="color:var(--red)">The move</div><div class="bt">She blocks Tuesday and Thursday evenings for study and tells the rota coordinator those two are fixed. Every other swap stays open.</div></div><div class="beat a" data-in="3.8" data-anim="fadeup"><div class="kick" style="color:var(--red)">After</div><div class="bt">Twelve weeks later the course is done. Her colleagues adjusted in a fortnight. One of them asked how she did it.</div></div></div></div></div><div class="cap a" data-in="0.6" data-anim="fade"><span class="cn">13</span>Amara’s twelve weeks</div></section>
 <section class="scene " data-start="122" data-dur="8" data-kind="poster"><div class="kb" data-kb="in"><div class="bg" style="background-image:url(../assets/W01-L01/g-panther.png)"></div><div class="shade left"></div></div><div class="abs vc" style="left:150px;width:1150px"><div style=""><div class="kick a" data-in="0.4" data-anim="fade" style="letter-spacing:.42em">One warning</div><div class="trk a" data-in="0.9" data-anim="fade" style="font-size:78px;margin-top:30px">YOUR EGO<br>IS NOT YOUR<br>INTEREST<span class="dot">.</span></div><div class="beam a" data-in="1.8" data-anim="beam" style="position:relative;left:0;top:0;width:180px;height:3px;border-radius:0;background:var(--red);box-shadow:none;margin:34px 0 0"></div><div class="pline a" data-in="2.4" data-anim="fade">Winning the argument can cost you the thing you are <span class="redt">building.</span></div></div></div><div class="cap a" data-in="0.6" data-anim="fade"><span class="cn">14</span>Ego and interest</div></section>
@@ -133,7 +133,7 @@ const K={
  wipe:[{transform:'scaleX(0)'},{transform:'scaleX(1)'}],
  beam:[{transform:'scaleX(0)',opacity:0},{transform:'scaleX(.02)',opacity:1,offset:.08},{transform:'scaleX(1)',opacity:1}],
  flicker:[{opacity:0},{opacity:1,offset:.1},{opacity:.2,offset:.18},{opacity:1,offset:.26},{opacity:.4,offset:.34},{opacity:1}],
- tored:[{color:'#F2EFEA'},{color:'#E8231A'}],
+ tored:[{color:'#EDEDED'},{color:'#D90D0D'}],
 };
 const DUR={fade:1100,fadeup:1200,rise:1100,strike:500,punch:900,slam:450,pop:350,wipe:700,beam:1600,flicker:1400,tored:600};
 document.querySelectorAll('.scene').forEach(sc=>{
