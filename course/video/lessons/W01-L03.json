@@ -1,0 +1,332 @@
+{
+ "id": "W01-L03",
+ "number": 3,
+ "title": "Become nothing; choose something",
+ "day": 4,
+ "workbook": "W01-D04",
+ "principles": "P02 Accept that there is no inherent meaning; P06 Believe in your fucking self",
+ "evidence": "The old label, the test action and the observed result",
+ "cast": "Black woman, late 20s, natural hair tied back",
+ "scenes": [
+  {
+   "kind": "open",
+   "line": "Week 1. Claim the Throne."
+  },
+  {
+   "kind": "labels",
+   "words": [
+    "DROP",
+    "THE",
+    "LABEL."
+   ]
+  },
+  {
+   "kind": "title",
+   "img": "hood",
+   "lines": [
+    "BECOME NOTHING.",
+    "CHOOSE",
+    "SOMETHING."
+   ],
+   "size": 140,
+   "cap": "Release the label",
+   "say": [
+    "You have a doctrine and you have said your first no. Now we deal with the voice that says you are not the kind of person who does this.",
+    "Lesson three: become nothing, choose something. We are going to take one label you carry about yourself and put it on trial."
+   ]
+  },
+  {
+   "kind": "hook",
+   "img": "concept",
+   "lead": "Finish this sentence honestly.",
+   "headline": "I AM *NOT* THE KIND OF PERSON WHO...",
+   "size": 120,
+   "cap": "The verdict",
+   "say": [
+    "Finish this sentence. I am not the kind of person who...",
+    "Who sells. Who speaks in public. Who finishes things. Who is good with money. Who writes. Most people can finish it in under a second, which tells you how often they have said it.",
+    "That sentence sounds like a description. In practice it works like a verdict. It decides what you will try before you have tried it."
+   ]
+  },
+  {
+   "kind": "radial",
+   "core": "Your next action",
+   "pills": [
+    "Not a business person",
+    "Bad with numbers",
+    "Too old",
+    "Not creative",
+    "Shy",
+    "Not technical",
+    "Always late"
+   ],
+   "lines": [
+    "One life.",
+    "Many labels.",
+    "*One next action.*"
+   ],
+   "text": "Labels collect over years. Each one was a summary of a few moments. None of them is a law.",
+   "cap": "Labels and actions",
+   "say": [
+    "Look at how labels collect. Not a business person. Bad with numbers. Not creative. Too old. Each one began as a summary of a few moments, often moments from years ago, and then it hardened.",
+    "Principle two says: accept that there is no inherent meaning. Applied here, it means no label was written into you. You can hold it up and inspect it.",
+    "Becoming nothing means releasing the label. Your history, your dignity and your responsibilities all stay. What goes is the verdict."
+   ]
+  },
+  {
+   "kind": "red",
+   "kicker": "The move",
+   "lines": [
+    "TURN THE VERDICT",
+    "INTO AN",
+    "EXPERIMENT."
+   ],
+   "cap": "Verdict to experiment",
+   "say": [
+    "Here is the move. You turn the verdict into an experiment.",
+    "A verdict says what you are. An experiment asks what happens when you do one small thing. A verdict cannot be tested. An experiment can, and it produces evidence by the end of the week."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Where labels come from",
+   "headline": "HOW A LABEL HARDENS.",
+   "size": 110,
+   "items": [
+    {
+     "t": "AN EVENT",
+     "d": "One bad presentation, one failed attempt, one comment from a teacher."
+    },
+    {
+     "t": "A STORY",
+     "d": "You decide what the event means about you, usually on the spot."
+    },
+    {
+     "t": "A RULE",
+     "d": "The story becomes a rule you follow without checking it again."
+    }
+   ],
+   "cap": "How labels form",
+   "say": [
+    "Labels tend to form in the same three steps.",
+    "An event. One bad presentation. One failed attempt. One comment from a teacher.",
+    "A story. You decide what that event means about you, usually on the spot and usually harshly.",
+    "A rule. The story hardens into a rule you follow for years without checking it again. The experiment goes back to step one and collects a new event."
+   ]
+  },
+  {
+   "kind": "scene",
+   "img": "scene",
+   "kicker": "Ama / bookkeeper / wants her own clients",
+   "a": [
+    "I AM NOT A",
+    "BUSINESS PERSON."
+   ],
+   "b": [
+    "ONE CONVERSATION",
+    "*THIS WEEK.*"
+   ],
+   "cap": "The worked example",
+   "say": [
+    "Meet Ama. She is a skilled bookkeeper and she wants her own clients. Every time she thinks about it, the same sentence arrives. I am not a business person.",
+    "So she runs an experiment. She asks one small business owner for twenty minutes to talk about the problem they have with their books. No pitch. Just questions."
+   ]
+  },
+  {
+   "kind": "compare",
+   "kicker": "Three ways to handle the label",
+   "cols": [
+    {
+     "big": "OBEY.",
+     "title": "Believe it",
+     "text": "Nothing tried. Label confirmed by default."
+    },
+    {
+     "big": "HYPE.",
+     "title": "Shout over it",
+     "text": "I am a CEO now. Big feeling, no evidence."
+    },
+    {
+     "big": "TEST.",
+     "title": "Run one experiment",
+     "text": "Twenty minutes. Real questions. Real answers."
+    }
+   ],
+   "quote": "Could I ask you about how you handle your accounts? I'm not selling anything today.",
+   "cap": "Obey, hype, test",
+   "say": [
+    "There are three ways to handle a label.",
+    "Obey it. She does nothing, and the label is confirmed by default. Not by evidence. By absence.",
+    "Hype over it. She tells herself she is a CEO now and posts about it. It feels strong for an evening. It produces nothing anyone can check.",
+    "Test it. She has one real conversation and writes down what happened. Principle six says believe in your fucking self. In this course belief is a decision to act, and the act is what we measure.",
+    "Ama learns that the owner hates their current system and would pay to stop thinking about it. That is information. The label has nothing to say about it."
+   ]
+  },
+  {
+   "kind": "story",
+   "kicker": "A second case / Lewis / warehouse supervisor",
+   "headline": "I CAN'T SPEAK IN FRONT OF PEOPLE.",
+   "size": 110,
+   "beats": [
+    {
+     "t": "The label",
+     "d": "One frozen best-man speech, nine years ago. He has avoided every microphone since."
+    },
+    {
+     "t": "The experiment",
+     "d": "Two minutes at Monday's team briefing on one safety change. Notes allowed."
+    },
+    {
+     "t": "The evidence",
+     "d": "Voice shook for twenty seconds, then settled. Two people asked questions."
+    }
+   ],
+   "cap": "A second case",
+   "say": [
+    "Here is a second case. Lewis supervises a warehouse team. Nine years ago he froze during a best man's speech, and he has avoided every microphone since.",
+    "His experiment is two minutes at Monday's briefing, explaining one safety change. Notes allowed.",
+    "His voice shakes for about twenty seconds, then settles. Two people ask questions. That is not proof he is a great speaker. It is proof the rule was wrong."
+   ]
+  },
+  {
+   "kind": "stats",
+   "kicker": "The experiment",
+   "headline": "Small enough to do. *Real enough to count.*",
+   "items": [
+    {
+     "n": "1",
+     "label": "Conversation",
+     "text": "With a real person who has the problem you could solve."
+    },
+    {
+     "n": "20",
+     "label": "Minutes",
+     "text": "Enough for five good questions and honest listening."
+    },
+    {
+     "n": "0",
+     "label": "Pitches",
+     "text": "You are here to learn. Selling can wait for week five."
+    }
+   ],
+   "hot": 0,
+   "cap": "The size of the test",
+   "say": [
+    "Keep the experiment small. One conversation. Twenty minutes. No pitch.",
+    "Small enough that you will actually do it this week. Real enough that the answer counts."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Where people go wrong",
+   "headline": "EXPERIMENTS THAT PROVE NOTHING.",
+   "size": 110,
+   "items": [
+    {
+     "t": "TOO BIG",
+     "d": "Launching a business to test a label. If it fails, the label wins."
+    },
+    {
+     "t": "NO RESULT",
+     "d": "Doing the action but not writing down what happened."
+    },
+    {
+     "t": "MOVING GOALS",
+     "d": "Deciding what counts as success after you see the result."
+    }
+   ],
+   "cap": "Common mistakes",
+   "say": [
+    "Three ways an experiment proves nothing.",
+    "Too big. You try to launch a business to test a label. If it wobbles, the label claims victory.",
+    "No result. You do the action but never write down what happened, so memory rewrites it.",
+    "Moving goals. You decide what counts as success after you see the result. Decide first."
+   ]
+  },
+  {
+   "kind": "card",
+   "words": [
+    "Test.",
+    "The.",
+    "Story."
+   ]
+  },
+  {
+   "kind": "recap",
+   "items": [
+    "A label is a *summary*, not a law.",
+    "Test it with *one small action.*",
+    "Write down *what actually happened.*"
+   ],
+   "cap": "Recap",
+   "say": [
+    "Three things to keep. A label is a summary, not a law. Test it with one small action. And write down what actually happened."
+   ]
+  },
+  {
+   "kind": "steps",
+   "kicker": "Pause the video / five minutes",
+   "headline": "PUT ONE LABEL ON TRIAL.",
+   "items": [
+    "Write the label exactly as you say it to yourself.",
+    "Name one small action it says you cannot do.",
+    "Shrink that action until it fits this week.",
+    "Decide what result would count as evidence."
+   ],
+   "cap": "The trial",
+   "say": [
+    "Pause the video when I tell you to.",
+    "One. Write the label exactly as you say it to yourself. Use your own words.",
+    "Two. Name one small action that the label says you cannot do.",
+    "Three. Shrink that action until it fits into this week. If it needs a website, it is too big. If it needs one message, it is about right.",
+    "Four. Decide in advance what result would count as evidence. Then pause and write it down."
+   ]
+  },
+  {
+   "kind": "mission",
+   "rows": [
+    [
+     "NAME",
+     "One limiting label, in your own words."
+    ],
+    [
+     "TEST",
+     "One small action that challenges it, taken today."
+    ],
+    [
+     "EVIDENCE",
+     "Old label, test action, observed result."
+    ]
+   ],
+   "cap": "The mission",
+   "say": [
+    "Your mission is workbook page W01-D04, release the label.",
+    "Name one label. Take one small action that tests it. Record what actually happened.",
+    "You are not required to feel confident. You are required to collect evidence."
+   ]
+  },
+  {
+   "kind": "close",
+   "img": "close",
+   "lines": [
+    "YOU ARE NOT",
+    "A VERDICT.",
+    "YOU ARE A",
+    "WORK IN PROGRESS."
+   ],
+   "size": 112,
+   "give": "Choose something. Then test it.",
+   "next": "Next / Day 5 / Choose the Doom Project",
+   "cap": "Close",
+   "say": [
+    "Tomorrow you will choose the project that carries you to Doomsday. The label you test today is often the one that would have stopped you choosing it.",
+    "You are not a verdict. You are a work in progress. Choose something, then test it."
+   ]
+  }
+ ],
+ "notes": [
+  "Delivery: warm and steady. The hype option should be played straight, never mocked.",
+  "The stats slide uses numbers from the exercise itself. Make no claims about outcomes.",
+  "Ethics: the interview is a conversation, not a sales call. Participants must not misrepresent why they are asking."
+ ]
+}

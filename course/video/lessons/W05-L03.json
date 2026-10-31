@@ -1,0 +1,337 @@
+{
+ "id": "W05-L03",
+ "number": 15,
+ "title": "Make the offer",
+ "day": 31,
+ "workbook": "W05-D03",
+ "principles": "P05 Build your empire; P03 Develop your killer instinct (revisited)",
+ "model": "M06 Second-order consequences and M08 Feedback loops, applied",
+ "evidence": "An offer sheet with scope, costs and an explicit ask",
+ "cast": "Black man, late 30s, shaved head",
+ "scenes": [
+  {
+   "kind": "open",
+   "line": "Week 5. Build the Empire."
+  },
+  {
+   "kind": "labels",
+   "words": [
+    "MAKE",
+    "THE",
+    "ASK."
+   ]
+  },
+  {
+   "kind": "title",
+   "img": "hood",
+   "lines": [
+    "MAKE",
+    "THE OFFER."
+   ],
+   "size": 210,
+   "cap": "Construct the offer",
+   "say": [
+    "You know your audience, their problem, your lever and your signal. Now you put something in front of them and ask for a commitment.",
+    "This is the lesson where the empire meets the market."
+   ]
+  },
+  {
+   "kind": "hook",
+   "img": "concept",
+   "lead": "\"Let me know if I can help.\"",
+   "headline": "WHAT ARE YOU *ACTUALLY* OFFERING?",
+   "size": 120,
+   "cap": "The vague offer",
+   "say": [
+    "Let me know if I can help. Happy to chat any time. Reach out if you need anything.",
+    "These sound generous. They ask nothing and offer nothing specific, so they usually produce nothing at all."
+   ]
+  },
+  {
+   "kind": "radial",
+   "core": "The offer",
+   "pills": [
+    "Result",
+    "Scope",
+    "Time",
+    "Cost",
+    "The ask",
+    "Review date",
+    "Limits"
+   ],
+   "lines": [
+    "Clear result.",
+    "Clear limits.",
+    "*Clear ask.*"
+   ],
+   "text": "An offer someone can say yes to has edges. They know what they get, what it costs and what you need from them.",
+   "cap": "Parts of an offer",
+   "say": [
+    "A real offer has edges. The result they will get. The scope: what is included and what is not. The time it takes. The cost, in money or effort. And the specific commitment you are asking for.",
+    "When an offer has edges, people can say yes to it. Or no, which is also useful."
+   ]
+  },
+  {
+   "kind": "red",
+   "kicker": "The rule",
+   "lines": [
+    "A SMALL CLEAR",
+    "OFFER BEATS A",
+    "BIG VAGUE PROMISE."
+   ],
+   "size": 130,
+   "cap": "Small and clear",
+   "say": [
+    "Here is the rule for this week. A small, clear offer beats a big, vague promise.",
+    "You can always expand a pilot that works. You cannot easily shrink a promise you made to everyone."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Anatomy of an offer",
+   "headline": "FIVE PARTS, ONE PAGE.",
+   "size": 110,
+   "items": [
+    {
+     "t": "RESULT",
+     "d": "What they get, in their words."
+    },
+    {
+     "t": "SCOPE",
+     "d": "What is in and what is out."
+    },
+    {
+     "t": "TIME",
+     "d": "How long, with a start and an end."
+    },
+    {
+     "t": "COST",
+     "d": "The price, stated plainly, even if it's free."
+    },
+    {
+     "t": "ASK",
+     "d": "The exact thing you want them to do next."
+    }
+   ],
+   "cap": "Five parts",
+   "say": [
+    "A complete offer has five parts and fits on one page.",
+    "The result, in their words. The scope, what is in and what is out. The time, with a start and an end.",
+    "The cost, stated plainly, even if it is free. Free still costs their time.",
+    "And the ask. The exact thing you want them to do next. Book a call. Reply yes. Pay the deposit."
+   ]
+  },
+  {
+   "kind": "scene",
+   "img": "scene",
+   "kicker": "Kofi / joiner / wants workshop clients",
+   "a": [
+    "I CAN HELP",
+    "ANY BUSINESS."
+   ],
+   "b": [
+    "FOUR-WEEK PILOT.",
+    "*ONE WORKSHOP.*"
+   ],
+   "cap": "The worked example",
+   "say": [
+    "Kofi is a skilled joiner who has built a simple system for organising small workshops. His first instinct is to tell local businesses he can help any of them get organised.",
+    "Instead he builds an offer with edges."
+   ]
+  },
+  {
+   "kind": "compare",
+   "kicker": "Three ways to put it into the world",
+   "cols": [
+    {
+     "big": "ANYONE?",
+     "title": "The open promise",
+     "text": "Help everyone with everything. Nobody replies."
+    },
+    {
+     "big": "FREE.",
+     "title": "Give it all away",
+     "text": "Unlimited help, no review. Resentment by week three."
+    },
+    {
+     "big": "PILOT.",
+     "title": "The bounded offer",
+     "text": "Four weeks, one workshop, fixed fee, review on day 28."
+    }
+   ],
+   "quote": "Four weeks, one workshop, a fixed fee. We review on day twenty-eight and decide together whether to continue.",
+   "cap": "Three offers",
+   "say": [
+    "Three ways to make the offer.",
+    "The open promise. I can help any business with anything. It sounds big and nobody replies, because nobody knows what they would be agreeing to.",
+    "Give it all away. Unlimited help, no fee, no end date. By week three he resents the client and the client has no reason to value the work.",
+    "The bounded pilot. Four weeks, one workshop, a fixed fee and a review on day twenty-eight where they decide together whether to continue.",
+    "This uses everything from week four. The pilot holds the line on price, and the review date is a planned decision point, so either side can continue or withdraw cleanly."
+   ]
+  },
+  {
+   "kind": "story",
+   "kicker": "A second case / Leah / illustrator",
+   "headline": "COMMISSIONS OPEN, DM ME.",
+   "size": 110,
+   "beats": [
+    {
+     "t": "The vague post",
+     "d": "Six likes, no orders. Nobody knew what to ask for or what it cost."
+    },
+    {
+     "t": "The clear offer",
+     "d": "Pet portraits, A4, two-week turnaround, £80, five slots this month."
+    },
+    {
+     "t": "The response",
+     "d": "Four slots booked in two days. One person asks for A3, a new offer to test."
+    }
+   ],
+   "cap": "A second case",
+   "say": [
+    "A second case. Leah is an illustrator. Her post said commissions open, message me. Six likes and no orders, because nobody knew what to ask for or what it cost.",
+    "Her new offer: pet portraits, A4, two-week turnaround, eighty pounds, five slots this month.",
+    "Four slots are booked in two days, and one person asks for A3, which gives her the next offer to test."
+   ]
+  },
+  {
+   "kind": "stats",
+   "kicker": "What counts as evidence",
+   "headline": "Every response *teaches you something.*",
+   "items": [
+    {
+     "n": "YES",
+     "label": "Commitment",
+     "text": "They agreed to the ask. Deliver and review."
+    },
+    {
+     "n": "NO",
+     "label": "Information",
+     "text": "Ask why, if appropriate. Adjust the offer."
+    },
+    {
+     "n": "...",
+     "label": "Silence",
+     "text": "One proportionate follow-up. Then record it as data."
+    }
+   ],
+   "hot": 0,
+   "cap": "Responses",
+   "say": [
+    "Every response counts as evidence. A yes is a commitment to deliver. A no is information about fit, price or timing. Silence gets one polite follow-up, and then it is recorded as data too.",
+    "Your pass in this course never depends on someone saying yes. It depends on making a clear offer and learning honestly from what happens."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Where people go wrong",
+   "headline": "OFFERS NOBODY CAN ACCEPT.",
+   "size": 110,
+   "items": [
+    {
+     "t": "NO PRICE",
+     "d": "Making people ask how much. Most won't."
+    },
+    {
+     "t": "NO EDGES",
+     "d": "Unlimited scope that turns into resentment."
+    },
+    {
+     "t": "NO ASK",
+     "d": "A lovely description that ends without a next step."
+    }
+   ],
+   "cap": "Common mistakes",
+   "say": [
+    "Three offers nobody can accept.",
+    "No price. Making people ask how much. Most will not.",
+    "No edges. Unlimited scope that turns into resentment by week three.",
+    "No ask. A lovely description that ends without telling anyone what to do next."
+   ]
+  },
+  {
+   "kind": "card",
+   "words": [
+    "Make.",
+    "The.",
+    "Ask."
+   ]
+  },
+  {
+   "kind": "recap",
+   "items": [
+    "Small and *clear* wins.",
+    "Give it *edges.*",
+    "Always end with *the ask.*"
+   ],
+   "cap": "Recap",
+   "say": [
+    "Three things to keep. Small and clear beats big and vague. Give the offer edges. And always end with the ask."
+   ]
+  },
+  {
+   "kind": "steps",
+   "kicker": "Pause the video / five minutes",
+   "headline": "BUILD YOUR OFFER SHEET.",
+   "items": [
+    "The result, in one sentence they would use.",
+    "Scope: what is in and what is out.",
+    "Time and cost, stated plainly.",
+    "The exact commitment you will ask for."
+   ],
+   "cap": "The offer sheet",
+   "say": [
+    "Pause the video when I tell you to.",
+    "One. The result, in one sentence your audience would use.",
+    "Two. The scope: what is included and what is not.",
+    "Three. The time and cost, stated plainly.",
+    "Four. The exact commitment you will ask for. Pause now and give it five minutes."
+   ]
+  },
+  {
+   "kind": "mission",
+   "rows": [
+    [
+     "PREPARE",
+     "A release, pilot or invitation."
+    ],
+    [
+     "DEFINE",
+     "Result, scope, time, cost and ask."
+    ],
+    [
+     "EVIDENCE",
+     "Offer sheet with an explicit ask."
+    ]
+   ],
+   "cap": "The mission",
+   "say": [
+    "Your mission is workbook page W05-D03, construct the offer.",
+    "Prepare your offer sheet. Tomorrow you put it in front of the people it is for."
+   ]
+  },
+  {
+   "kind": "close",
+   "img": "close",
+   "lines": [
+    "NOBODY CAN",
+    "ACCEPT AN OFFER",
+    "YOU NEVER MADE."
+   ],
+   "size": 125,
+   "give": "Make it clear. Make it today.",
+   "next": "Next / Week 6 / Become Dangerous",
+   "cap": "Close",
+   "say": [
+    "That completes week five. On Saturday the Council asks you to defend the value of what you built.",
+    "Then the final week: become dangerous.",
+    "Nobody can accept an offer you never made. Make it clear, and make it today."
+   ]
+  }
+ ],
+ "notes": [
+  "No income claims. The pilot fee is illustrative and participants set their own terms.",
+  "Revenue is optional in this course; a participation invitation or free release with an explicit ask is equally valid."
+ ]
+}
