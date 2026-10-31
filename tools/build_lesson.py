@@ -131,7 +131,7 @@ def scene_html(sc, n, img, meta):
                          f'<div class="mb"><i class="a{" hot" if i == sc.get("hot") else ""}" data-in="{2.0 + i * 0.6:.1f}" data-anim="beam" style="width:{m["v"]}%"></i></div>'
                          f'<div class="md">{esc(m["d"])}</div>') for i, m in enumerate(sc["meters"]))
         fields = "".join(f'<div class="fd"><span>{esc(k2)}</span><div>{mark(v)}</div></div>' for k2, v in sc["fields"])
-        return ('<div class="kb" data-kb="in" style="right:960px"><div class="bg" style="background-image:url(' + img(sc["img"]) + ');background-size:cover;background-position:30% center"></div></div>'
+        return ('<div class="kb" data-kb="in" style="right:960px"><div class="bg" style="background-image:url(' + img(sc["img"]) + ');background-size:cover;background-position:center 30%"></div></div>'
                 + '<div class="abs dossier-edge"></div>' + hud(sc.get("hud", "SUBJECT FILE / 001"))
                 + '<div class="abs" style="left:1060px;top:200px;width:710px">'
                 + a("kick", 0.3, "fade", esc(sc["kicker"]), "letter-spacing:.42em")

@@ -39,7 +39,7 @@
   },
   {
    "kind": "scene",
-   "img": "g-kitchen",
+   "img": "g-life",
    "kicker": "Late, again / someone else's work",
    "a": [
     "THE PLAN.",
@@ -432,7 +432,7 @@
   },
   {
    "kind": "poster",
-   "img": "g-life",
+   "img": "g-notebook",
    "align": "left",
    "kicker": "Read it back",
    "lines": [
