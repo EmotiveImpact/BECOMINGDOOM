@@ -63,6 +63,33 @@
    ]
   },
   {
+   "kind": "list",
+   "kicker": "Thinking in odds",
+   "headline": "THREE HABITS OF CALIBRATION.",
+   "size": 110,
+   "items": [
+    {
+     "t": "RANGES",
+     "d": "Say likely, unlikely or uncertain, never just yes or no."
+    },
+    {
+     "t": "BASE RATES",
+     "d": "Ask how often this usually works for people like you."
+    },
+    {
+     "t": "UPDATES",
+     "d": "Decide in advance what would change your mind."
+    }
+   ],
+   "cap": "Calibration",
+   "say": [
+    "Three habits make you better calibrated.",
+    "Ranges. Say likely, unlikely or uncertain, rather than a flat yes or no.",
+    "Base rates. Ask how often this kind of thing usually works for people in your position, before you consider your special case.",
+    "Updates. Decide in advance what evidence would change your mind, so you notice it when it arrives."
+   ]
+  },
+  {
    "kind": "stats",
    "kicker": "A confidence statement",
    "headline": "Say it in *ranges, not certainties.*",
@@ -140,6 +167,32 @@
    ]
   },
   {
+   "kind": "story",
+   "kicker": "A second case / Ngozi / opening a stall",
+   "headline": "TWO GREAT SATURDAYS.",
+   "size": 110,
+   "beats": [
+    {
+     "t": "The signal",
+     "d": "Sold out at two summer markets. She wants to sign a year's lease on a shop."
+    },
+    {
+     "t": "The base rate",
+     "d": "Summer markets are busy for everyone. Winter is the real test."
+    },
+    {
+     "t": "The update rule",
+     "d": "Run the stall through January. If takings hold above half, sign the lease."
+    }
+   ],
+   "cap": "A second case",
+   "say": [
+    "A second case. Ngozi sells sauces at a market stall. She sold out two summer Saturdays in a row and now wants to sign a year's lease on a shop.",
+    "The base rate: summer markets are busy for everyone. Winter is the real test.",
+    "Her update rule: keep the stall going through January. If takings stay above half of summer, she signs. She keeps the ambition and drops the gamble."
+   ]
+  },
+  {
    "kind": "question",
    "lead": "So ask yourself...",
    "question": "What _evidence_ would _change_ *your mind?*",
@@ -151,11 +204,50 @@
    ]
   },
   {
+   "kind": "list",
+   "kicker": "Where people go wrong",
+   "headline": "FALSE CONFIDENCE.",
+   "size": 110,
+   "items": [
+    {
+     "t": "FAKE PRECISION",
+     "d": "73% sounds rigorous. Where did it come from?"
+    },
+    {
+     "t": "STORY OVER DATA",
+     "d": "One vivid case outweighing many quiet ones."
+    },
+    {
+     "t": "NEVER UPDATING",
+     "d": "Treating your first estimate as a promise."
+    }
+   ],
+   "cap": "Common mistakes",
+   "say": [
+    "Three kinds of false confidence.",
+    "Fake precision. Seventy-three percent sounds rigorous. Ask where it came from.",
+    "Story over data. One vivid success outweighs many quiet failures in your head.",
+    "Never updating. Treating your first estimate as a promise you have to defend."
+   ]
+  },
+  {
    "kind": "card",
    "words": [
     "Hold.",
     "It.",
     "Loosely."
+   ]
+  },
+  {
+   "kind": "recap",
+   "items": [
+    "Speak in *ranges.*",
+    "Check the *base rate.*",
+    "Know what would *change your mind.*"
+   ],
+   "cap": "Recap",
+   "say": [
+    "Three things to keep. Speak in ranges. Check the base rate. And know in advance what would change your mind."
    ]
   },
   {

@@ -15,7 +15,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DUR = dict(open=5, labels=4, title=9, hook=9, image=8, red=8, list=10, scene=8, compare=10,
+OUT_ASSETS = ROOT / "course" / "video" / "assets"
+DUR = dict(open=5, labels=4, title=9, hook=9, image=8, red=8, list=10, scene=8, compare=10, story=11, recap=9,
            grunge=7, card=5, steps=10, mission=8, close=11, question=8, stats=10, radial=10)
 
 WEEKS = {1: "Claim the Throne", 2: "Build the Fortress", 3: "Enter the Laboratory",
@@ -59,30 +60,50 @@ def rise_lines(lines, t0=1.0, step=0.3, last_style=""):
 
 def bg(img, shift=0):
     style = f' style="left:{shift}px;right:{-shift}px"' if shift else ""
-    offs = [-42, 35, 21, 7, -7, -21, -35, 42, 28, 14, 0, -14]
-    x0 = 1240 - shift
-    sl = "".join(
-        f'<i style="left:{x0 + i * 44}px;width:44px;background-image:url({img});background-position:{-(x0 + i * 44)}px 0" data-off="{o}"></i>'
-        for i, o in enumerate(offs))
     return (f'<div class="kb"{style} data-kb="in"><div class="bg" style="background-image:url({img})"></div>'
-            f'<div class="slices">{sl}</div><div class="shade left"></div></div>')
+            '<div class="shade left"></div></div>')
 
 
 def cap(n, title):
     return f'<div class="cap a" data-in="0.6" data-anim="fade"><span class="cn">{n:02d}</span>{esc(title)}</div>'
 
 
+OPEN_ABS = re.compile(r'<div class="abs" style="([^"]*)">')
+OUTER_PROPS = ("left", "right", "width")
+
+
+def centre_blocks(html):
+    """Centre each main text block vertically, so the space above it equals the space below."""
+    for m in reversed(list(OPEN_ABS.finditer(html))):
+        depth = 0
+        for t in re.finditer(r"<div\b|</div>", html[m.start():]):
+            depth += -1 if t.group(0) == "</div>" else 1
+            if depth == 0:
+                close = m.start() + t.start()
+                break
+        props = [x.strip() for x in m.group(1).split(";") if x.strip()]
+        outer = ";".join(x for x in props if x.split(":")[0] in OUTER_PROPS)
+        inner = ";".join(x for x in props if x.split(":")[0] not in OUTER_PROPS + ("top",))
+        html = (html[:m.start()] + f'<div class="abs vc" style="{outer}"><div style="{inner}">'
+                + html[m.end():close] + "</div>" + html[close:])
+    return html
+
+
 def scene_html(sc, n, img, meta):
     k = sc["kind"]
     if k == "open":
-        return ('<div class="beam a" data-in="0.3" data-anim="beam" style="left:150px;top:600px;width:1620px"></div>'
-                '<div class="abs" style="left:150px;top:400px">'
-                + a("anton", 1.2, "punch", 'BECOMING DOOM<span class="dot">.</span>', "font-size:190px")
-                + a("kick", 2.2, "fade", esc(sc.get("line", "Six weeks. One mission. Become dangerous.")), "margin-top:70px")
+        # Logo option A: spaced BECOMING over a large DOOM, red full stop, red rule
+        return ('<div class="abs" style="left:150px;top:300px">'
+                + a("logo-top", 0.6, "fade", "BECOMING")
+                + a("anton", 1.0, "punch", 'DOOM<span class="dot">.</span>', "font-size:300px;line-height:.86;margin-top:8px")
+                + '<div class="beam a" data-in="1.6" data-anim="beam" style="position:relative;left:0;top:0;width:100%;height:14px;border-radius:0;background:var(--red);box-shadow:none;margin-top:26px"></div>'
+                + a("kick", 2.2, "fade", esc(sc.get("line", "Six weeks. One mission. Become dangerous.")), "margin-top:40px")
                 + "</div>")
     if k == "labels":
         cls = ["grey", "red", "ink"]
-        return ('<div class="abs" style="left:150px;top:330px">'
+        life = img("life")
+        back = bg(life, sc.get("shift", 200)) if (OUT_ASSETS / meta["id"] / "life.png").exists() else ""
+        return (back + '<div class="abs" style="left:150px;top:330px">'
                 + "<br>".join(a(f"lbl {cls[i % 3]}", 0.2 + i * 0.5, "slam", esc(w)) for i, w in enumerate(sc["words"]))
                 + "</div>")
     if k == "title":
@@ -187,10 +208,28 @@ def scene_html(sc, n, img, meta):
                 + '<div class="abs" style="left:150px;top:380px;width:760px">'
                 + a("light", 0.5, "fadeup", "<br>".join(mark(x) for x in sc["lines"]))
                 + a("small", 2.4, "fade", esc(sc["text"]), "margin-top:36px;max-width:620px") + "</div>" + cap(n, sc["cap"]))
+    if k == "story":
+        beats = "".join(a("beat", 1.4 + i * 1.2, "fadeup", f'<div class="kick" style="color:var(--red)">{esc(b["t"])}</div><div class="bt">{esc(b["d"])}</div>')
+                        for i, b in enumerate(sc["beats"]))
+        return ('<div class="abs" style="left:150px;top:200px;width:1620px">' + a("kick", 0.3, "fade", esc(sc["kicker"]))
+                + a("anton", 0.7, "fadeup", dot(sc["headline"]), f'font-size:{sc.get("size", 120)}px;margin-top:26px')
+                + f'<div style="display:grid;grid-template-columns:repeat({len(sc["beats"])},1fr);gap:64px;margin-top:64px">{beats}</div></div>'
+                + cap(n, sc["cap"]))
+    if k == "recap":
+        rows = "".join(a("row", 1.2 + i * 0.8, "fadeup", f'<div class="n">{i + 1:02d}</div><div class="rc">{mark(x)}</div>') for i, x in enumerate(sc["items"]))
+        return ('<div class="abs" style="left:150px;top:300px;width:560px">' + a("kick", 0.3, "fade", esc(sc.get("kicker", "Before you start")))
+                + a("anton", 0.6, "fadeup", dot(sc.get("headline", "KEEP THESE.")), "font-size:150px;margin-top:26px") + "</div>"
+                + f'<div class="abs" style="left:820px;top:300px;width:950px">{rows}</div>' + cap(n, sc["cap"]))
     raise ValueError(f"unknown kind {k}")
 
 
 EXTRA_CSS = """
+.lbl { font-family:Anton; font-size:140px; letter-spacing:.01em; padding:6px 26px 10px; }
+.bold { font-weight:500; }
+.logo-top { font-weight:600; font-size:44px; letter-spacing:.62em; margin-left:8px; }
+.bt { font-size:34px; font-weight:400; line-height:1.3; margin-top:18px; color:#e2ddd6; }
+.rc { font-size:46px; font-weight:400; line-height:1.15; letter-spacing:-.01em; }
+.vc { top:0; bottom:0; display:flex; flex-direction:column; justify-content:center; }
 .grey { color:#6d6863; }
 .onred .dot { color:#fff; }
 .qlead { font-size:34px; font-weight:400; color:#cfcac3; }
@@ -212,7 +251,7 @@ EXTRA_CSS = """
 def build(spec_path):
     spec = json.loads(Path(spec_path).read_text())
     lid = spec["id"]
-    meta = dict(week=int(lid[1:3]), lesson=int(lid[-2:]), day=spec["day"], workbook=spec["workbook"])
+    meta = dict(id=lid, week=int(lid[1:3]), lesson=int(lid[-2:]), day=spec["day"], workbook=spec["workbook"])
     img = lambda name: f"../assets/{lid}/{name}.png"
     tpl = (ROOT / "tools/film_template.html").read_text()
     head = tpl.split("<div id=\"stage\">")[0]
@@ -225,7 +264,7 @@ def build(spec_path):
             n += 1
         d = sc.get("dur", DUR[sc["kind"]])
         cls = "onred" if sc["kind"] == "red" else ""
-        secs.append(f'<section class="scene {cls}" data-start="{t:g}" data-dur="{d:g}" data-kind="{sc["kind"]}">' + scene_html(sc, n, img, meta) + "</section>")
+        secs.append(f'<section class="scene {cls}" data-start="{t:g}" data-dur="{d:g}" data-kind="{sc["kind"]}">' + centre_blocks(scene_html(sc, n, img, meta)) + "</section>")
         t += d
     tail = re.sub(r"TOTAL=\d+(\.\d+)?", f"TOTAL={t:g}", tail)
     out = head + '<div id="stage">\n' + "\n".join(secs) + "\n\n" + tail

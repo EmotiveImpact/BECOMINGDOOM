@@ -1,85 +1,321 @@
 {
-  "id": "W06-L02",
-  "number": 17,
-  "title": "Preserve room to recover",
-  "day": 37,
-  "workbook": "W06-D02",
-  "principles": "P11 Master the art of the tactical withdrawal (revisited); P14 Embrace your finite nature",
-  "model": "M10 Margin of safety",
-  "evidence": "A contingency sheet with explicit limits and trade-offs",
-  "cast": "Southeast Asian man, early 30s",
-  "scenes": [
-    {"kind": "open", "line": "Week 6. Become Dangerous."},
-    {"kind": "labels", "words": ["ALWAYS", "HAVE", "A SPARE."]},
-    {"kind": "title", "img": "hood", "lines": ["PRESERVE", "ROOM TO", "RECOVER."], "size": 170, "cap": "Build the margin",
-     "say": [
-      "Doomsday is close. You will stand up and demonstrate your project, and on the day something will probably not go to plan.",
-      "This lesson is about making sure that when it goes wrong, you can recover."
-     ]},
-    {"kind": "hook", "img": "concept", "lead": "The Wi-Fi drops. The link breaks.", "headline": "WHAT'S YOUR *PLAN B?*", "size": 170, "cap": "The bad day",
-     "say": [
-      "The Wi-Fi drops. The tool you rely on is down. The file will not open on the projector. Your best participant cannot make it.",
-      "None of this is unusual. What matters is whether you planned for it."
-     ]},
-    {"kind": "red", "kicker": "Tool 10 / Margin of safety", "lines": ["WHAT BUFFER KEEPS", "A SETBACK", "MANAGEABLE?"], "size": 130, "cap": "The tenth tool",
-     "say": [
-      "The tenth and final thinking tool is margin of safety. The question: what buffer or fallback keeps a plausible setback manageable?",
-      "Engineers build bridges to carry more than the expected load. You build plans the same way."
-     ]},
-    {"kind": "stats", "kicker": "Three kinds of margin", "headline": "Time. Resource. *Fallback.*", "items": [
-      {"n": "+20%", "label": "Time buffer", "text": "Finish early enough to absorb one bad day."},
-      {"n": "2", "label": "Copies", "text": "A local copy of anything that lives online."},
-      {"n": "1", "label": "Smaller demo", "text": "A five-minute version if the full one fails."}
-     ], "hot": 2, "cap": "The margins",
-     "say": [
-      "There are three kinds of margin.",
-      "Time. Plan to finish early enough to absorb one bad day.",
-      "Resources. Keep a local copy of anything that lives online.",
-      "Fallback. Prepare a smaller version of your demonstration that still shows what matters.",
-      "These numbers are a starting point. Set your own based on how much could go wrong and what it would cost."
-     ]},
-    {"kind": "scene", "img": "scene", "kicker": "Arif / Doomsday demo / web tool", "a": ["THE TOOL", "IS DOWN."], "b": ["THE LOCAL COPY", "*IS READY.*"], "cap": "The worked example",
-     "say": [
-      "Arif's project is a web tool. The night before Doomsday he runs his margin check. Is there a local copy that runs without the internet? Is there a smaller demo if the full one fails?",
-      "The next day the service his tool depends on goes down ten minutes before he presents."
-     ]},
-    {"kind": "compare", "kicker": "Three ways the morning goes", "cols": [
-      {"big": "PANIC.", "title": "No margin", "text": "Twenty minutes of apologies. No demonstration."},
-      {"big": "HOARD.", "title": "Margin for everything", "text": "Five backup plans. No time left to finish the work."},
-      {"big": "SWITCH.", "title": "Proportionate margin", "text": "Opens the local copy. Shows the core in five minutes."}
-     ], "quote": "The live service is down, so I'll show you the local version. Same core, five minutes.", "cap": "Three mornings",
-     "say": [
-      "Three ways the morning could go.",
-      "No margin. He spends his slot apologising and shows nothing.",
-      "Margin for everything. He spent the final week building five backup plans and never finished the main work. The limit on this tool: buffers have costs and cannot remove every risk.",
-      "Proportionate margin. He opens the local copy and shows the core of the tool in five minutes. Calm, prepared, and demonstrating judgement under changed conditions, which is exactly what Doomsday assesses."
-     ]},
-    {"kind": "grunge", "lines": ["HOPE", "IS NOT", "A PLAN"], "size": 290, "side": "MARGIN", "note": "Prepare for the likely failure. Accept the rest.", "cap": "The rule",
-     "say": [
-      "Hope is not a plan. Prepare for the failures that are likely, accept the ones that are not, and decide in advance which is which."
-     ]},
-    {"kind": "card", "words": ["Build.", "The.", "Margin."]},
-    {"kind": "steps", "kicker": "Pause the video / five minutes", "headline": "WRITE YOUR CONTINGENCY.",
-     "items": ["List the three likeliest Doomsday setbacks.", "Give each one a buffer or a fallback.", "Write what each buffer costs you.", "Cut any buffer that costs more than the risk."], "cap": "The contingency",
-     "say": [
-      "Pause the video when I tell you to.",
-      "One. List the three most likely setbacks for your Doomsday demonstration.",
-      "Two. Give each one a buffer or a fallback.",
-      "Three. Write what each buffer costs you in time or effort.",
-      "Four. Cut any buffer that costs more than the risk it covers. Pause now and give it five minutes."
-     ]},
-    {"kind": "mission", "rows": [["USE M10", "Prepare a realistic contingency."], ["LIMIT", "State the trade-offs of each buffer."], ["EVIDENCE", "Contingency sheet with explicit limits."]], "cap": "The mission",
-     "say": [
-      "Your mission is workbook page W06-D02, build the margin.",
-      "Complete your contingency sheet with the limits and trade-offs stated plainly."
-     ]},
-    {"kind": "close", "img": "close", "lines": ["THE PREPARED", "ARE HARD", "TO BREAK."], "size": 140, "give": "Leave room to recover. Then go.", "next": "Next / Lesson 18 / A finite life; a chosen next chapter", "cap": "Close",
-     "say": [
-      "Next is the final lesson of the course: what you do with the evidence you have built, and with the time you have left.",
-      "The prepared are hard to break. Leave room to recover, then go."
-     ]}
-  ],
-  "notes": [
-    "The stats are planning suggestions, not research figures. Present them as starting points."
-  ]
+ "id": "W06-L02",
+ "number": 17,
+ "title": "Preserve room to recover",
+ "day": 37,
+ "workbook": "W06-D02",
+ "principles": "P11 Master the art of the tactical withdrawal (revisited); P14 Embrace your finite nature",
+ "model": "M10 Margin of safety",
+ "evidence": "A contingency sheet with explicit limits and trade-offs",
+ "cast": "Southeast Asian man, early 30s",
+ "scenes": [
+  {
+   "kind": "open",
+   "line": "Week 6. Become Dangerous."
+  },
+  {
+   "kind": "labels",
+   "words": [
+    "ALWAYS",
+    "HAVE",
+    "A SPARE."
+   ]
+  },
+  {
+   "kind": "title",
+   "img": "hood",
+   "lines": [
+    "PRESERVE",
+    "ROOM TO",
+    "RECOVER."
+   ],
+   "size": 170,
+   "cap": "Build the margin",
+   "say": [
+    "Doomsday is close. You will stand up and demonstrate your project, and on the day something will probably not go to plan.",
+    "This lesson is about making sure that when it goes wrong, you can recover."
+   ]
+  },
+  {
+   "kind": "hook",
+   "img": "concept",
+   "lead": "The Wi-Fi drops. The link breaks.",
+   "headline": "WHAT'S YOUR *PLAN B?*",
+   "size": 170,
+   "cap": "The bad day",
+   "say": [
+    "The Wi-Fi drops. The tool you rely on is down. The file will not open on the projector. Your best participant cannot make it.",
+    "None of this is unusual. What matters is whether you planned for it."
+   ]
+  },
+  {
+   "kind": "red",
+   "kicker": "Tool 10 / Margin of safety",
+   "lines": [
+    "WHAT BUFFER KEEPS",
+    "A SETBACK",
+    "MANAGEABLE?"
+   ],
+   "size": 130,
+   "cap": "The tenth tool",
+   "say": [
+    "The tenth and final thinking tool is margin of safety. The question: what buffer or fallback keeps a plausible setback manageable?",
+    "Engineers build bridges to carry more than the expected load. You build plans the same way."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Sizing a buffer",
+   "headline": "HOW MUCH MARGIN IS ENOUGH?",
+   "size": 110,
+   "items": [
+    {
+     "t": "LIKELY",
+     "d": "Buffer the setbacks that happen often."
+    },
+    {
+     "t": "COSTLY",
+     "d": "Buffer the ones that would end the project."
+    },
+    {
+     "t": "AFFORDABLE",
+     "d": "Never spend more on the buffer than the risk."
+    }
+   ],
+   "cap": "Sizing margin",
+   "say": [
+    "How much margin is enough? Ask three questions.",
+    "Is the setback likely? Buffer what happens often.",
+    "Is it costly? Buffer what would end the project, even if it is rare.",
+    "Is the buffer affordable? Never spend more protecting against a risk than the risk itself would cost."
+   ]
+  },
+  {
+   "kind": "stats",
+   "kicker": "Three kinds of margin",
+   "headline": "Time. Resource. *Fallback.*",
+   "items": [
+    {
+     "n": "+20%",
+     "label": "Time buffer",
+     "text": "Finish early enough to absorb one bad day."
+    },
+    {
+     "n": "2",
+     "label": "Copies",
+     "text": "A local copy of anything that lives online."
+    },
+    {
+     "n": "1",
+     "label": "Smaller demo",
+     "text": "A five-minute version if the full one fails."
+    }
+   ],
+   "hot": 2,
+   "cap": "The margins",
+   "say": [
+    "There are three kinds of margin.",
+    "Time. Plan to finish early enough to absorb one bad day.",
+    "Resources. Keep a local copy of anything that lives online.",
+    "Fallback. Prepare a smaller version of your demonstration that still shows what matters.",
+    "These numbers are a starting point. Set your own based on how much could go wrong and what it would cost."
+   ]
+  },
+  {
+   "kind": "scene",
+   "img": "scene",
+   "kicker": "Arif / Doomsday demo / web tool",
+   "a": [
+    "THE TOOL",
+    "IS DOWN."
+   ],
+   "b": [
+    "THE LOCAL COPY",
+    "*IS READY.*"
+   ],
+   "cap": "The worked example",
+   "say": [
+    "Arif's project is a web tool. The night before Doomsday he runs his margin check. Is there a local copy that runs without the internet? Is there a smaller demo if the full one fails?",
+    "The next day the service his tool depends on goes down ten minutes before he presents."
+   ]
+  },
+  {
+   "kind": "compare",
+   "kicker": "Three ways the morning goes",
+   "cols": [
+    {
+     "big": "PANIC.",
+     "title": "No margin",
+     "text": "Twenty minutes of apologies. No demonstration."
+    },
+    {
+     "big": "HOARD.",
+     "title": "Margin for everything",
+     "text": "Five backup plans. No time left to finish the work."
+    },
+    {
+     "big": "SWITCH.",
+     "title": "Proportionate margin",
+     "text": "Opens the local copy. Shows the core in five minutes."
+    }
+   ],
+   "quote": "The live service is down, so I'll show you the local version. Same core, five minutes.",
+   "cap": "Three mornings",
+   "say": [
+    "Three ways the morning could go.",
+    "No margin. He spends his slot apologising and shows nothing.",
+    "Margin for everything. He spent the final week building five backup plans and never finished the main work. The limit on this tool: buffers have costs and cannot remove every risk.",
+    "Proportionate margin. He opens the local copy and shows the core of the tool in five minutes. Calm, prepared, and demonstrating judgement under changed conditions, which is exactly what Doomsday assesses."
+   ]
+  },
+  {
+   "kind": "story",
+   "kicker": "A second case / Kieran / self-employed plumber",
+   "headline": "THE VAN BROKE DOWN IN MARCH.",
+   "size": 110,
+   "beats": [
+    {
+     "t": "No margin",
+     "d": "Last year a breakdown cost him a week of jobs and two regular clients."
+    },
+    {
+     "t": "The buffer",
+     "d": "A month's costs in a separate account. A mate with a van on standby."
+    },
+    {
+     "t": "This year",
+     "d": "Same breakdown. He borrows the van, pays the garage, loses one day."
+    }
+   ],
+   "cap": "A second case",
+   "say": [
+    "A second case. Kieran is a self-employed plumber. Last March his van broke down and he lost a week of jobs and two regular clients.",
+    "This year he keeps a month's costs in a separate account and has a friend with a van on standby.",
+    "Same breakdown. He borrows the van, pays the garage from the buffer and loses one day. The setback was identical. The damage was not."
+   ]
+  },
+  {
+   "kind": "grunge",
+   "lines": [
+    "HOPE",
+    "IS NOT",
+    "A PLAN"
+   ],
+   "size": 290,
+   "side": "MARGIN",
+   "note": "Prepare for the likely failure. Accept the rest.",
+   "cap": "The rule",
+   "say": [
+    "Hope is not a plan. Prepare for the failures that are likely, accept the ones that are not, and decide in advance which is which."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Where people go wrong",
+   "headline": "MARGIN MISTAKES.",
+   "size": 110,
+   "items": [
+    {
+     "t": "ZERO SLACK",
+     "d": "A plan that only works if nothing goes wrong."
+    },
+    {
+     "t": "ENDLESS PREP",
+     "d": "So many backups the work never gets done."
+    },
+    {
+     "t": "SPENT BUFFER",
+     "d": "Using the margin for normal days, not bad ones."
+    }
+   ],
+   "cap": "Common mistakes",
+   "say": [
+    "Three margin mistakes.",
+    "Zero slack. A plan that only works if nothing goes wrong.",
+    "Endless preparation. So many backups that the actual work never gets done.",
+    "Spent buffer. Using the margin on ordinary days, so it is gone when the bad day comes."
+   ]
+  },
+  {
+   "kind": "card",
+   "words": [
+    "Build.",
+    "The.",
+    "Margin."
+   ]
+  },
+  {
+   "kind": "recap",
+   "items": [
+    "Expect *the bad day.*",
+    "Buffer what is likely *or fatal.*",
+    "Keep the buffer *for emergencies.*"
+   ],
+   "cap": "Recap",
+   "say": [
+    "Three things to keep. Expect the bad day. Buffer what is likely or fatal. And keep the buffer for emergencies, not ordinary Tuesdays."
+   ]
+  },
+  {
+   "kind": "steps",
+   "kicker": "Pause the video / five minutes",
+   "headline": "WRITE YOUR CONTINGENCY.",
+   "items": [
+    "List the three likeliest Doomsday setbacks.",
+    "Give each one a buffer or a fallback.",
+    "Write what each buffer costs you.",
+    "Cut any buffer that costs more than the risk."
+   ],
+   "cap": "The contingency",
+   "say": [
+    "Pause the video when I tell you to.",
+    "One. List the three most likely setbacks for your Doomsday demonstration.",
+    "Two. Give each one a buffer or a fallback.",
+    "Three. Write what each buffer costs you in time or effort.",
+    "Four. Cut any buffer that costs more than the risk it covers. Pause now and give it five minutes."
+   ]
+  },
+  {
+   "kind": "mission",
+   "rows": [
+    [
+     "USE M10",
+     "Prepare a realistic contingency."
+    ],
+    [
+     "LIMIT",
+     "State the trade-offs of each buffer."
+    ],
+    [
+     "EVIDENCE",
+     "Contingency sheet with explicit limits."
+    ]
+   ],
+   "cap": "The mission",
+   "say": [
+    "Your mission is workbook page W06-D02, build the margin.",
+    "Complete your contingency sheet with the limits and trade-offs stated plainly."
+   ]
+  },
+  {
+   "kind": "close",
+   "img": "close",
+   "lines": [
+    "THE PREPARED",
+    "ARE HARD",
+    "TO BREAK."
+   ],
+   "size": 140,
+   "give": "Leave room to recover. Then go.",
+   "next": "Next / Lesson 18 / A finite life; a chosen next chapter",
+   "cap": "Close",
+   "say": [
+    "Next is the final lesson of the course: what you do with the evidence you have built, and with the time you have left.",
+    "The prepared are hard to break. Leave room to recover, then go."
+   ]
+  }
+ ],
+ "notes": [
+  "The stats are planning suggestions, not research figures. Present them as starting points."
+ ]
 }

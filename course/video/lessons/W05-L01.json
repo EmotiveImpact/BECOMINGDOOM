@@ -1,81 +1,316 @@
 {
-  "id": "W05-L01",
-  "number": 13,
-  "title": "Find useful leverage",
-  "day": 29,
-  "workbook": "W05-D01",
-  "principles": "P05 Build your empire; P10 Manipulate chaos into currency",
-  "model": "M07 Leverage",
-  "evidence": "An audience and problem statement with one leverage hypothesis",
-  "cast": "South Asian woman, early 30s",
-  "scenes": [
-    {"kind": "open", "line": "Week 5. Build the Empire."},
-    {"kind": "labels", "words": ["MORE", "FROM", "LESS."]},
-    {"kind": "title", "img": "hood", "lines": ["FIND USEFUL", "LEVERAGE."], "size": 190, "cap": "Locate the value",
-     "say": [
-      "Welcome to week five: build the empire. You have a project, a system, a capability and the ability to hold your ground with people. Now we ask whether your work produces real value for someone else.",
-      "We start with leverage."
-     ]},
-    {"kind": "hook", "img": "concept", "lead": "Your hours are limited.", "headline": "WHERE DO THEY *MULTIPLY?*", "size": 160, "cap": "The constraint",
-     "say": [
-      "You only have so many hours, so much money and so much attention. That will not change much in the next two weeks.",
-      "So the question is where one of those scarce resources can produce far more useful output than it does now."
-     ]},
-    {"kind": "red", "kicker": "Tool 07 / Leverage", "lines": ["WHERE CAN A SCARCE", "RESOURCE PRODUCE", "MORE USEFUL OUTPUT?"], "size": 120, "cap": "The seventh tool",
-     "say": [
-      "The seventh thinking tool is leverage. The question: where can a scarce resource produce more useful output?",
-      "Note the word useful. Leverage is measured by the result your audience gets, not by how busy you look."
-     ]},
-    {"kind": "question", "lead": "Before you scale anything...", "question": "What _problem_ does your _audience_ *actually have?*", "sub": "Leverage applied to the wrong problem just produces the wrong thing faster.", "cap": "The real problem",
-     "say": [
-      "Before you multiply anything, be sure you know the problem your audience actually has. Not the one you assume. The one they describe when you ask.",
-      "Leverage applied to the wrong problem just produces the wrong thing faster."
-     ]},
-    {"kind": "scene", "img": "scene", "kicker": "Priya / operations lead / new starters keep asking the same things", "a": ["SAME QUESTIONS.", "EVERY WEEK."], "b": ["ONE CLEAR", "*CHECKLIST.*"], "cap": "The worked example",
-     "say": [
-      "Priya runs operations for a small team. Every new starter asks her the same fifteen questions in their first week, and each one takes her about five hours.",
-      "Her Doom Project is to fix this. Her first idea is to build an automated onboarding bot."
-     ]},
-    {"kind": "compare", "kicker": "Three ways to spend her leverage", "cols": [
-      {"big": "AUTOMATE.", "title": "Automate the chaos", "text": "A bot that repeats unclear answers, faster."},
-      {"big": "ANSWER.", "title": "Keep answering", "text": "Five hours per starter. Forever."},
-      {"big": "CLARIFY.", "title": "Fix the instructions", "text": "One clear checklist. Questions drop. Then automate."}
-     ], "quote": "If I automate unclear instructions, I just spread the confusion faster.", "cap": "Three uses of leverage",
-     "say": [
-      "Three ways to spend her leverage.",
-      "Automate it straight away. But the current instructions are unclear, so the bot repeats confusing answers to more people, faster. The limit on this tool: automating bad work scales bad work. Count quality and maintenance costs.",
-      "Keep answering by hand. Five hours per starter, forever.",
-      "Clarify first. She writes one clear onboarding checklist and tests it with the next starter. The questions drop. Then, if it still makes sense, she automates the parts that are stable.",
-      "Principle ten says manipulate chaos into currency. The chaos here is fifteen repeated questions. The currency is a checklist that saves hours for everyone who comes after."
-     ]},
-    {"kind": "stats", "kicker": "The leverage hypothesis", "headline": "Write it as a *testable claim.*", "items": [
-      {"n": "5h", "label": "Per new starter", "text": "Today's cost, measured honestly."},
-      {"n": "1", "label": "Clear checklist", "text": "The single change she will test."},
-      {"n": "?", "label": "Hours saved", "text": "Unknown until the next starter uses it."}
-     ], "hot": 2, "cap": "The hypothesis",
-     "say": [
-      "Write your leverage idea as a hypothesis you can test. Today it costs this much. I will change this one thing. I expect this result, and I will know by this date.",
-      "Leave the result as a question mark until reality fills it in."
-     ]},
-    {"kind": "card", "words": ["Clarify.", "Then.", "Multiply."]},
-    {"kind": "steps", "kicker": "Pause the video / five minutes", "headline": "FIND YOUR LEVER.",
-     "items": ["Name your audience in one specific sentence.", "Write the problem in their words.", "Find the step where effort is wasted.", "Write one leverage hypothesis you can test."], "cap": "The lever",
-     "say": [
-      "Pause the video when I tell you to.",
-      "One. Name your audience in one specific sentence.",
-      "Two. Write their problem in their words, not yours.",
-      "Three. Find the step where the most effort is wasted, for you or for them.",
-      "Four. Write one leverage hypothesis you can test this week. Pause now and give it five minutes."
-     ]},
-    {"kind": "mission", "rows": [["USE M07", "Choose the work that most improves their result."], ["STATE", "Audience, problem, one hypothesis."], ["EVIDENCE", "Problem statement and leverage hypothesis."]], "cap": "The mission",
-     "say": [
-      "Your mission is workbook page W05-D01, locate the value.",
-      "Write your audience and problem statement and one leverage hypothesis you can test this week."
-     ]},
-    {"kind": "close", "img": "close", "lines": ["AN EMPIRE", "IS BUILT FROM", "USEFUL THINGS."], "size": 130, "give": "Make one thing more useful today.", "next": "Next / Lesson 14 / Close the loop", "cap": "Close",
-     "say": [
-      "Next lesson you build the loop that tells you whether your change is working.",
-      "Principle five says build your empire. An empire is built from useful things. Make one thing more useful today."
-     ]}
-  ]
+ "id": "W05-L01",
+ "number": 13,
+ "title": "Find useful leverage",
+ "day": 29,
+ "workbook": "W05-D01",
+ "principles": "P05 Build your empire; P10 Manipulate chaos into currency",
+ "model": "M07 Leverage",
+ "evidence": "An audience and problem statement with one leverage hypothesis",
+ "cast": "South Asian woman, early 30s",
+ "scenes": [
+  {
+   "kind": "open",
+   "line": "Week 5. Build the Empire."
+  },
+  {
+   "kind": "labels",
+   "words": [
+    "MORE",
+    "FROM",
+    "LESS."
+   ]
+  },
+  {
+   "kind": "title",
+   "img": "hood",
+   "lines": [
+    "FIND USEFUL",
+    "LEVERAGE."
+   ],
+   "size": 190,
+   "cap": "Locate the value",
+   "say": [
+    "Welcome to week five: build the empire. You have a project, a system, a capability and the ability to hold your ground with people. Now we ask whether your work produces real value for someone else.",
+    "We start with leverage."
+   ]
+  },
+  {
+   "kind": "hook",
+   "img": "concept",
+   "lead": "Your hours are limited.",
+   "headline": "WHERE DO THEY *MULTIPLY?*",
+   "size": 160,
+   "cap": "The constraint",
+   "say": [
+    "You only have so many hours, so much money and so much attention. That will not change much in the next two weeks.",
+    "So the question is where one of those scarce resources can produce far more useful output than it does now."
+   ]
+  },
+  {
+   "kind": "red",
+   "kicker": "Tool 07 / Leverage",
+   "lines": [
+    "WHERE CAN A SCARCE",
+    "RESOURCE PRODUCE",
+    "MORE USEFUL OUTPUT?"
+   ],
+   "size": 120,
+   "cap": "The seventh tool",
+   "say": [
+    "The seventh thinking tool is leverage. The question: where can a scarce resource produce more useful output?",
+    "Note the word useful. Leverage is measured by the result your audience gets, not by how busy you look."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Four kinds of leverage",
+   "headline": "WHERE THE MULTIPLIER LIVES.",
+   "size": 110,
+   "items": [
+    {
+     "t": "CLARITY",
+     "d": "Write it once so you never explain it again."
+    },
+    {
+     "t": "SYSTEMS",
+     "d": "A template, checklist or process others can follow."
+    },
+    {
+     "t": "TOOLS",
+     "d": "Software that repeats a clear task for you."
+    },
+    {
+     "t": "PEOPLE",
+     "d": "Help, paid or swapped, on the parts others do better."
+    }
+   ],
+   "cap": "Four kinds",
+   "say": [
+    "Leverage comes in four common forms.",
+    "Clarity. Write something once so you never have to explain it again.",
+    "Systems. A template, a checklist or a process other people can follow.",
+    "Tools. Software that repeats a clear task for you.",
+    "People. Help, paid or swapped, on the parts others do better. Notice the order. Clarity usually comes first, because every other kind multiplies whatever it is given."
+   ]
+  },
+  {
+   "kind": "question",
+   "lead": "Before you scale anything...",
+   "question": "What _problem_ does your _audience_ *actually have?*",
+   "sub": "Leverage applied to the wrong problem just produces the wrong thing faster.",
+   "cap": "The real problem",
+   "say": [
+    "Before you multiply anything, be sure you know the problem your audience actually has. Not the one you assume. The one they describe when you ask.",
+    "Leverage applied to the wrong problem just produces the wrong thing faster."
+   ]
+  },
+  {
+   "kind": "scene",
+   "img": "scene",
+   "kicker": "Priya / operations lead / new starters keep asking the same things",
+   "a": [
+    "SAME QUESTIONS.",
+    "EVERY WEEK."
+   ],
+   "b": [
+    "ONE CLEAR",
+    "*CHECKLIST.*"
+   ],
+   "cap": "The worked example",
+   "say": [
+    "Priya runs operations for a small team. Every new starter asks her the same fifteen questions in their first week, and each one takes her about five hours.",
+    "Her Doom Project is to fix this. Her first idea is to build an automated onboarding bot."
+   ]
+  },
+  {
+   "kind": "compare",
+   "kicker": "Three ways to spend her leverage",
+   "cols": [
+    {
+     "big": "AUTOMATE.",
+     "title": "Automate the chaos",
+     "text": "A bot that repeats unclear answers, faster."
+    },
+    {
+     "big": "ANSWER.",
+     "title": "Keep answering",
+     "text": "Five hours per starter. Forever."
+    },
+    {
+     "big": "CLARIFY.",
+     "title": "Fix the instructions",
+     "text": "One clear checklist. Questions drop. Then automate."
+    }
+   ],
+   "quote": "If I automate unclear instructions, I just spread the confusion faster.",
+   "cap": "Three uses of leverage",
+   "say": [
+    "Three ways to spend her leverage.",
+    "Automate it straight away. But the current instructions are unclear, so the bot repeats confusing answers to more people, faster. The limit on this tool: automating bad work scales bad work. Count quality and maintenance costs.",
+    "Keep answering by hand. Five hours per starter, forever.",
+    "Clarify first. She writes one clear onboarding checklist and tests it with the next starter. The questions drop. Then, if it still makes sense, she automates the parts that are stable.",
+    "Principle ten says manipulate chaos into currency. The chaos here is fifteen repeated questions. The currency is a checklist that saves hours for everyone who comes after."
+   ]
+  },
+  {
+   "kind": "story",
+   "kicker": "A second case / Jamal / personal trainer",
+   "headline": "SAME ADVICE, FORTY TIMES A MONTH.",
+   "size": 110,
+   "beats": [
+    {
+     "t": "The drain",
+     "d": "Every client asks the same food questions by text, late at night."
+    },
+    {
+     "t": "The lever",
+     "d": "A two-page food guide and three short videos, made once."
+    },
+    {
+     "t": "The test",
+     "d": "Texts drop by half in a month. He measures, then decides what to build next."
+    }
+   ],
+   "cap": "A second case",
+   "say": [
+    "A second case. Jamal is a personal trainer. Every client texts him the same food questions, often late at night.",
+    "His lever is a two-page food guide and three short videos, made once.",
+    "Within a month the texts drop by half. He measured it rather than guessed, and now he can decide what to build next."
+   ]
+  },
+  {
+   "kind": "stats",
+   "kicker": "The leverage hypothesis",
+   "headline": "Write it as a *testable claim.*",
+   "items": [
+    {
+     "n": "5h",
+     "label": "Per new starter",
+     "text": "Today's cost, measured honestly."
+    },
+    {
+     "n": "1",
+     "label": "Clear checklist",
+     "text": "The single change she will test."
+    },
+    {
+     "n": "?",
+     "label": "Hours saved",
+     "text": "Unknown until the next starter uses it."
+    }
+   ],
+   "hot": 2,
+   "cap": "The hypothesis",
+   "say": [
+    "Write your leverage idea as a hypothesis you can test. Today it costs this much. I will change this one thing. I expect this result, and I will know by this date.",
+    "Leave the result as a question mark until reality fills it in."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Where people go wrong",
+   "headline": "FAKE LEVERAGE.",
+   "size": 110,
+   "items": [
+    {
+     "t": "BUSY TOOLS",
+     "d": "Setting up software that saves no one any time."
+    },
+    {
+     "t": "SCALING MESS",
+     "d": "Multiplying a process that doesn't work yet."
+    },
+    {
+     "t": "FORGOTTEN UPKEEP",
+     "d": "Ignoring the hours it takes to maintain the lever."
+    }
+   ],
+   "cap": "Common mistakes",
+   "say": [
+    "Three kinds of fake leverage.",
+    "Busy tools. Software that looks impressive and saves nobody any time.",
+    "Scaling mess. Multiplying a process before it works.",
+    "Forgotten upkeep. Ignoring the hours it takes to maintain the lever. Count them before you build."
+   ]
+  },
+  {
+   "kind": "card",
+   "words": [
+    "Clarify.",
+    "Then.",
+    "Multiply."
+   ]
+  },
+  {
+   "kind": "recap",
+   "items": [
+    "Leverage is measured by *the result.*",
+    "Fix it *before* you scale it.",
+    "Clarity is the *first* lever."
+   ],
+   "cap": "Recap",
+   "say": [
+    "Three things to keep. Leverage is measured by the result your audience gets. Fix it before you scale it. And clarity is usually the first lever."
+   ]
+  },
+  {
+   "kind": "steps",
+   "kicker": "Pause the video / five minutes",
+   "headline": "FIND YOUR LEVER.",
+   "items": [
+    "Name your audience in one specific sentence.",
+    "Write the problem in their words.",
+    "Find the step where effort is wasted.",
+    "Write one leverage hypothesis you can test."
+   ],
+   "cap": "The lever",
+   "say": [
+    "Pause the video when I tell you to.",
+    "One. Name your audience in one specific sentence.",
+    "Two. Write their problem in their words, not yours.",
+    "Three. Find the step where the most effort is wasted, for you or for them.",
+    "Four. Write one leverage hypothesis you can test this week. Pause now and give it five minutes."
+   ]
+  },
+  {
+   "kind": "mission",
+   "rows": [
+    [
+     "USE M07",
+     "Choose the work that most improves their result."
+    ],
+    [
+     "STATE",
+     "Audience, problem, one hypothesis."
+    ],
+    [
+     "EVIDENCE",
+     "Problem statement and leverage hypothesis."
+    ]
+   ],
+   "cap": "The mission",
+   "say": [
+    "Your mission is workbook page W05-D01, locate the value.",
+    "Write your audience and problem statement and one leverage hypothesis you can test this week."
+   ]
+  },
+  {
+   "kind": "close",
+   "img": "close",
+   "lines": [
+    "AN EMPIRE",
+    "IS BUILT FROM",
+    "USEFUL THINGS."
+   ],
+   "size": 130,
+   "give": "Make one thing more useful today.",
+   "next": "Next / Lesson 14 / Close the loop",
+   "cap": "Close",
+   "say": [
+    "Next lesson you build the loop that tells you whether your change is working.",
+    "Principle five says build your empire. An empire is built from useful things. Make one thing more useful today."
+   ]
+  }
+ ]
 }

@@ -74,3 +74,27 @@ Four per lesson, saved as `<lesson>-hood.png`, `<lesson>-concept.png`, `<lesson>
 | W06-L03 | An hourglass with almost all the sand run through | The faceless hooded figure seen from behind, standing at a window over a dark city at night |
 
 W06-L03 has a special close: the final image of the course, the faceless figure facing camera, standing, hood up, inside of the hood pitch black with no features at all, a horizontal neon red light bar behind it.
+
+## Life images (slide 2 of every lesson)
+
+Edem, 31 Oct: the second slide of every lesson is a real-life situation with the label words set over it. Compose with the subject on the right two-thirds and dark, quiet space on the left third for the type. Saved as `<lesson>-life.png`.
+
+| Lesson | Prompt |
+|---|---|
+| W01-L02 | A Black man in his early 30s with a short beard walks out of a crowded family dinner at night, glancing back once, calm, coat over his arm |
+| W01-L03 | A Black woman in her late 20s, natural hair tied back, peels a name badge off her blazer in a dim office corridor and looks straight ahead |
+| W02-L01 | A South Asian man in his mid 30s at a desk late at night, phone lighting his face with a colleague's request, a half-finished project open beside him |
+| W02-L02 | An East Asian man in his late 20s in a small shared flat, putting his phone in a drawer and closing the door to his room before work |
+| W02-L03 | A Latina woman in her early 30s, athletic, sitting on gym steps at dawn tying her trainers after a missed week |
+| W03-L01 | A white man in his mid 30s with stubble clearing a cluttered whiteboard with one sweep of his arm, leaving three words' worth of space |
+| W03-L02 | A Middle Eastern man in his early 30s with a beard staring at a cracked laptop screen in a dark studio, hand on his chin, thinking it through |
+| W03-L03 | An East Asian woman in her late 20s at a desk, a laptop drafting a report beside her as she checks figures on paper with a red pen |
+| W04-L01 | A Black man in his mid 40s with a greying beard across a meeting table from a client, leaning in and listening, hands open |
+| W04-L02 | A Latino man in his mid 30s at a negotiating table, contract in front of him, pen held but not signing |
+| W04-L03 | A white woman in her mid 30s standing up from a negotiating table, composed, gathering her papers in a dark boardroom |
+| W05-L01 | A South Asian woman in her early 30s handing a single clear checklist to a new starter in a dim workshop office |
+| W05-L02 | A mixed-race man in his late 20s watching someone use his app on a phone across a café table, notebook open |
+| W05-L03 | A Black man in his late 30s with a shaved head shaking hands with a small business owner in their workshop |
+| W06-L01 | A white man in his late 40s at a window at night, holding a single letter, weighing a decision |
+| W06-L02 | A Southeast Asian man in his early 30s in a dark hallway with a backpack, a spare laptop and a printed copy ready on the table |
+| W06-L03 | A hooded figure with no visible face, pitch black inside the hood, standing at a crossroads of two wet city streets at night |

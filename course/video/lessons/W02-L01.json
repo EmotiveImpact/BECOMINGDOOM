@@ -1,86 +1,322 @@
 {
-  "id": "W02-L01",
-  "number": 4,
-  "title": "Every yes spends your life",
-  "day": 8,
-  "workbook": "W02-D01",
-  "principles": "P09 Radical accountability is absolute power",
-  "model": "M01 Opportunity cost",
-  "evidence": "An opportunity-cost ledger and one calendar adjustment",
-  "cast": "South Asian man, mid 30s",
-  "scenes": [
-    {"kind": "open", "line": "Week 2. Build the Fortress."},
-    {"kind": "labels", "words": ["EVERY", "YES", "COSTS."]},
-    {"kind": "title", "img": "hood", "lines": ["EVERY YES", "SPENDS", "YOUR LIFE."], "size": 170, "cap": "Price the yes",
-     "say": [
-      "Welcome to week two: build the fortress. Last week you claimed your life as worth investing in. This week we find out whether you can trust yourself to execute.",
-      "It starts with one uncomfortable truth. Every yes spends your life."
-     ]},
-    {"kind": "hook", "img": "concept", "lead": "It only took two hours.", "headline": "TWO HOURS OF *WHAT?*", "size": 150, "cap": "The hidden price",
-     "say": [
-      "We describe favours by their size. It's only two hours. It's just a quick call. It won't take long.",
-      "The size is the wrong question. The right question is what those two hours would otherwise have been. Two hours of your project. Two hours of sleep. Two hours with your children. The price of a yes is whatever it replaces."
-     ]},
-    {"kind": "red", "kicker": "Tool 01 / Opportunity cost", "lines": ["WHAT IS THE BEST", "REALISTIC ALTERNATIVE", "I GIVE UP?"], "size": 120, "cap": "The first tool",
-     "say": [
-      "This is the first of the ten thinking tools in this course. Opportunity cost.",
-      "The question is: what is the best realistic alternative I give up?",
-      "Two words matter. Best, because you compare against the most valuable thing you could have done, not the least. Realistic, because you compare against what you would actually have done, not a fantasy of perfect productivity."
-     ]},
-    {"kind": "stats", "kicker": "A week, priced honestly", "headline": "Where the *protected hours* actually went.", "items": [
-      {"n": "6h 10m", "label": "Course time", "text": "Your weekly commitment to Becoming Doom, if you protect it."},
-      {"n": "2h", "label": "One favour", "text": "A third of that week, gone in a single yes."},
-      {"n": "1", "label": "Honest ledger", "text": "Write each yes next to what it replaced."}
-     ], "hot": 1, "cap": "The ledger",
-     "say": [
-      "Put it in numbers. The course asks for about six hours and ten minutes a week. One two-hour favour takes a third of it.",
-      "That does not make the favour wrong. It makes the price visible. Once you can see the price, you can decide whether you want to pay it."
-     ]},
-    {"kind": "scene", "img": "scene", "kicker": "Ravi / Thursday evening / two-hour favour", "a": ["HELP A COLLEAGUE", "WITH A DECK."], "b": ["TONIGHT'S SESSION", "*OR TONIGHT'S SLEEP.*"], "cap": "The worked example",
-     "say": [
-      "Ravi has a protected session on Thursday evening. On Thursday afternoon a colleague asks for two hours of help on a presentation for Friday.",
-      "Ravi is already tired. If he says yes, the two hours come from one of two places. His project session, or his sleep. There is no third pot of time."
-     ]},
-    {"kind": "compare", "kicker": "Three ways to pay for one yes", "cols": [
-      {"big": "SLEEP.", "title": "Pay with rest", "text": "Project done, favour done, Friday ruined."},
-      {"big": "PROJECT.", "title": "Pay with the work", "text": "Favour done. Project slips another week."},
-      {"big": "CHOOSE.", "title": "Name the cost first", "text": "One hour now, or a full session moved to Sunday."}
-     ], "quote": "I can give you an hour at four. After that I'm committed for the evening.", "cap": "Three payments",
-     "say": [
-      "He has three options.",
-      "Pay with sleep. He does everything and stays up late. It feels heroic and it costs him Friday, which costs him the weekend.",
-      "Pay with the project. He helps for two hours and the project slips another week. If he does this every week, the project never happens.",
-      "Name the cost first. He offers one hour at four o'clock, before his session, and keeps the evening. Or he decides the colleague matters enough to give the full two hours and moves his session to Sunday morning, deliberately.",
-      "Either version of the third option is fine. What matters is that he chose which cost to bear. Principle nine, radical accountability, means you own the price as well as the decision."
-     ]},
-    {"kind": "grunge", "lines": ["FREE TIME", "IS NEVER", "FREE"], "size": 250, "side": "ACCOUNTABILITY", "note": "Own the price as well as the choice.", "cap": "The limit",
-     "say": [
-      "One limit on this tool. Do not price every free hour as if it could earn unlimited money. Rest is a legitimate use of time. Opportunity cost is about honest comparison, never about guilt for resting."
-     ]},
-    {"kind": "card", "words": ["Name.", "The.", "Cost."]},
-    {"kind": "steps", "kicker": "Pause the video / five minutes", "headline": "BUILD YOUR LEDGER.",
-     "items": ["List three commitments you made in the last week.", "Beside each, write what it actually replaced.", "Mark the one whose price you would not pay again.", "Draft how you will renegotiate it."], "cap": "The ledger",
-     "say": [
-      "Pause the video when I tell you to.",
-      "One. List three commitments you made in the last week.",
-      "Two. Beside each one, write what it actually replaced. Be specific.",
-      "Three. Mark the one whose price you would not pay again.",
-      "Four. Draft one sentence to renegotiate it. Pause now and give it five minutes."
-     ]},
-    {"kind": "mission", "rows": [["USE M01", "On three current commitments."], ["RENEGOTIATE", "One appropriate demand, today."], ["EVIDENCE", "Opportunity-cost ledger and one calendar change."]], "cap": "The mission",
-     "say": [
-      "Your mission is workbook page W02-D01, price the yes.",
-      "Use opportunity cost on three commitments, renegotiate one appropriate demand, and change your calendar to match.",
-      "Choose something proportionate. Some commitments should stay exactly as they are. The point is that you now know what each one costs."
-     ]},
-    {"kind": "close", "img": "close", "lines": ["YOUR TIME", "IS ALREADY", "SPOKEN FOR."], "size": 140, "give": "Decide who it is spoken for.", "next": "Next / Lesson 05 / Build conditions for execution", "cap": "Close",
-     "say": [
-      "Next lesson we stop relying on willpower and start building conditions that make the work likely.",
-      "Your time is already spoken for. The only question is who it is spoken for, and whether you were the one who decided."
-     ]}
-  ],
-  "notes": [
-    "Delivery: practical and precise. Treat rest as a valid choice throughout.",
-    "The 6h 10m figure comes from the course rhythm in the onboarding pack."
-  ]
+ "id": "W02-L01",
+ "number": 4,
+ "title": "Every yes spends your life",
+ "day": 8,
+ "workbook": "W02-D01",
+ "principles": "P09 Radical accountability is absolute power",
+ "model": "M01 Opportunity cost",
+ "evidence": "An opportunity-cost ledger and one calendar adjustment",
+ "cast": "South Asian man, mid 30s",
+ "scenes": [
+  {
+   "kind": "open",
+   "line": "Week 2. Build the Fortress."
+  },
+  {
+   "kind": "labels",
+   "words": [
+    "EVERY",
+    "YES",
+    "COSTS."
+   ]
+  },
+  {
+   "kind": "title",
+   "img": "hood",
+   "lines": [
+    "EVERY YES",
+    "SPENDS",
+    "YOUR LIFE."
+   ],
+   "size": 170,
+   "cap": "Price the yes",
+   "say": [
+    "Welcome to week two: build the fortress. Last week you claimed your life as worth investing in. This week we find out whether you can trust yourself to execute.",
+    "It starts with one uncomfortable truth. Every yes spends your life."
+   ]
+  },
+  {
+   "kind": "hook",
+   "img": "concept",
+   "lead": "It only took two hours.",
+   "headline": "TWO HOURS OF *WHAT?*",
+   "size": 150,
+   "cap": "The hidden price",
+   "say": [
+    "We describe favours by their size. It's only two hours. It's just a quick call. It won't take long.",
+    "The size is the wrong question. The right question is what those two hours would otherwise have been. Two hours of your project. Two hours of sleep. Two hours with your children. The price of a yes is whatever it replaces."
+   ]
+  },
+  {
+   "kind": "red",
+   "kicker": "Tool 01 / Opportunity cost",
+   "lines": [
+    "WHAT IS THE BEST",
+    "REALISTIC ALTERNATIVE",
+    "I GIVE UP?"
+   ],
+   "size": 120,
+   "cap": "The first tool",
+   "say": [
+    "This is the first of the ten thinking tools in this course. Opportunity cost.",
+    "The question is: what is the best realistic alternative I give up?",
+    "Two words matter. Best, because you compare against the most valuable thing you could have done, not the least. Realistic, because you compare against what you would actually have done, not a fantasy of perfect productivity."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Pricing a yes properly",
+   "headline": "THREE QUESTIONS PER YES.",
+   "size": 110,
+   "items": [
+    {
+     "t": "WHAT",
+     "d": "What exactly am I agreeing to, including the prep and the follow-up?"
+    },
+    {
+     "t": "FROM WHERE",
+     "d": "Which hours, energy or money does it come out of?"
+    },
+    {
+     "t": "WORTH IT",
+     "d": "Is it worth more than the best thing it replaces?"
+    }
+   ],
+   "cap": "Pricing a yes",
+   "say": [
+    "Pricing a yes takes three questions.",
+    "What, exactly, am I agreeing to? Include the preparation, the travel and the follow-up. Two hours is often four.",
+    "Where does it come from? Name the actual hours, the energy or the money.",
+    "Is it worth more than the best thing it replaces? Sometimes the answer is yes. That is fine. Now it is a choice."
+   ]
+  },
+  {
+   "kind": "stats",
+   "kicker": "A week, priced honestly",
+   "headline": "Where the *protected hours* actually went.",
+   "items": [
+    {
+     "n": "6h 10m",
+     "label": "Course time",
+     "text": "Your weekly commitment to Becoming Doom, if you protect it."
+    },
+    {
+     "n": "2h",
+     "label": "One favour",
+     "text": "A third of that week, gone in a single yes."
+    },
+    {
+     "n": "1",
+     "label": "Honest ledger",
+     "text": "Write each yes next to what it replaced."
+    }
+   ],
+   "hot": 1,
+   "cap": "The ledger",
+   "say": [
+    "Put it in numbers. The course asks for about six hours and ten minutes a week. One two-hour favour takes a third of it.",
+    "That does not make the favour wrong. It makes the price visible. Once you can see the price, you can decide whether you want to pay it."
+   ]
+  },
+  {
+   "kind": "scene",
+   "img": "scene",
+   "kicker": "Ravi / Thursday evening / two-hour favour",
+   "a": [
+    "HELP A COLLEAGUE",
+    "WITH A DECK."
+   ],
+   "b": [
+    "TONIGHT'S SESSION",
+    "*OR TONIGHT'S SLEEP.*"
+   ],
+   "cap": "The worked example",
+   "say": [
+    "Ravi has a protected session on Thursday evening. On Thursday afternoon a colleague asks for two hours of help on a presentation for Friday.",
+    "Ravi is already tired. If he says yes, the two hours come from one of two places. His project session, or his sleep. There is no third pot of time."
+   ]
+  },
+  {
+   "kind": "compare",
+   "kicker": "Three ways to pay for one yes",
+   "cols": [
+    {
+     "big": "SLEEP.",
+     "title": "Pay with rest",
+     "text": "Project done, favour done, Friday ruined."
+    },
+    {
+     "big": "PROJECT.",
+     "title": "Pay with the work",
+     "text": "Favour done. Project slips another week."
+    },
+    {
+     "big": "CHOOSE.",
+     "title": "Name the cost first",
+     "text": "One hour now, or a full session moved to Sunday."
+    }
+   ],
+   "quote": "I can give you an hour at four. After that I'm committed for the evening.",
+   "cap": "Three payments",
+   "say": [
+    "He has three options.",
+    "Pay with sleep. He does everything and stays up late. It feels heroic and it costs him Friday, which costs him the weekend.",
+    "Pay with the project. He helps for two hours and the project slips another week. If he does this every week, the project never happens.",
+    "Name the cost first. He offers one hour at four o'clock, before his session, and keeps the evening. Or he decides the colleague matters enough to give the full two hours and moves his session to Sunday morning, deliberately.",
+    "Either version of the third option is fine. What matters is that he chose which cost to bear. Principle nine, radical accountability, means you own the price as well as the decision."
+   ]
+  },
+  {
+   "kind": "story",
+   "kicker": "A second case / Grace / runs a bakery",
+   "headline": "THE CHEAP WHOLESALE ORDER.",
+   "size": 110,
+   "beats": [
+    {
+     "t": "The offer",
+     "d": "A café wants forty loaves a day at a discount. It sounds like growth."
+    },
+    {
+     "t": "The ledger",
+     "d": "It means a 4am start six days a week and no time to develop her new range."
+    },
+    {
+     "t": "The choice",
+     "d": "She offers twenty loaves, three days a week, at a fair price. They take it."
+    }
+   ],
+   "cap": "A second case",
+   "say": [
+    "A second case, with money in it. Grace runs a small bakery. A café asks for forty loaves a day at a discount. It sounds like growth.",
+    "She writes the ledger. It means a four o'clock start six days a week, and her new range never gets developed.",
+    "So she offers twenty loaves, three days a week, at a fair price. They take it. The opportunity was real. So was its cost."
+   ]
+  },
+  {
+   "kind": "grunge",
+   "lines": [
+    "FREE TIME",
+    "IS NEVER",
+    "FREE"
+   ],
+   "size": 250,
+   "side": "ACCOUNTABILITY",
+   "note": "Own the price as well as the choice.",
+   "cap": "The limit",
+   "say": [
+    "One limit on this tool. Do not price every free hour as if it could earn unlimited money. Rest is a legitimate use of time. Opportunity cost is about honest comparison, never about guilt for resting."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Where people go wrong",
+   "headline": "HOW THE LEDGER LIES.",
+   "size": 110,
+   "items": [
+    {
+     "t": "WORST CASE",
+     "d": "Comparing against scrolling instead of the best alternative."
+    },
+    {
+     "t": "HIDDEN HOURS",
+     "d": "Forgetting the prep, the travel and the recovery afterwards."
+    },
+    {
+     "t": "GUILT MATHS",
+     "d": "Adding points for how bad a no would feel."
+    }
+   ],
+   "cap": "Common mistakes",
+   "say": [
+    "Three ways the ledger lies to you.",
+    "Worst case. You compare the yes against scrolling on your phone, not against your best realistic alternative.",
+    "Hidden hours. You forget the preparation, the travel and the recovery afterwards.",
+    "Guilt maths. You quietly add points for how bad saying no would feel. Feelings matter. They are not a price."
+   ]
+  },
+  {
+   "kind": "card",
+   "words": [
+    "Name.",
+    "The.",
+    "Cost."
+   ]
+  },
+  {
+   "kind": "recap",
+   "items": [
+    "Every yes is *paid for* somewhere.",
+    "Compare against the *best* alternative.",
+    "A priced yes is a *choice.*"
+   ],
+   "cap": "Recap",
+   "say": [
+    "Three things to keep. Every yes is paid for somewhere. Compare it against the best alternative. And once it is priced, a yes is a choice rather than a leak."
+   ]
+  },
+  {
+   "kind": "steps",
+   "kicker": "Pause the video / five minutes",
+   "headline": "BUILD YOUR LEDGER.",
+   "items": [
+    "List three commitments you made in the last week.",
+    "Beside each, write what it actually replaced.",
+    "Mark the one whose price you would not pay again.",
+    "Draft how you will renegotiate it."
+   ],
+   "cap": "The ledger",
+   "say": [
+    "Pause the video when I tell you to.",
+    "One. List three commitments you made in the last week.",
+    "Two. Beside each one, write what it actually replaced. Be specific.",
+    "Three. Mark the one whose price you would not pay again.",
+    "Four. Draft one sentence to renegotiate it. Pause now and give it five minutes."
+   ]
+  },
+  {
+   "kind": "mission",
+   "rows": [
+    [
+     "USE M01",
+     "On three current commitments."
+    ],
+    [
+     "RENEGOTIATE",
+     "One appropriate demand, today."
+    ],
+    [
+     "EVIDENCE",
+     "Opportunity-cost ledger and one calendar change."
+    ]
+   ],
+   "cap": "The mission",
+   "say": [
+    "Your mission is workbook page W02-D01, price the yes.",
+    "Use opportunity cost on three commitments, renegotiate one appropriate demand, and change your calendar to match.",
+    "Choose something proportionate. Some commitments should stay exactly as they are. The point is that you now know what each one costs."
+   ]
+  },
+  {
+   "kind": "close",
+   "img": "close",
+   "lines": [
+    "YOUR TIME",
+    "IS ALREADY",
+    "SPOKEN FOR."
+   ],
+   "size": 140,
+   "give": "Decide who it is spoken for.",
+   "next": "Next / Lesson 05 / Build conditions for execution",
+   "cap": "Close",
+   "say": [
+    "Next lesson we stop relying on willpower and start building conditions that make the work likely.",
+    "Your time is already spoken for. The only question is who it is spoken for, and whether you were the one who decided."
+   ]
+  }
+ ],
+ "notes": [
+  "Delivery: practical and precise. Treat rest as a valid choice throughout.",
+  "The 6h 10m figure comes from the course rhythm in the onboarding pack."
+ ]
 }

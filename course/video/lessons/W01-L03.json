@@ -88,6 +88,33 @@
    ]
   },
   {
+   "kind": "list",
+   "kicker": "Where labels come from",
+   "headline": "HOW A LABEL HARDENS.",
+   "size": 110,
+   "items": [
+    {
+     "t": "AN EVENT",
+     "d": "One bad presentation, one failed attempt, one comment from a teacher."
+    },
+    {
+     "t": "A STORY",
+     "d": "You decide what the event means about you, usually on the spot."
+    },
+    {
+     "t": "A RULE",
+     "d": "The story becomes a rule you follow without checking it again."
+    }
+   ],
+   "cap": "How labels form",
+   "say": [
+    "Labels tend to form in the same three steps.",
+    "An event. One bad presentation. One failed attempt. One comment from a teacher.",
+    "A story. You decide what that event means about you, usually on the spot and usually harshly.",
+    "A rule. The story hardens into a rule you follow for years without checking it again. The experiment goes back to step one and collects a new event."
+   ]
+  },
+  {
    "kind": "scene",
    "img": "scene",
    "kicker": "Ama / bookkeeper / wants her own clients",
@@ -136,6 +163,32 @@
    ]
   },
   {
+   "kind": "story",
+   "kicker": "A second case / Lewis / warehouse supervisor",
+   "headline": "I CAN'T SPEAK IN FRONT OF PEOPLE.",
+   "size": 110,
+   "beats": [
+    {
+     "t": "The label",
+     "d": "One frozen best-man speech, nine years ago. He has avoided every microphone since."
+    },
+    {
+     "t": "The experiment",
+     "d": "Two minutes at Monday's team briefing on one safety change. Notes allowed."
+    },
+    {
+     "t": "The evidence",
+     "d": "Voice shook for twenty seconds, then settled. Two people asked questions."
+    }
+   ],
+   "cap": "A second case",
+   "say": [
+    "Here is a second case. Lewis supervises a warehouse team. Nine years ago he froze during a best man's speech, and he has avoided every microphone since.",
+    "His experiment is two minutes at Monday's briefing, explaining one safety change. Notes allowed.",
+    "His voice shakes for about twenty seconds, then settles. Two people ask questions. That is not proof he is a great speaker. It is proof the rule was wrong."
+   ]
+  },
+  {
    "kind": "stats",
    "kicker": "The experiment",
    "headline": "Small enough to do. *Real enough to count.*",
@@ -164,11 +217,50 @@
    ]
   },
   {
+   "kind": "list",
+   "kicker": "Where people go wrong",
+   "headline": "EXPERIMENTS THAT PROVE NOTHING.",
+   "size": 110,
+   "items": [
+    {
+     "t": "TOO BIG",
+     "d": "Launching a business to test a label. If it fails, the label wins."
+    },
+    {
+     "t": "NO RESULT",
+     "d": "Doing the action but not writing down what happened."
+    },
+    {
+     "t": "MOVING GOALS",
+     "d": "Deciding what counts as success after you see the result."
+    }
+   ],
+   "cap": "Common mistakes",
+   "say": [
+    "Three ways an experiment proves nothing.",
+    "Too big. You try to launch a business to test a label. If it wobbles, the label claims victory.",
+    "No result. You do the action but never write down what happened, so memory rewrites it.",
+    "Moving goals. You decide what counts as success after you see the result. Decide first."
+   ]
+  },
+  {
    "kind": "card",
    "words": [
     "Test.",
     "The.",
     "Story."
+   ]
+  },
+  {
+   "kind": "recap",
+   "items": [
+    "A label is a *summary*, not a law.",
+    "Test it with *one small action.*",
+    "Write down *what actually happened.*"
+   ],
+   "cap": "Recap",
+   "say": [
+    "Three things to keep. A label is a summary, not a law. Test it with one small action. And write down what actually happened."
    ]
   },
   {

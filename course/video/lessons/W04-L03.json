@@ -64,6 +64,33 @@
   },
   {
    "kind": "list",
+   "kicker": "Withdrawal done well",
+   "headline": "A CLEAN EXIT HAS THREE PARTS.",
+   "size": 110,
+   "items": [
+    {
+     "t": "THE LIMIT",
+     "d": "Name what does not work, plainly."
+    },
+    {
+     "t": "THE DOOR",
+     "d": "Say what would make you come back."
+    },
+    {
+     "t": "THE THANKS",
+     "d": "Leave with the relationship intact."
+    }
+   ],
+   "cap": "A clean exit",
+   "say": [
+    "A clean exit has three parts.",
+    "The limit. Name plainly what does not work for you.",
+    "The door. Say what would make you come back, if anything would.",
+    "The thanks. Leave with the relationship intact. Markets are small and people remember how you left."
+   ]
+  },
+  {
+   "kind": "list",
    "kicker": "After any hard conversation",
    "headline": "SORT WHAT YOU HEARD.",
    "size": 115,
@@ -139,6 +166,32 @@
    ]
   },
   {
+   "kind": "story",
+   "kicker": "A second case / Rhys / volunteer committee",
+   "headline": "THE ARGUMENT THAT NEVER ENDS.",
+   "size": 110,
+   "beats": [
+    {
+     "t": "The pattern",
+     "d": "Every meeting, the same two members reopen the same row for an hour."
+    },
+    {
+     "t": "The rule",
+     "d": "If a decided item is reopened without new facts, he leaves that item."
+    },
+    {
+     "t": "The result",
+     "d": "He steps out twice. By the third meeting the item stays closed."
+    }
+   ],
+   "cap": "A second case",
+   "say": [
+    "A second case. Rhys sits on a volunteer committee. Every meeting, the same two people reopen the same argument for an hour.",
+    "His rule: if a decided item is reopened without new facts, he leaves that part of the meeting.",
+    "He steps out twice, politely. By the third meeting the item stays closed. Withdrawal changed the room more than winning the argument would have."
+   ]
+  },
+  {
    "kind": "stats",
    "kicker": "Set the rule before the room",
    "headline": "Decide your exits *in advance.*",
@@ -167,11 +220,50 @@
    ]
   },
   {
+   "kind": "list",
+   "kicker": "Where people go wrong",
+   "headline": "EXITS THAT COST YOU.",
+   "size": 110,
+   "items": [
+    {
+     "t": "LEAVING HOT",
+     "d": "Walking out angry. The last line is the one they remember."
+    },
+    {
+     "t": "GHOSTING",
+     "d": "Disappearing instead of closing the conversation."
+    },
+    {
+     "t": "QUITTING EARLY",
+     "d": "Calling it a withdrawal when it is just discomfort."
+    }
+   ],
+   "cap": "Common mistakes",
+   "say": [
+    "Three exits that cost you.",
+    "Leaving hot. Walking out angry. The last line is the one they remember.",
+    "Ghosting. Disappearing instead of closing the conversation properly.",
+    "Quitting early. Calling it a tactical withdrawal when it is really just discomfort. Check your decision rule, not your mood."
+   ]
+  },
+  {
    "kind": "card",
    "words": [
     "Leave.",
     "On.",
     "Purpose."
+   ]
+  },
+  {
+   "kind": "recap",
+   "items": [
+    "Sort what you *heard.*",
+    "Set exits *before* the room.",
+    "Leave *on purpose.*"
+   ],
+   "cap": "Recap",
+   "say": [
+    "Three things to keep. Sort what you heard. Set your exits before you enter the room. And when you leave, leave on purpose."
    ]
   },
   {

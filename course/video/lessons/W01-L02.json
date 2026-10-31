@@ -73,6 +73,34 @@
   },
   {
    "kind": "list",
+   "kicker": "What permission really is",
+   "headline": "THREE QUIET PERMISSIONS.",
+   "size": 110,
+   "items": [
+    {
+     "t": "APPROVAL",
+     "d": "Waiting for someone to agree your priority is reasonable."
+    },
+    {
+     "t": "EXPLANATION",
+     "d": "Believing a no only counts if it comes with a reason they accept."
+    },
+    {
+     "t": "COMFORT",
+     "d": "Saying yes so nobody feels awkward, including you."
+    }
+   ],
+   "cap": "The permissions",
+   "say": [
+    "Permission rarely looks like permission. It hides in three places.",
+    "Approval. You wait for someone to agree that your priority is reasonable before you protect it.",
+    "Explanation. You believe a no only counts if it comes with a reason the other person accepts.",
+    "Comfort. You say yes so that nobody has to feel awkward, and that includes you.",
+    "Burning the bridge means you stop crossing all three. You can still be warm. You no longer need anyone's sign-off."
+   ]
+  },
+  {
+   "kind": "list",
    "kicker": "Three ways to refuse badly",
    "headline": "WHERE A NO GOES WRONG.",
    "size": 110,
@@ -153,6 +181,32 @@
    ]
   },
   {
+   "kind": "story",
+   "kicker": "A second case / Nadia / team lead",
+   "headline": "THE MEETING THAT ATE HER MORNINGS.",
+   "size": 110,
+   "beats": [
+    {
+     "t": "Before",
+     "d": "A standing 9am call, four days a week. Nobody decides anything in it. She never questioned it."
+    },
+    {
+     "t": "The move",
+     "d": "She tells the group she will join Mondays only and read the notes on other days. One sentence, no apology."
+    },
+    {
+     "t": "What changed",
+     "d": "Three mornings back every week. One colleague grumbles. Nothing else happens."
+    }
+   ],
+   "cap": "A second case",
+   "say": [
+    "One more example, from work this time. Nadia leads a small team. Four mornings a week there is a nine o'clock call where nobody decides anything.",
+    "She tells the group she will join on Mondays and read the notes on the other days. One sentence. No apology.",
+    "One colleague grumbles. Nothing else happens. She gets three mornings back every week. The disapproval she feared lasted about a day."
+   ]
+  },
+  {
    "kind": "grunge",
    "lines": [
     "NO IS A",
@@ -169,12 +223,52 @@
    ]
   },
   {
+   "kind": "list",
+   "kicker": "Where people go wrong",
+   "headline": "THE NO THAT BACKFIRES.",
+   "size": 110,
+   "items": [
+    {
+     "t": "THE ESSAY",
+     "d": "Four paragraphs of reasons invite a debate about each one."
+    },
+    {
+     "t": "THE FAKE MAYBE",
+     "d": "Let me check, when you already know. It only delays the no."
+    },
+    {
+     "t": "THE COLD NO",
+     "d": "No warmth at all. You protect the hour and damage the relationship."
+    }
+   ],
+   "cap": "Common mistakes",
+   "say": [
+    "Three ways a no goes wrong.",
+    "The essay. Every extra reason is something the other person can argue with.",
+    "The fake maybe. Let me check, when you already know the answer. It only delays the no and makes it heavier.",
+    "The cold no. You protect the hour and damage the relationship. Warm and clear beats both."
+   ]
+  },
+  {
    "kind": "card",
    "words": [
     "You.",
     "Can.",
     "Say.",
     "No."
+   ]
+  },
+  {
+   "kind": "recap",
+   "items": [
+    "A fast yes is a habit, *not a decision.*",
+    "You owe *an answer*, not an explanation.",
+    "Warm and clear beats *long and guilty.*"
+   ],
+   "cap": "Recap",
+   "say": [
+    "Before the exercise, three things to keep.",
+    "A fast yes is a habit, not a decision. You owe an answer, not an explanation. And warm and clear beats long and guilty."
    ]
   },
   {

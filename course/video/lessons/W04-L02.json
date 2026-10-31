@@ -63,6 +63,33 @@
    ]
   },
   {
+   "kind": "list",
+   "kicker": "Thinking two steps ahead",
+   "headline": "ASK AND THEN WHAT. TWICE.",
+   "size": 110,
+   "items": [
+    {
+     "t": "FIRST ORDER",
+     "d": "The result today. They say yes."
+    },
+    {
+     "t": "SECOND ORDER",
+     "d": "What that result changes. They expect it again."
+    },
+    {
+     "t": "THIRD ORDER",
+     "d": "What that change sets up. Others hear about it."
+    }
+   ],
+   "cap": "Two steps ahead",
+   "say": [
+    "Ask and then what, and then ask it again.",
+    "First order. The result today. They say yes.",
+    "Second order. What that result changes. They now expect the same terms next time.",
+    "Third order. What that change sets up. Others hear about it and ask for the same. You rarely need to go further than three steps."
+   ]
+  },
+  {
    "kind": "radial",
    "core": "The discount",
    "pills": [
@@ -136,6 +163,32 @@
    ]
   },
   {
+   "kind": "story",
+   "kicker": "A second case / Ella / landlord",
+   "headline": "THE TENANT ASKS TO PAY LATE.",
+   "size": 110,
+   "beats": [
+    {
+     "t": "First order",
+     "d": "Say yes. Easy, kind, and the conversation ends."
+    },
+    {
+     "t": "Second order",
+     "d": "No date agreed, so late becomes normal. Her own mortgage is due on the 1st."
+    },
+    {
+     "t": "The line",
+     "d": "Yes, by the 15th, in writing. Kind, and it protects both of them."
+    }
+   ],
+   "cap": "A second case",
+   "say": [
+    "A second case. Ella rents out a flat. Her tenant asks to pay late this month.",
+    "First order: say yes. It is easy and kind and the conversation ends.",
+    "Second order: with no date agreed, late quietly becomes normal, and her own mortgage is due on the first. So she says yes, by the fifteenth, confirmed in writing. Still kind, and it protects both of them."
+   ]
+  },
+  {
    "kind": "grunge",
    "lines": [
     "CHEAP",
@@ -151,11 +204,50 @@
    ]
   },
   {
+   "kind": "list",
+   "kicker": "Where people go wrong",
+   "headline": "WHERE FORESIGHT FAILS.",
+   "size": 110,
+   "items": [
+    {
+     "t": "PARALYSIS",
+     "d": "Chasing consequences forever and never deciding."
+    },
+    {
+     "t": "ONLY DOWNSIDE",
+     "d": "Second-order effects can be good too. Count them."
+    },
+    {
+     "t": "NO LIMIT SET",
+     "d": "Walking in without a line you will not cross."
+    }
+   ],
+   "cap": "Common mistakes",
+   "say": [
+    "Three ways foresight fails.",
+    "Paralysis. Chasing consequences for ever and never deciding.",
+    "Only downside. Second-order effects can be good too. A fair price now can win referrals later.",
+    "No limit set. Walking in without a line you have already decided not to cross."
+   ]
+  },
+  {
    "kind": "card",
    "words": [
     "And.",
     "Then.",
     "What?"
+   ]
+  },
+  {
+   "kind": "recap",
+   "items": [
+    "Ask *and then what?*",
+    "Price the *future* cost.",
+    "Hold the line, *offer options.*"
+   ],
+   "cap": "Recap",
+   "say": [
+    "Three things to keep. Ask and then what. Price the future cost. Hold the line, and offer options instead of a flat no."
    ]
   },
   {

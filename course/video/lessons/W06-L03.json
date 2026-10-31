@@ -99,6 +99,38 @@
    ]
   },
   {
+   "kind": "list",
+   "kicker": "What an operating code contains",
+   "headline": "ONE PAGE. FOUR SECTIONS.",
+   "size": 110,
+   "items": [
+    {
+     "t": "MY RULES",
+     "d": "The doctrine and boundaries you keep."
+    },
+    {
+     "t": "MY TOOLS",
+     "d": "Which thinking tools you reach for, and when."
+    },
+    {
+     "t": "MY RHYTHM",
+     "d": "Sessions, reviews and recovery in a normal week."
+    },
+    {
+     "t": "MY RESET",
+     "d": "What you do the day after you slip."
+    }
+   ],
+   "cap": "The operating code",
+   "say": [
+    "Your operating code fits on one page, in four sections.",
+    "My rules. The doctrine and boundaries you will keep.",
+    "My tools. Which of the ten thinking tools you reach for, and in which situations.",
+    "My rhythm. Sessions, reviews and recovery in a normal week.",
+    "My reset. What you do the day after you slip. You will slip. The code says what happens next."
+   ]
+  },
+  {
    "kind": "scene",
    "img": "scene",
    "kicker": "Ninety days / one milestone / named trade-offs",
@@ -114,6 +146,32 @@
    "say": [
     "Picture someone finishing the course with three exciting directions: grow the pilot into a business, write a book, and launch a second product.",
     "They choose one sustainable milestone for the next ninety days: ten paying clients for the pilot. They write down that the book and the second product will stay undone until the first review. That sentence is what makes the plan real."
+   ]
+  },
+  {
+   "kind": "story",
+   "kicker": "A second case / Sophie / course graduate",
+   "headline": "SIX MONTHS AFTER DOOMSDAY.",
+   "size": 110,
+   "beats": [
+    {
+     "t": "The drift",
+     "d": "Month four: sessions down to one a week. No crisis, just drift."
+    },
+    {
+     "t": "The code",
+     "d": "Her 60-day review catches it. The reset section tells her what to do."
+    },
+    {
+     "t": "The return",
+     "d": "She cuts one commitment, restores two sessions and books the next review."
+    }
+   ],
+   "cap": "A second case",
+   "say": [
+    "One last case. Sophie finished the course six months ago. By month four her sessions had drifted to one a week. No crisis. Just drift.",
+    "Her sixty-day review catches it, and the reset section of her code tells her what to do.",
+    "She cuts one commitment, restores two sessions a week and books the next review. The code did not stop her drifting. It brought her back."
    ]
   },
   {
@@ -162,11 +220,50 @@
    ]
   },
   {
+   "kind": "list",
+   "kicker": "Where people go wrong",
+   "headline": "HOW FINISHERS STALL.",
+   "size": 110,
+   "items": [
+    {
+     "t": "NO NEXT STEP",
+     "d": "The course ends and so does the practice."
+    },
+    {
+     "t": "EVERYTHING AT ONCE",
+     "d": "Three big goals, none of them finished."
+    },
+    {
+     "t": "NO REVIEWS",
+     "d": "Nobody, including you, checks in at 30, 60 or 90 days."
+    }
+   ],
+   "cap": "Common mistakes",
+   "say": [
+    "Three ways people stall after a course like this.",
+    "No next step. The course ends and so does the practice.",
+    "Everything at once. Three big goals and none of them finished.",
+    "No reviews. Nobody checks in at thirty, sixty or ninety days, including you. Put the dates in now."
+   ]
+  },
+  {
    "kind": "card",
    "words": [
     "Choose.",
     "Your.",
     "Chapter."
+   ]
+  },
+  {
+   "kind": "recap",
+   "items": [
+    "Your time is *finite.*",
+    "Choose *one* chapter.",
+    "Run the code *without a prompt.*"
+   ],
+   "cap": "Recap",
+   "say": [
+    "Three things to carry out of this course. Your time is finite. Choose one chapter at a time. And run your code without waiting for anyone to prompt you."
    ]
   },
   {
