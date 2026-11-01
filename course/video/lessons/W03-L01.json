@@ -1,0 +1,329 @@
+{
+ "id": "W03-L01",
+ "number": 7,
+ "title": "Think from zero",
+ "day": 15,
+ "workbook": "W03-D01",
+ "principles": "P07 Vow to become a master",
+ "model": "M03 First principles (with M01 Opportunity cost revisited)",
+ "evidence": "A requirements sheet with one checked assumption",
+ "cast": "White man, mid 30s, stubble",
+ "scenes": [
+  {
+   "kind": "open",
+   "line": "Week 3. Enter the Laboratory."
+  },
+  {
+   "kind": "labels",
+   "words": [
+    "STRIP",
+    "IT",
+    "BACK."
+   ]
+  },
+  {
+   "kind": "title",
+   "img": "hood",
+   "lines": [
+    "THINK",
+    "FROM ZERO."
+   ],
+   "size": 200,
+   "cap": "Reduce to requirements",
+   "say": [
+    "Welcome to week three: enter the laboratory. Two weeks in, you have a doctrine, boundaries and a system that survives disruption. Now the question changes. What can you actually do?",
+    "We start by stripping your project back to what it truly requires."
+   ]
+  },
+  {
+   "kind": "hook",
+   "img": "concept",
+   "lead": "Before you build anything else...",
+   "headline": "WHAT DOES IT *ACTUALLY* NEED?",
+   "size": 140,
+   "cap": "The question",
+   "say": [
+    "Most projects stall under the weight of things they do not need. The custom website. The perfect logo. The course that must cover everything.",
+    "Before you build anything else, ask what the project actually needs to do its job."
+   ]
+  },
+  {
+   "kind": "red",
+   "kicker": "Tool 03 / First principles",
+   "lines": [
+    "REQUIRED.",
+    "OBSERVED.",
+    "OR MERELY ASSUMED?"
+   ],
+   "size": 150,
+   "cap": "The third tool",
+   "say": [
+    "The third thinking tool is first principles. The question: what is required, what is observed, and what is merely assumed?",
+    "Required means the project fails without it. Observed means you have seen evidence for it. Assumed means you believe it, and you have not checked."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Running the tool",
+   "headline": "STRIP IT IN THREE PASSES.",
+   "size": 110,
+   "items": [
+    {
+     "t": "THE JOB",
+     "d": "Write the one job the project must do for one person."
+    },
+    {
+     "t": "THE SORT",
+     "d": "Mark every planned item required, observed or assumed."
+    },
+    {
+     "t": "THE CUT",
+     "d": "Park everything assumed until a test says otherwise."
+    }
+   ],
+   "cap": "Three passes",
+   "say": [
+    "Run first principles in three passes.",
+    "The job. Write the single job the project must do for one specific person.",
+    "The sort. Go through every planned item and mark it required, observed or assumed.",
+    "The cut. Park everything assumed. Parked, not deleted. It comes back the moment a test says it matters."
+   ]
+  },
+  {
+   "kind": "radial",
+   "core": "Your Doom Project",
+   "pills": [
+    "Custom website",
+    "Logo",
+    "Case studies",
+    "Pricing page",
+    "Testimonials",
+    "Booking link",
+    "Blog"
+   ],
+   "lines": [
+    "Many wants.",
+    "Few needs.",
+    "*One test.*"
+   ],
+   "text": "Sort every item. Most of what you planned to build first is assumed.",
+   "cap": "Needs and wants",
+   "say": [
+    "Put your project in the middle and everything you think it needs around it.",
+    "Now sort them. For most people, two or three items are genuinely required. A few have some evidence behind them. The rest are assumptions, often borrowed from what other people seem to have."
+   ]
+  },
+  {
+   "kind": "scene",
+   "img": "scene",
+   "kicker": "Tom / designer / three weekends on a website",
+   "a": [
+    "A CUSTOM SITE",
+    "FROM SCRATCH."
+   ],
+   "b": [
+    "CLIENTS NEED",
+    "*THREE GOOD EXAMPLES.*"
+   ],
+   "cap": "The worked example",
+   "say": [
+    "Tom wants to win better design clients. He has spent three weekends building a custom website from scratch and it is still not live.",
+    "He runs first principles. What does a prospective client actually need in order to decide? Evidence they can assess. Three strong examples of relevant work, a clear description of what he offers, and a way to contact him."
+   ]
+  },
+  {
+   "kind": "compare",
+   "kicker": "Three ways forward",
+   "cols": [
+    {
+     "big": "BUILD.",
+     "title": "Keep building",
+     "text": "Fourth weekend on the site. No client has seen anything."
+    },
+    {
+     "big": "COPY.",
+     "title": "Copy a rival",
+     "text": "Their structure, their assumptions, none of their reasons."
+    },
+    {
+     "big": "STRIP.",
+     "title": "Reduce to requirements",
+     "text": "A simple page, three examples, live by Friday."
+    }
+   ],
+   "quote": "Required: three examples and a contact route. Assumed: that clients care how the site was built.",
+   "cap": "Three ways forward",
+   "say": [
+    "Three ways forward.",
+    "Keep building. A fourth weekend on the site. No client has seen anything yet.",
+    "Copy a rival. He borrows someone else's structure without knowing which parts are doing the work.",
+    "Strip it back. A simple page with three examples and a contact route, live by Friday. Then he tests the most important assumption: that these three examples are the right ones. He asks two potential clients which one would make them call.",
+    "The limit on this tool: do not throw away accumulated expertise without a reason. Some conventions exist because they work. First principles asks you to know why."
+   ]
+  },
+  {
+   "kind": "story",
+   "kicker": "A second case / Zara / wants to teach yoga",
+   "headline": "SHE THOUGHT SHE NEEDED A STUDIO.",
+   "size": 110,
+   "beats": [
+    {
+     "t": "Assumed",
+     "d": "A studio, a brand, an app, a ten-week programme before anyone signs up."
+    },
+    {
+     "t": "Required",
+     "d": "A room, a time, six people and a way to pay."
+    },
+    {
+     "t": "The test",
+     "d": "A free trial class in a community hall. Nine people come. Four book the next one."
+    }
+   ],
+   "cap": "A second case",
+   "say": [
+    "A second case. Zara wants to teach yoga. Her plan included a studio, a brand, an app and a ten-week programme, all before anyone had signed up.",
+    "Stripped back, the requirements were a room, a time, six people and a way to pay.",
+    "She runs one trial class in a community hall. Nine people come. Four book the next one. Now she has evidence, and the studio can wait."
+   ]
+  },
+  {
+   "kind": "stats",
+   "kicker": "Opportunity cost, revisited",
+   "headline": "What the extra feature *really costs.*",
+   "items": [
+    {
+     "n": "3",
+     "label": "Weekends",
+     "text": "Spent on a site nobody has seen."
+    },
+    {
+     "n": "0",
+     "label": "Client conversations",
+     "text": "The only test that would have told him anything."
+    },
+    {
+     "n": "1",
+     "label": "Simple page",
+     "text": "Enough to start learning by Friday."
+    }
+   ],
+   "hot": 2,
+   "cap": "The cost of scope",
+   "say": [
+    "Bring back last week's tool. Every feature you add has an opportunity cost. Three weekends on the site meant zero conversations with clients.",
+    "Principle seven, vow to become a master, does not mean polishing in private. Mastery is built in contact with the people who will use the work."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Where people go wrong",
+   "headline": "STRIPPING THE WRONG THINGS.",
+   "size": 110,
+   "items": [
+    {
+     "t": "CUTTING QUALITY",
+     "d": "Removing what makes the work good, not what makes it big."
+    },
+    {
+     "t": "FAKE OBSERVED",
+     "d": "Calling one friend's opinion evidence."
+    },
+    {
+     "t": "NEVER REBUILDING",
+     "d": "Staying minimal after a test shows something is needed."
+    }
+   ],
+   "cap": "Common mistakes",
+   "say": [
+    "Three ways people strip the wrong things.",
+    "Cutting quality. They remove what makes the work good instead of what makes it big.",
+    "Fake observed. One friend's opinion gets promoted to evidence.",
+    "Never rebuilding. A test shows something is genuinely needed, and they still refuse to add it. Minimal is a starting point, not a religion."
+   ]
+  },
+  {
+   "kind": "card",
+   "words": [
+    "Strip.",
+    "It.",
+    "Back."
+   ]
+  },
+  {
+   "kind": "recap",
+   "items": [
+    "Name the *one job.*",
+    "Required beats *assumed.*",
+    "Test the assumption that *matters most.*"
+   ],
+   "cap": "Recap",
+   "say": [
+    "Three things to keep. Name the one job. Required beats assumed. And test the assumption that matters most before you build around it."
+   ]
+  },
+  {
+   "kind": "steps",
+   "kicker": "Pause the video / five minutes",
+   "headline": "BUILD YOUR REQUIREMENTS SHEET.",
+   "items": [
+    "List everything you planned to build.",
+    "Mark each: required, observed or assumed.",
+    "Circle the assumption that matters most.",
+    "Write the quickest honest test for it."
+   ],
+   "cap": "The sheet",
+   "say": [
+    "Pause the video when I tell you to.",
+    "One. List everything you planned to build or do for your Doom Project.",
+    "Two. Mark each item required, observed or assumed.",
+    "Three. Circle the assumption that matters most. The one that would change your plan if it were wrong.",
+    "Four. Write the quickest honest test for it. Pause now and give it five minutes."
+   ]
+  },
+  {
+   "kind": "mission",
+   "rows": [
+    [
+     "USE M03",
+     "On the Doom Project."
+    ],
+    [
+     "TEST",
+     "The most important assumption, today."
+    ],
+    [
+     "EVIDENCE",
+     "Requirements sheet with a checked assumption."
+    ]
+   ],
+   "cap": "The mission",
+   "say": [
+    "Your mission is workbook page W03-D01, reduce to requirements.",
+    "Complete the requirements sheet and test the most important assumption. Record what you found, even if it surprised you."
+   ]
+  },
+  {
+   "kind": "close",
+   "img": "close",
+   "lines": [
+    "BUILD WHAT",
+    "IT NEEDS.",
+    "TEST WHAT",
+    "YOU ASSUME."
+   ],
+   "size": 125,
+   "give": "Everything else can wait.",
+   "next": "Next / Lesson 08 / Invert the failure",
+   "cap": "Close",
+   "say": [
+    "Next lesson we look at the project from the other end: how it could fail, and what you can prevent.",
+    "Build what it needs. Test what you assume. Everything else can wait."
+   ]
+  }
+ ],
+ "notes": [
+  "Delivery: curious and practical, like a workshop lead.",
+  "The radial pills are examples for a service project; swap in examples that fit the participant group if recording for a specific cohort."
+ ]
+}

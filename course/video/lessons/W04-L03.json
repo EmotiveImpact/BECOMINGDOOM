@@ -1,0 +1,334 @@
+{
+ "id": "W04-L03",
+ "number": 12,
+ "title": "Choose the engagement",
+ "day": 26,
+ "workbook": "W04-D05",
+ "principles": "P11 Master the art of the tactical withdrawal",
+ "model": "M05 Incentives and M06 Second-order consequences, applied",
+ "evidence": "A debrief and a proportionate follow-up action",
+ "cast": "White woman, mid 30s",
+ "scenes": [
+  {
+   "kind": "open",
+   "line": "Week 4. Command the Room."
+  },
+  {
+   "kind": "labels",
+   "words": [
+    "PERSIST.",
+    "CHANGE.",
+    "WITHDRAW."
+   ]
+  },
+  {
+   "kind": "title",
+   "img": "hood",
+   "lines": [
+    "CHOOSE THE",
+    "ENGAGEMENT."
+   ],
+   "size": 180,
+   "cap": "Persist, change or withdraw",
+   "say": [
+    "You have mapped interests and prepared your line. This lesson covers what happens when the room pushes back: criticism, poor terms, or a conversation going nowhere.",
+    "The skill is choosing which engagements deserve your energy, and leaving the others cleanly."
+   ]
+  },
+  {
+   "kind": "hook",
+   "img": "concept",
+   "lead": "Not every fight is worth winning.",
+   "headline": "WHICH ONES *ARE?*",
+   "size": 170,
+   "cap": "The choice",
+   "say": [
+    "Some people avoid every difficult conversation. Others treat every conversation as a contest they must win.",
+    "Both are expensive. The question is which engagements are worth it."
+   ]
+  },
+  {
+   "kind": "red",
+   "kicker": "Principle 11",
+   "lines": [
+    "MASTER THE ART",
+    "OF THE TACTICAL",
+    "WITHDRAWAL."
+   ],
+   "size": 140,
+   "cap": "The principle",
+   "say": [
+    "Principle eleven: master the art of the tactical withdrawal.",
+    "Withdrawal is a move, chosen deliberately, that preserves your resources for a better engagement. It is very different from running away. You leave on purpose, with your reasons clear and your relationships intact."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Withdrawal done well",
+   "headline": "A CLEAN EXIT HAS THREE PARTS.",
+   "size": 110,
+   "items": [
+    {
+     "t": "THE LIMIT",
+     "d": "Name what does not work, plainly."
+    },
+    {
+     "t": "THE DOOR",
+     "d": "Say what would make you come back."
+    },
+    {
+     "t": "THE THANKS",
+     "d": "Leave with the relationship intact."
+    }
+   ],
+   "cap": "A clean exit",
+   "say": [
+    "A clean exit has three parts.",
+    "The limit. Name plainly what does not work for you.",
+    "The door. Say what would make you come back, if anything would.",
+    "The thanks. Leave with the relationship intact. Markets are small and people remember how you left."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "After any hard conversation",
+   "headline": "SORT WHAT YOU HEARD.",
+   "size": 115,
+   "items": [
+    {
+     "t": "REJECTION",
+     "d": "A no. Information about fit, not about your worth."
+    },
+    {
+     "t": "CRITICISM",
+     "d": "Specific and actionable. Use it."
+    },
+    {
+     "t": "UNCERTAINTY",
+     "d": "Not yet decided. Needs a follow-up."
+    }
+   ],
+   "hot": 1,
+   "cap": "Rejection, criticism, uncertainty",
+   "say": [
+    "After any hard conversation, sort what you heard into three piles.",
+    "Rejection. A no. It tells you about fit, timing or budget. It does not tell you about your worth.",
+    "Criticism. Something specific you can act on. This is the most valuable pile, even when it stings.",
+    "Uncertainty. They have not decided. That needs a proportionate follow-up, not a flood of messages."
+   ]
+  },
+  {
+   "kind": "scene",
+   "img": "scene",
+   "kicker": "Claire / supplier negotiation / terms getting worse",
+   "a": [
+    "THIRD ROUND.",
+    "WORSE TERMS."
+   ],
+   "b": [
+    "SHE STANDS UP.",
+    "*CALMLY.*"
+   ],
+   "cap": "The worked example",
+   "say": [
+    "Claire is negotiating with a supplier for her project. Each round, the terms get a little worse: longer payment terms, a higher minimum order, a shorter guarantee.",
+    "In the third round she realises the deal no longer meets her limits."
+   ]
+  },
+  {
+   "kind": "compare",
+   "kicker": "Three ways to end the round",
+   "cols": [
+    {
+     "big": "CAVE.",
+     "title": "Accept poor terms",
+     "text": "Deal done. Project carries a cost it cannot sustain."
+    },
+    {
+     "big": "WIN.",
+     "title": "Turn it into a contest",
+     "text": "Sharp words. A bridge burned for nothing."
+    },
+    {
+     "big": "LEAVE.",
+     "title": "Decline with an alternative",
+     "text": "Clear limit, door left open, time saved."
+    }
+   ],
+   "quote": "These terms don't work for me. If you can meet the original minimum, I'm ready to sign. Otherwise, thank you for your time.",
+   "cap": "Three endings",
+   "say": [
+    "Three ways to end it.",
+    "Cave. She accepts, and her project now carries costs it cannot sustain.",
+    "Win. She turns it into a contest, says something sharp and burns a bridge for no gain.",
+    "Leave, with an alternative. These terms don't work for me. If you can meet the original minimum, I'm ready to sign. Otherwise, thank you for your time.",
+    "That is a tactical withdrawal. Calm, direct and governed by a decision rule she set before the meeting."
+   ]
+  },
+  {
+   "kind": "story",
+   "kicker": "A second case / Rhys / volunteer committee",
+   "headline": "THE ARGUMENT THAT NEVER ENDS.",
+   "size": 110,
+   "beats": [
+    {
+     "t": "The pattern",
+     "d": "Every meeting, the same two members reopen the same row for an hour."
+    },
+    {
+     "t": "The rule",
+     "d": "If a decided item is reopened without new facts, he leaves that item."
+    },
+    {
+     "t": "The result",
+     "d": "He steps out twice. By the third meeting the item stays closed."
+    }
+   ],
+   "cap": "A second case",
+   "say": [
+    "A second case. Rhys sits on a volunteer committee. Every meeting, the same two people reopen the same argument for an hour.",
+    "His rule: if a decided item is reopened without new facts, he leaves that part of the meeting.",
+    "He steps out twice, politely. By the third meeting the item stays closed. Withdrawal changed the room more than winning the argument would have."
+   ]
+  },
+  {
+   "kind": "stats",
+   "kicker": "Set the rule before the room",
+   "headline": "Decide your exits *in advance.*",
+   "items": [
+    {
+     "n": "CONTINUE",
+     "label": "Within limits",
+     "text": "Terms stay within your limits and progress is real."
+    },
+    {
+     "n": "CHANGE",
+     "label": "Approach failing",
+     "text": "The goal is sound but the approach is not working."
+    },
+    {
+     "n": "WITHDRAW",
+     "label": "Limit crossed",
+     "text": "A limit is crossed, or the cost outweighs the prize."
+    }
+   ],
+   "hot": 2,
+   "cap": "The decision rule",
+   "say": [
+    "Write your decision rule before you enter the room. Continue if terms stay within your limits and progress is real. Change if the goal is sound but the approach is failing. Withdraw if a limit is crossed or the cost outweighs the prize.",
+    "Under pressure, you will not invent a good rule. You will only follow one you already have."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Where people go wrong",
+   "headline": "EXITS THAT COST YOU.",
+   "size": 110,
+   "items": [
+    {
+     "t": "LEAVING HOT",
+     "d": "Walking out angry. The last line is the one they remember."
+    },
+    {
+     "t": "GHOSTING",
+     "d": "Disappearing instead of closing the conversation."
+    },
+    {
+     "t": "QUITTING EARLY",
+     "d": "Calling it a withdrawal when it is just discomfort."
+    }
+   ],
+   "cap": "Common mistakes",
+   "say": [
+    "Three exits that cost you.",
+    "Leaving hot. Walking out angry. The last line is the one they remember.",
+    "Ghosting. Disappearing instead of closing the conversation properly.",
+    "Quitting early. Calling it a tactical withdrawal when it is really just discomfort. Check your decision rule, not your mood."
+   ]
+  },
+  {
+   "kind": "card",
+   "words": [
+    "Leave.",
+    "On.",
+    "Purpose."
+   ]
+  },
+  {
+   "kind": "recap",
+   "items": [
+    "Sort what you *heard.*",
+    "Set exits *before* the room.",
+    "Leave *on purpose.*"
+   ],
+   "cap": "Recap",
+   "say": [
+    "Three things to keep. Sort what you heard. Set your exits before you enter the room. And when you leave, leave on purpose."
+   ]
+  },
+  {
+   "kind": "steps",
+   "kicker": "Pause the video / five minutes",
+   "headline": "DEBRIEF THE ROOM.",
+   "items": [
+    "Recall a recent hard conversation, factually.",
+    "Sort what you heard: rejection, criticism, uncertainty.",
+    "Choose: continue, change or withdraw.",
+    "Write one proportionate follow-up."
+   ],
+   "cap": "The debrief",
+   "say": [
+    "Pause the video when I tell you to.",
+    "One. Recall a recent hard conversation and write what was said, factually, without interpretation.",
+    "Two. Sort what you heard into rejection, criticism and uncertainty.",
+    "Three. Decide: continue, change or withdraw.",
+    "Four. Write one proportionate follow-up action. Pause now and give it five minutes."
+   ]
+  },
+  {
+   "kind": "mission",
+   "rows": [
+    [
+     "SEPARATE",
+     "Rejection, criticism and uncertainty."
+    ],
+    [
+     "DECIDE",
+     "Persist, change or withdraw."
+    ],
+    [
+     "EVIDENCE",
+     "Debrief and a proportionate follow-up."
+    ]
+   ],
+   "cap": "The mission",
+   "say": [
+    "Your mission is workbook page W04-D05, debrief the response.",
+    "Use the conversation you held this week. Separate what you heard, decide your next move and take one proportionate follow-up action.",
+    "Keep the account privacy-conscious. Never record anyone without their consent."
+   ]
+  },
+  {
+   "kind": "close",
+   "img": "close",
+   "lines": [
+    "WALKING AWAY",
+    "CAN BE THE",
+    "STRONGEST MOVE."
+   ],
+   "size": 130,
+   "give": "Choose your battles. Then commit.",
+   "next": "Next / Week 5 / Build the Empire",
+   "cap": "Close",
+   "say": [
+    "That completes week four. On Saturday the Council tests how well you hold your frame under pressure.",
+    "Then week five: build the empire, where your work meets its audience.",
+    "Walking away can be the strongest move in the room. Choose your battles, then commit."
+   ]
+  }
+ ],
+ "notes": [
+  "Privacy: participants describe conversations factually and never record another person.",
+  "The stats layout uses decision words in place of numbers on purpose."
+ ]
+}

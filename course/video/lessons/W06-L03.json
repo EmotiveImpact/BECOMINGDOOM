@@ -1,0 +1,333 @@
+{
+ "id": "W06-L03",
+ "number": 18,
+ "title": "A finite life; a chosen next chapter",
+ "day": 40,
+ "workbook": "W06-D05",
+ "principles": "P14 Embrace your finite nature; P01 Put yourself above all people (closing the loop)",
+ "model": "All ten, chosen by relevance",
+ "evidence": "A before and after comparison, an operating code and a continuation plan",
+ "cast": "The faceless figure: the end of the six-week arc",
+ "scenes": [
+  {
+   "kind": "open",
+   "line": "Week 6. Become Dangerous."
+  },
+  {
+   "kind": "labels",
+   "words": [
+    "THE",
+    "NEXT",
+    "CHAPTER."
+   ]
+  },
+  {
+   "kind": "title",
+   "img": "hood",
+   "lines": [
+    "A FINITE LIFE.",
+    "A CHOSEN",
+    "NEXT CHAPTER."
+   ],
+   "size": 150,
+   "cap": "Write the operating code",
+   "say": [
+    "This is the final lesson of Becoming Doom.",
+    "Six weeks ago you were asked whose life you were building. Since then you have written a doctrine, said no, tested a label, built a system, made something real, held your ground with people and put an offer into the world. Today you decide what comes next."
+   ]
+  },
+  {
+   "kind": "hook",
+   "img": "concept",
+   "lead": "The sand keeps running.",
+   "headline": "WHAT WILL YOU *SPEND IT ON?*",
+   "size": 140,
+   "cap": "The finite resource",
+   "say": [
+    "Principle fourteen: embrace your finite nature. Your time is limited. That is not a gloomy thought. It is the reason any of this matters.",
+    "If you had unlimited time, no choice would cost anything. Because you do not, every choice is a statement of what you value."
+   ]
+  },
+  {
+   "kind": "question",
+   "lead": "Day 1 you answered a scenario. Answer it again.",
+   "question": "What did you _do_ then? What would you *do now?*",
+   "sub": "Two protected hours. A favour request. An unproven project. Compare your answers.",
+   "cap": "Before and after",
+   "say": [
+    "Before Day 1 you answered a scenario. Two protected hours, a favour request during them, and a project you were unsure about.",
+    "Answer it again now, without looking at your first answer. Then compare them. That comparison is some of the most honest evidence you will collect in this course."
+   ]
+  },
+  {
+   "kind": "radial",
+   "core": "Your operating code",
+   "pills": [
+    "Doctrine",
+    "Boundaries",
+    "Command sheet",
+    "Doombot",
+    "Decision rules",
+    "Feedback loop",
+    "Margin"
+   ],
+   "lines": [
+    "Six weeks.",
+    "One system.",
+    "*Yours to run.*"
+   ],
+   "text": "Everything you built is a part. The operating code is how you will use them without a course to prompt you.",
+   "cap": "The operating code",
+   "say": [
+    "Look at what you have built. A doctrine. Boundaries. A command sheet. A Doombot. Decision rules. A feedback loop. Margins.",
+    "Your operating code is a single page that says how you will keep using these without anyone prompting you. Which tools you will reach for, when, and what you will do when you slip."
+   ]
+  },
+  {
+   "kind": "red",
+   "kicker": "The trade-off",
+   "lines": [
+    "CHOOSING ONE",
+    "PATH MEANS",
+    "NAMING THE REST."
+   ],
+   "size": 140,
+   "cap": "What stays undone",
+   "say": [
+    "Here is the hardest part of planning the next ninety days. Choosing one path means naming the attractive alternatives you will leave undone.",
+    "If your plan includes everything, it is a wish list. A real plan says what you are not doing, and you make peace with that on purpose."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "What an operating code contains",
+   "headline": "ONE PAGE. FOUR SECTIONS.",
+   "size": 110,
+   "items": [
+    {
+     "t": "MY RULES",
+     "d": "The doctrine and boundaries you keep."
+    },
+    {
+     "t": "MY TOOLS",
+     "d": "Which thinking tools you reach for, and when."
+    },
+    {
+     "t": "MY RHYTHM",
+     "d": "Sessions, reviews and recovery in a normal week."
+    },
+    {
+     "t": "MY RESET",
+     "d": "What you do the day after you slip."
+    }
+   ],
+   "cap": "The operating code",
+   "say": [
+    "Your operating code fits on one page, in four sections.",
+    "My rules. The doctrine and boundaries you will keep.",
+    "My tools. Which of the ten thinking tools you reach for, and in which situations.",
+    "My rhythm. Sessions, reviews and recovery in a normal week.",
+    "My reset. What you do the day after you slip. You will slip. The code says what happens next."
+   ]
+  },
+  {
+   "kind": "scene",
+   "img": "scene",
+   "kicker": "Ninety days / one milestone / named trade-offs",
+   "a": [
+    "THREE BIG",
+    "AMBITIONS."
+   ],
+   "b": [
+    "ONE CHOSEN",
+    "*MILESTONE.*"
+   ],
+   "cap": "The worked example",
+   "say": [
+    "Picture someone finishing the course with three exciting directions: grow the pilot into a business, write a book, and launch a second product.",
+    "They choose one sustainable milestone for the next ninety days: ten paying clients for the pilot. They write down that the book and the second product will stay undone until the first review. That sentence is what makes the plan real."
+   ]
+  },
+  {
+   "kind": "story",
+   "kicker": "A second case / Sophie / course graduate",
+   "headline": "SIX MONTHS AFTER DOOMSDAY.",
+   "size": 110,
+   "beats": [
+    {
+     "t": "The drift",
+     "d": "Month four: sessions down to one a week. No crisis, just drift."
+    },
+    {
+     "t": "The code",
+     "d": "Her 60-day review catches it. The reset section tells her what to do."
+    },
+    {
+     "t": "The return",
+     "d": "She cuts one commitment, restores two sessions and books the next review."
+    }
+   ],
+   "cap": "A second case",
+   "say": [
+    "One last case. Sophie finished the course six months ago. By month four her sessions had drifted to one a week. No crisis. Just drift.",
+    "Her sixty-day review catches it, and the reset section of her code tells her what to do.",
+    "She cuts one commitment, restores two sessions a week and books the next review. The code did not stop her drifting. It brought her back."
+   ]
+  },
+  {
+   "kind": "stats",
+   "kicker": "The continuation plan",
+   "headline": "Thirty. Sixty. *Ninety.*",
+   "items": [
+    {
+     "n": "30",
+     "label": "Days",
+     "text": "First review. Is the system still running without prompts?"
+    },
+    {
+     "n": "60",
+     "label": "Days",
+     "text": "Evidence check. What does reality say about the milestone?"
+    },
+    {
+     "n": "90",
+     "label": "Days",
+     "text": "Decide: continue, change or withdraw. Then choose again."
+    }
+   ],
+   "hot": 2,
+   "cap": "The plan",
+   "say": [
+    "Give your plan three dated reviews.",
+    "At thirty days, check whether the system is still running without a course to prompt it.",
+    "At sixty days, check the evidence. What does reality say about the milestone?",
+    "At ninety days, decide. Continue, change or withdraw. Then choose the next chapter deliberately, the same way you chose this one."
+   ]
+  },
+  {
+   "kind": "grunge",
+   "lines": [
+    "BECOME",
+    "DANGEROUS"
+   ],
+   "size": 250,
+   "side": "DOOM",
+   "note": "Capable, deliberate and hard to knock off course.",
+   "cap": "The meaning",
+   "say": [
+    "Become dangerous. Here is what we have meant by it all along. Capable. Deliberate. Hard to knock off course. Able to choose your response when circumstances change, without waiting for permission or a prompt.",
+    "It has never meant dangerous to other people. Your ambition gave you a claim on your own life and nothing more. That is exactly where the power is."
+   ]
+  },
+  {
+   "kind": "list",
+   "kicker": "Where people go wrong",
+   "headline": "HOW FINISHERS STALL.",
+   "size": 110,
+   "items": [
+    {
+     "t": "NO NEXT STEP",
+     "d": "The course ends and so does the practice."
+    },
+    {
+     "t": "EVERYTHING AT ONCE",
+     "d": "Three big goals, none of them finished."
+    },
+    {
+     "t": "NO REVIEWS",
+     "d": "Nobody, including you, checks in at 30, 60 or 90 days."
+    }
+   ],
+   "cap": "Common mistakes",
+   "say": [
+    "Three ways people stall after a course like this.",
+    "No next step. The course ends and so does the practice.",
+    "Everything at once. Three big goals and none of them finished.",
+    "No reviews. Nobody checks in at thirty, sixty or ninety days, including you. Put the dates in now."
+   ]
+  },
+  {
+   "kind": "card",
+   "words": [
+    "Choose.",
+    "Your.",
+    "Chapter."
+   ]
+  },
+  {
+   "kind": "recap",
+   "items": [
+    "Your time is *finite.*",
+    "Choose *one* chapter.",
+    "Run the code *without a prompt.*"
+   ],
+   "cap": "Recap",
+   "say": [
+    "Three things to carry out of this course. Your time is finite. Choose one chapter at a time. And run your code without waiting for anyone to prompt you."
+   ]
+  },
+  {
+   "kind": "steps",
+   "kicker": "Pause the video / ten minutes",
+   "headline": "WRITE YOUR CODE.",
+   "items": [
+    "Repeat the Day 1 scenario and compare.",
+    "Write the tools you will keep using, and when.",
+    "Choose one ninety-day milestone.",
+    "Name what will stay undone, and date three reviews."
+   ],
+   "cap": "The code",
+   "say": [
+    "Pause the video when I tell you to. Take ten minutes for this one.",
+    "One. Repeat the Day 1 scenario and compare your answers.",
+    "Two. Write the tools you will keep using, and when you will use them.",
+    "Three. Choose one ninety-day milestone.",
+    "Four. Name what will stay undone, and put three review dates in your calendar. Pause now."
+   ]
+  },
+  {
+   "kind": "mission",
+   "rows": [
+    [
+     "REPEAT",
+     "The baseline scenario and compare."
+    ],
+    [
+     "WRITE",
+     "Your operating code and 90-day plan."
+    ],
+    [
+     "EVIDENCE",
+     "Before and after, code and continuation plan."
+    ]
+   ],
+   "cap": "The mission",
+   "say": [
+    "Your mission is workbook page W06-D05, write the operating code.",
+    "Then comes Doomsday, where you demonstrate the project, defend one decision, respond to a change and take your next step in front of the Council. And on Day 42 you set your thirty, sixty and ninety-day milestones."
+   ]
+  },
+  {
+   "kind": "close",
+   "img": "close",
+   "lines": [
+    "YOU WERE NEVER",
+    "WAITING FOR",
+    "PERMISSION."
+   ],
+   "size": 130,
+   "give": "Now you have the evidence. Go.",
+   "next": "Next / Day 41 / Doomsday",
+   "cap": "Close",
+   "say": [
+    "Six weeks ago you were told your life is a legitimate object of your own ambition. You have spent six weeks proving you can act on that.",
+    "You were never waiting for permission. Now you have the evidence. Go."
+   ]
+  }
+ ],
+ "notes": [
+  "Visual arc: this lesson closes the course on the faceless hooded figure, the end point of the six-week darkening.",
+  "Delivery: slower than the other lessons. Let the final line land with a full second of silence.",
+  "No efficacy claims. The course offers structured practice and evidence, not guaranteed transformation."
+ ]
+}
