@@ -1,0 +1,558 @@
+{
+ "id": "LAYOUTS",
+ "assets": "W01-L01",
+ "week": 1,
+ "lesson": 1,
+ "title": "Layout library",
+ "number": 0,
+ "day": 1,
+ "workbook": "W01-D01",
+ "principles": "",
+ "evidence": "",
+ "cast": "",
+ "scenes": [
+  {
+   "kind": "open",
+   "img": "g-open",
+   "line": "Week 1 / Claim the Throne",
+   "dur": 6
+  },
+  {
+   "kind": "title",
+   "img": "g-title",
+   "lines": [
+    "SELFISHNESS",
+    "AS A VIRTUE."
+   ],
+   "size": 190,
+   "cap": "Layout 02 / Title over image",
+   "shift": 0,
+   "dur": 6
+  },
+  {
+   "kind": "scene",
+   "img": "g-life",
+   "kicker": "Late, again / someone else's work",
+   "a": [
+    "THE PLAN.",
+    "THE NOTEBOOK."
+   ],
+   "b": [
+    "*STILL CLOSED.*"
+   ],
+   "cap": "Layout 03 / Scene, words over a real-life image",
+   "shift": 0,
+   "dur": 6
+  },
+  {
+   "kind": "question",
+   "lead": "Think of the thing you keep saying matters.",
+   "question": "What has it _actually_ been _allowed_ to *cost?*",
+   "sub": "A priority takes something that something else wanted. Until then, it is a wish with good manners.",
+   "cap": "Layout 04 / Question",
+   "dur": 6
+  },
+  {
+   "kind": "image",
+   "img": "g-throne",
+   "kicker": "The Doom lens",
+   "lines": [
+    "DOOM DOES",
+    "NOT WAIT TO",
+    "BE CHOSEN."
+   ],
+   "size": 150,
+   "cap": "Layout 05 / Statement over image",
+   "shift": 0,
+   "hud": "REF / THE EMBLEM",
+   "dur": 6
+  },
+  {
+   "kind": "red",
+   "kicker": "Principle 01",
+   "lines": [
+    "PUT YOURSELF",
+    "ABOVE ALL",
+    "PEOPLE."
+   ],
+   "size": 170,
+   "cap": "Layout 06 / Red panel principle",
+   "dur": 6
+  },
+  {
+   "kind": "list",
+   "kicker": "Read it precisely",
+   "headline": "WHAT WE MEAN BY SELFISH.",
+   "size": 110,
+   "hot": 2,
+   "items": [
+    {
+     "t": "YOU CHOOSE",
+     "d": "You decide what you are building, out loud and on paper."
+    },
+    {
+     "t": "YOU PROTECT",
+     "d": "You guard the time, money and attention it needs."
+    },
+    {
+     "t": "YOU OWN IT",
+     "d": "You carry the consequences, good and bad, without blaming anyone."
+    }
+   ],
+   "cap": "Layout 07 / Headline and list",
+   "dur": 6
+  },
+  {
+   "kind": "poster",
+   "img": "g-command",
+   "align": "left",
+   "kicker": "Three voices",
+   "lines": [
+    "WHO IS",
+    "SPENDING",
+    "YOUR LIFE?"
+   ],
+   "size": 78,
+   "text": "Three voices compete for every hour you have. Only one of them is *yours.*",
+   "cap": "Layout 08 / Poster, tracked line",
+   "hud": "SIGNAL / 3 VOICES",
+   "dur": 6
+  },
+  {
+   "kind": "dossier",
+   "img": "g-dossier",
+   "kicker": "Subject file / 001",
+   "headline": "WHERE YOUR HOURS GO.",
+   "size": 92,
+   "hot": 2,
+   "fields": [
+    [
+     "SUBJECT",
+     "You"
+    ],
+    [
+     "STATUS",
+     "*Unclaimed*"
+    ],
+    [
+     "WEEK",
+     "One / Claim the Throne"
+    ]
+   ],
+   "meters": [
+    {
+     "t": "APPETITE",
+     "v": 42,
+     "d": "What I want right now. Loud, fast, never your interest."
+    },
+    {
+     "t": "APPROVAL",
+     "v": 46,
+     "d": "What I fear they will think. Quiet and respectable."
+    },
+    {
+     "t": "INTEREST",
+     "v": 12,
+     "d": "What I will be glad I built in five years."
+    }
+   ],
+   "cap": "Layout 09 / Dossier, portrait and file",
+   "dur": 6
+  },
+  {
+   "kind": "compare",
+   "kicker": "Three ways to answer the same email",
+   "cols": [
+    {
+     "big": "SURE.",
+     "title": "The automatic yes",
+     "text": "Revision done. Portfolio closed. Resentment banked."
+    },
+    {
+     "big": "NO.",
+     "title": "The flat refusal",
+     "text": "Evening protected. Relationship unexamined. Goodwill spent."
+    },
+    {
+     "big": "MONDAY.",
+     "title": "The renegotiated scope",
+     "text": "Paid round on Monday. Portfolio built on Thursday."
+    }
+   ],
+   "quote": "It is outside the brief, so it is billed at my day rate. You will have it Monday.",
+   "cap": "Layout 10 / Compare, three answers",
+   "dur": 6
+  },
+  {
+   "kind": "story",
+   "kicker": "A second case / Amara / ward nurse",
+   "headline": "THE SHIFTS THAT ATE HER STUDY.",
+   "size": 110,
+   "beats": [
+    {
+     "t": "Before",
+     "d": "She wants the senior nurse role, which needs a course. Every week someone asks her to swap a shift, and she always says yes."
+    },
+    {
+     "t": "The move",
+     "d": "She blocks Tuesday and Thursday evenings for study and tells the rota coordinator those two are fixed. Every other swap stays open."
+    },
+    {
+     "t": "After",
+     "d": "Twelve weeks later the course is done. Her colleagues adjusted in a fortnight. One of them asked how she did it."
+    }
+   ],
+   "cap": "Layout 11 / Story, before / move / after",
+   "dur": 6
+  },
+  {
+   "kind": "steps",
+   "kicker": "Pause the video / five minutes",
+   "headline": "WRITE YOUR DOCTRINE.",
+   "items": [
+    "What I am building, and why it matters to me.",
+    "The resource I will commit to it this week.",
+    "What that resource is taken from.",
+    "The responsibility I will honour or renegotiate."
+   ],
+   "cap": "Layout 12 / Steps",
+   "dur": 6
+  },
+  {
+   "kind": "mission",
+   "rows": [
+    [
+     "PRODUCE",
+     "Doctrine v1, with one specific resource committed."
+    ],
+    [
+     "SCHEDULE",
+     "The first protected session, with a start and finish time."
+    ],
+    [
+     "EVIDENCE",
+     "The cost, the responsibility, and the session in your calendar."
+    ]
+   ],
+   "cap": "Layout 13 / Mission",
+   "dur": 6
+  },
+  {
+   "kind": "close",
+   "img": "g-close",
+   "lines": [
+    "YOUR AMBITION",
+    "DESERVES MORE",
+    "THAN BELIEF."
+   ],
+   "size": 120,
+   "give": "Give it work it can stand on.",
+   "next": "Next / Lesson 02 / The courage to be disliked",
+   "cap": "Layout 14 / Close",
+   "shift": 0,
+   "dur": 6
+  },
+  {
+   "kind": "hook",
+   "img": "g-life",
+   "lead": "You keep saying this work _matters_.",
+   "headline": "THEN WHY IS IT LAST?",
+   "dur": 6,
+   "cap": "Layout 15 / Hook, lead line and headline"
+  },
+  {
+   "kind": "labels",
+   "img": "g-sofa",
+   "words": [
+    "NO",
+    "PERMISSION",
+    "NEEDED."
+   ],
+   "dur": 6,
+   "cap": "Layout 16 / Label blocks"
+  },
+  {
+   "kind": "card",
+   "words": [
+    "YOU.",
+    "NEED.",
+    "TO.",
+    "CHOOSE."
+   ],
+   "dur": 6,
+   "cap": "Layout 17 / Word card"
+  },
+  {
+   "kind": "grunge",
+   "lines": [
+    "EGO",
+    "IS NOT",
+    "INTEREST"
+   ],
+   "side": "ONE WARNING",
+   "note": "Winning the argument can cost you the thing you are building.",
+   "dur": 6,
+   "cap": "Layout 18 / Distressed statement"
+  },
+  {
+   "kind": "stats",
+   "kicker": "Where the week goes",
+   "headline": "Three numbers worth _looking at_.",
+   "hot": 2,
+   "items": [
+    {
+     "n": "31h",
+     "label": "For others",
+     "text": "Favours, revisions and calls you said yes to."
+    },
+    {
+     "n": "9h",
+     "label": "Recovery",
+     "text": "Scrolling you called rest."
+    },
+    {
+     "n": "2h",
+     "label": "For you",
+     "text": "The only hours that built anything."
+    }
+   ],
+   "dur": 6,
+   "cap": "Layout 19 / Stats column"
+  },
+  {
+   "kind": "radial",
+   "core": "Interest",
+   "pills": [
+    "Appetite",
+    "Approval",
+    "Family",
+    "Work",
+    "Money",
+    "Health",
+    "Friends"
+   ],
+   "lines": [
+    "Everything pulls.",
+    "Only one voice",
+    "is _yours_."
+   ],
+   "text": "Map what competes for your hours, then decide what is allowed near the centre.",
+   "dur": 6,
+   "cap": "Layout 20 / Radial map"
+  },
+  {
+   "kind": "recap",
+   "kicker": "Before you start",
+   "headline": "KEEP THESE.",
+   "items": [
+    "You choose.",
+    "You *protect*.",
+    "You own it."
+   ],
+   "dur": 6,
+   "cap": "Layout 21 / Recap"
+  },
+  {
+   "kind": "cover",
+   "kicker": "Becoming Doom / Week 1",
+   "img": "g-open",
+   "title": "CLAIM THE THRONE.",
+   "text": "Six weeks. Eighteen lessons. One question: who is spending your life?",
+   "dur": 6,
+   "cap": "Layout 22 / Cover, title low and centred"
+  },
+  {
+   "kind": "split",
+   "kicker": "The proposition",
+   "img": "g-title",
+   "headline": "YOUR LIFE IS A LEGITIMATE OBJECT OF YOUR OWN AMBITION.",
+   "text": "This lesson is about acting like it. Not loudly, not cruelly. Deliberately.",
+   "dur": 6,
+   "cap": "Layout 23 / Split, text left and image right"
+  },
+  {
+   "kind": "gallery",
+   "kicker": "The week in pictures",
+   "imgs": [
+    "g-title",
+    "g-office",
+    "g-nurse",
+    "g-notebook",
+    "g-panther"
+   ],
+   "dur": 6,
+   "cap": "Layout 24 / Gallery grid"
+  },
+  {
+   "kind": "themes",
+   "kicker": "Themes",
+   "items": [
+    {
+     "t": "Authorship",
+     "d": "Nobody is coming to choose you. The pen is already in your hand."
+    },
+    {
+     "t": "Appetite",
+     "d": "What you want right now, loud and fast, and rarely in your interest."
+    },
+    {
+     "t": "Approval",
+     "d": "What you fear they will think. Quiet, respectable and expensive."
+    },
+    {
+     "t": "Interest",
+     "d": "What you will be glad you built in five years."
+    }
+   ],
+   "dur": 6,
+   "cap": "Layout 25 / Themes, two by two"
+  },
+  {
+   "kind": "research",
+   "kicker": "Evidence",
+   "imgs": [
+    "g-office",
+    "g-scene"
+   ],
+   "intro": "Every principle in this course is tested against real lives and real weeks.",
+   "items": [
+    {
+     "t": "Daniel",
+     "d": "Freelance designer. Fourth unpaid revision, portfolio still closed."
+    },
+    {
+     "t": "Amara",
+     "d": "Ward nurse. Two fixed evenings that finally belonged to her."
+    },
+    {
+     "t": "You",
+     "d": "The case study that matters most. Start writing it this week."
+    }
+   ],
+   "dur": 6,
+   "cap": "Layout 26 / Research, list and two images"
+  },
+  {
+   "kind": "idea",
+   "kicker": "The idea",
+   "img": "g-throne",
+   "paras": [
+    "Doom does not wait to be chosen.",
+    "He decides what matters, protects it, and carries the cost without blaming anyone."
+   ],
+   "dur": 6,
+   "cap": "Layout 27 / Idea, paragraph over image"
+  },
+  {
+   "kind": "band",
+   "kicker": "The cast",
+   "img": "g-office",
+   "headline": "THE PEOPLE IN THIS LESSON.",
+   "dur": 6,
+   "cap": "Layout 28 / Big title and image band"
+  },
+  {
+   "kind": "character",
+   "kicker": "Key character",
+   "img": "g-dossier",
+   "name": "DANIEL.",
+   "line": "Talented, kind and always available. That is the problem.",
+   "dur": 6,
+   "cap": "Layout 29 / Character, name and portrait"
+  },
+  {
+   "kind": "bignum",
+   "kicker": "The cost",
+   "img": "g-scene",
+   "n": "4th",
+   "label": "Unpaid revision this month.",
+   "dur": 6,
+   "cap": "Layout 30 / Big number over image"
+  },
+  {
+   "kind": "timeline",
+   "kicker": "Your six weeks",
+   "line": "The path",
+   "cols": [
+    {
+     "t": "Claim",
+     "d": "Decide what is yours and say it out loud."
+    },
+    {
+     "t": "Protect",
+     "d": "Build the walls: time, money, attention."
+    },
+    {
+     "t": "Command",
+     "d": "Lead the room you used to wait in."
+    }
+   ],
+   "phases": [
+    {
+     "t": "Weeks 1 and 2",
+     "d": "Throne and fortress."
+    },
+    {
+     "t": "Weeks 3 and 4",
+     "d": "Laboratory and command."
+    },
+    {
+     "t": "Weeks 5 and 6",
+     "d": "Empire. Become dangerous."
+    }
+   ],
+   "dur": 6,
+   "cap": "Layout 31 / Three columns and timeline"
+  },
+  {
+   "kind": "summary",
+   "kicker": "Lesson summary",
+   "rows": [
+    [
+     "Lesson",
+     "01 / Selfishness as a virtue"
+    ],
+    [
+     "Week",
+     "1 / Claim the Throne"
+    ],
+    [
+     "Principles",
+     "P01 Put yourself above all people. P04 Hold a vision, be ruthless."
+    ],
+    [
+     "Model",
+     "Appetite, approval, interest"
+    ],
+    [
+     "Cast",
+     "Daniel, freelance designer. Amara, ward nurse."
+    ],
+    [
+     "Mission",
+     "Doctrine v1 with one protected resource"
+    ],
+    [
+     "Workbook",
+     "Day 2 / W01-D02"
+    ],
+    [
+     "Next",
+     "Lesson 02 / The courage to be disliked"
+    ]
+   ],
+   "dur": 6,
+   "cap": "Layout 32 / Summary table"
+  },
+  {
+   "kind": "closer",
+   "kicker": "Next",
+   "img": "g-close",
+   "lead": "Lesson 02 / The courage to be disliked",
+   "headline": "YOUR AMBITION DESERVES MORE THAN BELIEF.",
+   "text": "Give it work it can *stand on*.",
+   "dur": 6,
+   "cap": "Layout 33 / Closer, statement and image"
+  }
+ ]
+}

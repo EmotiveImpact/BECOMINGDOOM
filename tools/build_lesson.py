@@ -16,7 +16,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_ASSETS = ROOT / "course" / "video" / "assets"
-DUR = dict(poster=8, dossier=12,
+DUR = dict(poster=8, dossier=12, cover=6, split=9, gallery=7, themes=10, research=10, idea=9, band=7,
+           character=8, bignum=7, timeline=11, summary=11, closer=9,
            open=5, labels=4, title=9, hook=9, image=8, red=8, list=10, scene=8, compare=10, story=11, recap=9,
            grunge=7, card=5, steps=10, mission=8, close=11, question=8, stats=10, radial=10)
 
@@ -99,8 +100,179 @@ def centre_blocks(html):
     return html
 
 
+
+# ---- Classy look (Edem, 1 Nov): Oswald Medium caps headlines, smaller; Inter Tight for questions, labels and body ----
+CLASSY = True
+HEAD_SCALE = 0.7
+PROPER = {w.lower(): w for w in (
+    "Doom I I'm I'll I've Monday Tuesday Wednesday Thursday Friday Saturday Sunday "
+    "Daniel Amara Kwame Kofi Marcus Tunde Leila Priya Sofia Malik Omar Jamal Chen Mateo Aisha "
+    "Council Doomsday Week Lesson").split()}
+CASE_KEYS = ("lines", "headline", "a", "b", "big", "words", "t")
+
+
+def sentence_case(text, start=True):
+    """Turn an ALL CAPS display line into sentence case, keeping names and the red-mark syntax."""
+    if not re.search(r"[A-Z]", text) or re.search(r"[a-z]", text):
+        return text, text.rstrip().endswith((".", "?", "!"))
+    out, cap_next = [], start
+    for tok in re.split(r"(\s+)", text.lower()):
+        core = re.sub(r"[^a-z’']", "", tok)
+        if core in PROPER and core:
+            tok = tok.replace(core, PROPER[core], 1)
+        elif cap_next and core:
+            i = re.search(r"[a-z]", tok).start()
+            tok = tok[:i] + tok[i].upper() + tok[i + 1:]
+        if tok.strip():
+            cap_next = tok.rstrip("*_”\"").endswith((".", "?", "!", ":"))
+        out.append(tok)
+    return "".join(out), cap_next
+
+
+def classy_spec(obj):
+    if isinstance(obj, list):
+        return [classy_spec(x) for x in obj]
+    if not isinstance(obj, dict):
+        return obj
+    o = {}
+    for k, v in obj.items():
+        if k in CASE_KEYS and isinstance(v, str):
+            v = sentence_case(v)[0]
+        elif k in CASE_KEYS and isinstance(v, list) and all(isinstance(x, str) for x in v):
+            nxt, res = True, []
+            for x in v:
+                y, nxt = sentence_case(x, nxt)
+                res.append(y)
+            v = res
+        else:
+            v = classy_spec(v)
+        o[k] = v
+    return o
+
+
+def classy_sizes(h):
+    return re.sub(r'(class="anton[^"]*"[^>]*?font-size:)(\d+)px',
+                  lambda m: f"{m.group(1)}{round(int(m.group(2)) * HEAD_SCALE)}px", h)
+
+
+CLASSY_CSS = """
+@font-face { font-family: Osw; src: url(fonts/Oswald-500.ttf); font-weight: 500; }
+.anton { font-family:Osw; font-weight:500; letter-spacing:.005em; text-transform:uppercase; line-height:1.06 !important; }
+.kick { font-weight:500; font-size:18px; letter-spacing:.02em !important; text-transform:none; color:#9a9a9e; }
+.kick::before { content:""; display:inline-block; width:9px; height:9px; background:var(--red); margin-right:14px; vertical-align:2px; }
+.onred .kick::before { background:#0a0a0a; }
+.cap { font-weight:500; font-size:15px; letter-spacing:.02em; text-transform:none; color:#8c8c90; border-top-color:rgba(237,237,237,.12); }
+#hud { font-weight:600; font-size:15px; letter-spacing:.02em; text-transform:none; color:#8c8c90; }
+.row .t { font-family:Osw; font-weight:500; font-size:44px; letter-spacing:.005em; text-transform:uppercase; }
+.row .n { font-weight:500; font-size:16px; letter-spacing:.04em; }
+.row .d { font-size:22px; }
+.strike { top:22px; height:3px; }
+.row { border-top-color:rgba(237,237,237,.12); padding:22px 0; }
+.trk { font-weight:400; letter-spacing:.3em; margin-right:-.3em; }
+.bold { font-family:Osw; font-weight:500; font-size:120px; text-transform:uppercase; }
+.give { font-size:34px; font-weight:500; letter-spacing:-.01em; }
+.qbig { font-size:96px; letter-spacing:-.035em; }
+.qlead { font-size:26px; color:#9a9a9e; }
+.qsub { font-size:24px; }
+.d2 { font-size:28px; }
+.ct { font-weight:600; font-size:16px; letter-spacing:.12em; }
+.small { font-size:22px; }
+.col { border-top-color:rgba(237,237,237,.16); } .col.hot { border-top:1px solid var(--red); }
+.lbl { font-family:Osw; font-weight:500; letter-spacing:.005em; font-size:100px; text-transform:uppercase; }
+.fd { font-size:22px; border-bottom-color:rgba(237,237,237,.1); }
+.fd > span { font-size:14px; letter-spacing:.14em; }
+.ml { font-size:15px; letter-spacing:.14em; font-weight:500; }
+.hudf { opacity:.55; }
+"""
+
+
+def fix(style, inner):
+    """A positioned block that keeps its own placement (not vertically centred)."""
+    return f'<div class="abs fix" style="{style}">{inner}</div>'
+
+
+def pitch_html(sc, n, img, meta):
+    """Film pitch deck layouts (Edem's reference, 1 Nov): quiet type, corner labels, split frames."""
+    k = sc["kind"]
+    corner = a("kick", 0.2, "fade", esc(sc.get("kicker", "")), "position:absolute;left:150px;top:44px") if sc.get("kicker") else ""
+    if k == "cover":
+        return (f'<div class="kb" data-kb="in" style="left:760px"><div class="bg" style="background-image:url({img(sc["img"])});background-size:cover"></div></div>'
+                '<div class="abs fix" style="inset:0;background:linear-gradient(90deg,#050505 38%,rgba(5,5,5,0) 70%)"></div>' + corner
+                + fix("left:0;right:0;bottom:200px;text-align:center", a("osw", 0.6, "fadeup", dot(sc["title"]), "font-size:84px")
+                      + a("pl2", 1.2, "fade", esc(sc["text"]), "margin:22px auto 0;max-width:820px;text-align:center")) + cap(n, sc["cap"]))
+    if k == "split":
+        return (f'<div class="kb" data-kb="in" style="left:960px"><div class="bg" style="background-image:url({img(sc["img"])});background-size:cover;background-position:center"></div></div>' + corner
+                + '<div class="abs" style="left:150px;width:660px">' + a("osw", 0.6, "fadeup", dot(sc["headline"]), f'font-size:{sc.get("size", 64)}px')
+                + a("pl2", 1.4, "fade", mark(sc["text"]), "margin-top:30px") + "</div>" + cap(n, sc["cap"]))
+    if k == "gallery":
+        im = sc["imgs"]
+        cells = [("150px", "130px", "540px", "830px"), ("720px", "130px", "520px", "400px"), ("1270px", "130px", "500px", "400px"),
+                 ("720px", "560px", "520px", "400px"), ("1270px", "560px", "500px", "400px")]
+        tiles = "".join(f'<div class="abs fix a" data-in="{0.3 + i * 0.25:.2f}" data-anim="fade" style="left:{x};top:{y};width:{w};height:{h};background:url({img(im[i])}) center/cover"></div>'
+                        for i, (x, y, w, h) in enumerate(cells[:len(im)]))
+        return corner + tiles + cap(n, sc["cap"])
+    if k == "themes":
+        items = "".join(a("th", 0.8 + i * 0.5, "fadeup", f'<div class="tht">{esc(t["t"])}</div><div class="pl2">{esc(t["d"])}</div>') for i, t in enumerate(sc["items"]))
+        return (corner + fix("left:150px;right:150px;bottom:190px", (a("osw", 0.4, "fadeup", dot(sc["headline"]), "font-size:64px;margin-bottom:60px") if sc.get("headline") else "")
+                + f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:56px 120px">{items}</div>') + cap(n, sc["cap"]))
+    if k == "research":
+        items = "".join(a("th", 1.0 + i * 0.5, "fadeup", f'<div class="tht">{esc(t["t"])}</div><div class="pl2">{esc(t["d"])}</div>') for i, t in enumerate(sc["items"]))
+        pics = (f'<div class="abs fix a" data-in="0.4" data-anim="fade" style="left:1160px;top:130px;width:610px;height:400px;background:url({img(sc["imgs"][0])}) center/cover"></div>'
+                f'<div class="abs fix a" data-in="0.7" data-anim="fade" style="left:1160px;top:560px;width:610px;height:400px;background:url({img(sc["imgs"][1])}) center/cover"></div>')
+        return (corner + pics + fix("left:150px;top:130px;width:820px", a("pl2", 0.3, "fade", mark(sc["intro"]), "max-width:640px"))
+                + fix("left:150px;bottom:150px;width:880px", f'<div style="display:grid;gap:40px">{items}</div>') + cap(n, sc["cap"]))
+    if k == "idea":
+        return (bg(img(sc["img"]), 0).replace('class="shade left"', 'class="shade right"') + corner
+                + fix("right:150px;bottom:170px;width:860px;text-align:right", "".join(
+                    a("idea", 0.8 + i * 1.2, "fadeup", mark(x), "margin-top:36px" if i else "") for i, x in enumerate(sc["paras"]))) + cap(n, sc["cap"]))
+    if k == "band":
+        return (corner + fix("left:150px;right:150px;top:150px;text-align:center", a("osw", 0.4, "fadeup", dot(sc["headline"]), f'font-size:{sc.get("size", 120)}px'))
+                + f'<div class="abs fix a" data-in="0.9" data-anim="fade" style="left:150px;right:150px;top:380px;height:560px;background:url({img(sc["img"])}) center 40%/cover"></div>' + cap(n, sc["cap"]))
+    if k == "character":
+        return (f'<div class="kb" data-kb="in" style="left:960px"><div class="bg" style="background-image:url({img(sc["img"])});background-size:cover;background-position:center 30%"></div></div>' + corner
+                + fix("left:150px;top:150px;width:700px", a("osw", 0.5, "fadeup", dot(sc["name"]), "font-size:72px"))
+                + fix("left:150px;bottom:170px;width:620px", a("idea", 1.2, "fadeup", mark(sc["line"]), "text-align:left")) + cap(n, sc["cap"]))
+    if k == "bignum":
+        return (f'<div class="kb" data-kb="in" style="right:960px"><div class="bg" style="background-image:url({img(sc["img"])});background-size:cover;background-position:center;filter:grayscale(1) contrast(1.05)"></div></div>' + corner
+                + fix("left:1060px;bottom:170px", a("osw", 0.6, "fadeup", esc(sc["n"]), "font-size:260px;line-height:.9")
+                      + a("pl2", 1.2, "fade", esc(sc["label"]), "margin-top:18px")) + cap(n, sc["cap"]))
+    if k == "timeline":
+        cols = "".join(a("th", 0.6 + i * 0.4, "fadeup", f'<div class="tht" style="font-size:40px">{esc(c["t"])}</div><div class="pl2">{esc(c["d"])}</div>') for i, c in enumerate(sc["cols"]))
+        ph = "".join(a("ph", 2.0 + i * 0.5, "fadeup", f'<i class="pd"></i><div class="phl">{esc(p["t"])}</div><div class="pl2" style="font-size:20px">{esc(p["d"])}</div>') for i, p in enumerate(sc["phases"]))
+        return (corner + fix("left:150px;right:150px;top:150px", f'<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:70px">{cols}</div>')
+                + fix("left:150px;right:150px;bottom:170px", a("tht", 1.6, "fade", esc(sc.get("line", "Timeline")), "color:var(--red)")
+                      + '<div class="beam a" data-in="1.8" data-anim="beam" style="position:relative;left:0;top:0;width:100%;height:1px;border-radius:0;background:rgba(237,237,237,.25);box-shadow:none;margin-top:22px"></div>'
+                      + f'<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:70px;margin-top:-6px">{ph}</div>') + cap(n, sc["cap"]))
+    if k == "summary":
+        rows = "".join(a("sr", 0.5 + i * 0.15, "fade", f'<span>{esc(l)}</span><div>{mark(v)}</div>') for i, (l, v) in enumerate(sc["rows"]))
+        return corner + '<div class="abs" style="left:150px;width:1500px">' + rows + "</div>" + cap(n, sc["cap"])
+    if k == "closer":
+        return (f'<div class="kb" data-kb="in" style="left:860px"><div class="bg" style="background-image:url({img(sc["img"])});background-size:cover"></div></div>'
+                '<div class="abs fix" style="inset:0;background:linear-gradient(90deg,#050505 40%,rgba(5,5,5,0) 75%)"></div>' + corner
+                + fix("left:150px;bottom:170px;width:760px", a("pl2", 0.4, "fade", esc(sc["lead"]))
+                      + a("osw", 0.8, "fadeup", dot(sc["headline"]), "font-size:56px;margin-top:22px")
+                      + a("idea", 1.6, "fadeup", mark(sc["text"]), "text-align:left;margin-top:18px")) + cap(n, sc["cap"]))
+    return None
+
+
+PITCH_CSS = """
+.osw { font-family:Osw; font-weight:500; letter-spacing:.005em; text-transform:uppercase; line-height:1.06; }
+.pl2 { font-size:24px; line-height:1.45; color:#9a9a9e; }
+.tht { font-family:Osw; font-weight:500; font-size:34px; text-transform:uppercase; margin-bottom:12px; }
+.idea { font-size:36px; line-height:1.35; font-weight:400; color:#EDEDED; }
+.shade.right { position:absolute; inset:0; background:linear-gradient(270deg, rgba(5,5,5,.9) 0%, rgba(5,5,5,.55) 40%, rgba(5,5,5,0) 70%); }
+.sr { display:flex; gap:40px; padding:13px 0; border-bottom:1px solid rgba(237,237,237,.08); font-size:22px; color:#d8d8da; }
+.sr > span { width:300px; flex:0 0 300px; font-weight:500; font-size:15px; letter-spacing:.12em; text-transform:uppercase; color:#8c8c90; padding-top:5px; }
+.ph { position:relative; padding-top:26px; } .pd { position:absolute; left:0; top:-7px; width:13px; height:13px; border-radius:50%; background:var(--red); }
+.phl { font-weight:600; font-size:16px; letter-spacing:.12em; text-transform:uppercase; margin-bottom:10px; }
+"""
+
+
 def scene_html(sc, n, img, meta):
     k = sc["kind"]
+    ph = pitch_html(sc, n, img, meta)
+    if ph is not None:
+        return ph
     if k == "open" and sc.get("img"):
         # Board-style title poster: image, widely tracked BECOMING DOOM, thin red rule
         return (bg(img(sc["img"]), sc.get("shift", 0)).replace('class="shade left"', 'class="shade under"')
@@ -316,21 +488,26 @@ EXTRA_CSS = """
 
 def build(spec_path):
     spec = json.loads(Path(spec_path).read_text())
+    if CLASSY:
+        spec = classy_spec(spec)
     lid = spec["id"]
-    meta = dict(id=lid, week=int(lid[1:3]), lesson=int(lid[-2:]), day=spec["day"], workbook=spec["workbook"])
-    img = lambda name: f"../assets/{lid}/{name}.png"
+    meta = dict(id=spec.get("assets", lid), week=spec.get("week") or int(lid[1:3]), lesson=spec.get("lesson") or int(lid[-2:]),
+                day=spec["day"], workbook=spec["workbook"])
+    img = lambda name: f"../assets/{meta['id']}/{name}.png"
     tpl = (ROOT / "tools/film_template.html").read_text()
     head = tpl.split("<div id=\"stage\">")[0]
     tail = "<div id=\"grain\">" + tpl.split("<div id=\"grain\">")[1]
     head = re.sub(r"<title>.*?</title>", f"<title>Becoming Doom {lid}</title>", head)
-    head = head.replace("</style>", EXTRA_CSS + "</style>")
+    head = head.replace("</style>", EXTRA_CSS + (CLASSY_CSS if CLASSY else "") + PITCH_CSS + "</style>")
+    if CLASSY:
+        tail = tail.replace('<div id="hud">BECOMING DOOM<b>.</b></div>', '<div id="hud">Becoming Doom</div>')
     secs, t, n = [], 0.0, 0
     for sc in spec["scenes"]:
         if "cap" in sc:
             n += 1
         d = sc.get("dur", DUR[sc["kind"]])
         cls = "onred" if sc["kind"] == "red" else ""
-        secs.append(f'<section class="scene {cls}" data-start="{t:g}" data-dur="{d:g}" data-kind="{sc["kind"]}">' + centre_blocks(scene_html(sc, n, img, meta)) + "</section>")
+        secs.append(f'<section class="scene {cls}" data-start="{t:g}" data-dur="{d:g}" data-kind="{sc["kind"]}">' + (classy_sizes if CLASSY else str)(centre_blocks(scene_html(sc, n, img, meta))) + "</section>")
         t += d
     tail = re.sub(r"TOTAL=\d+(\.\d+)?", f"TOTAL={t:g}", tail)
     out = head + '<div id="stage">\n' + "\n".join(secs) + "\n\n" + tail
