@@ -1,0 +1,70 @@
+{
+  "W01-L01:9": {"items": [
+    ["Appetite", "Wants something now. Loud, honest about what it wants, and rarely your interest."],
+    ["Approval", "Wants you to be thought well of. Quiet, respectable, and it eats most lives."],
+    ["Interest", "Asks what you will be glad you built in five years. The only voice on your side."]]},
+  "W01-L01:11": {"items": [
+    ["The automatic yes", "He does the revision that night. The portfolio stays closed and resentment collects the cost."],
+    ["The flat refusal", "His evening is protected, but he never asked whether this client matters to his future."],
+    ["The renegotiated scope", "“Billed at my day rate, and you’ll have it Monday.” He keeps the client and spends Thursday on the portfolio."]]},
+  "W01-L01:17": {"items": [
+    ["The tantrum", "Doing whatever you feel like and calling it self-care. Appetite with a philosophy attached."],
+    ["The martyr", "Giving everything away, then resenting everyone who took it. Approval in charge."],
+    ["The secret plan", "Deciding what matters, protecting nothing and telling nobody. A plan with no cost and no witness is a daydream."]]},
+  "W01-L01:8": {"sub": "Three voices compete for every hour you have. Only one of them is yours."},
+  "W01-L01:14": {"sub": "Winning the argument can cost you the thing you are building."},
+  "W01-L01:20": {"sub": "Where did appetite write a line? Is there a real cost? Fix at least one line."},
+  "W01-L02:9": {"items": [
+    ["The automatic yes", "He packs boxes all evening. His doctrine lasted one day."],
+    ["The defensive biography", "Four paragraphs of reasons. Now his friend has a list to argue with, and both feel guilty."],
+    ["The clean no", "“Can’t tonight, I’m working on something I’ve committed to. I can give you three hours on Saturday.”"]]},
+  "W01-L02:15": {"items": [
+    "A fast yes is a habit. Slow it down until it becomes a decision.",
+    "You owe people an answer. You do not owe them a defence.",
+    "Warm and clear beats long and guilty, every time."]},
+  "W01-L03:7": {"items": [
+    ["A verdict", "Says what you are. It can never be tested, so it never changes."],
+    ["An experiment", "Asks what happens when you do one small thing."],
+    ["Evidence", "Arrives by the end of the week. You only need to be curious enough to check."]]},
+  "W02-L01:7": {"items": [
+    ["What am I agreeing to?", "Include the preparation, the travel, the waiting and the follow-up."],
+    ["Where does it come from?", "Name the actual hours, the energy or the money."],
+    ["Is it worth more?", "Compare it with the best thing it replaces. Sometimes the answer is yes."]]},
+  "W02-L02:7": {"title": "Decide. Influence. Respond<span style=\"color:#D90D0D\">.</span>",
+    "sub": "Influence is partial. Do not pretend you control everything, and do not collapse into thinking you control nothing."},
+  "W03-L02:9": {"items": [
+    ["Nobody can open it", "A broken link, the wrong permissions, a file that only works on your laptop."],
+    ["Nobody asked for it", "Built for an audience that turned out not to exist, or wanted something slightly different."],
+    ["Nobody finished it", "Ninety per cent of four things and one hundred per cent of none."]]},
+  "W03-L03:7": {"items": [
+    ["Frequent", "You do it at least weekly, so the saving adds up quickly."],
+    ["Structured", "The shape is the same each time and only the details change."],
+    ["Checkable", "You can tell in a minute or two whether the output is right."],
+    ["Low stakes", "A mistake costs you minutes, not a client. Start there."]]},
+  "W03-L03:11": {"items": [
+    ["Trust it completely", "Fast, right up until the week it invents a figure and a client spots it."],
+    ["Never build it", "Ten hours a week by hand, for as long as she does this work. Safe, and slowly expensive."],
+    ["Draft, then verify", "A ten-minute draft, every figure checked against her data. Forty minutes instead of two hours."]]},
+  "W04-L01:9": {"title": "Know. Infer. Ask<span style=\"color:#D90D0D\">.</span>",
+    "sub": "An inferred motive is not a fact. Write the guess down and label it honestly, then ask."},
+  "W04-L01:7": {"items": [
+    ["Reward", "What gets this person praised, paid or promoted?"],
+    ["Fear", "What would get them blamed if it went wrong? Fear often explains more than reward does."],
+    ["Measure", "Which number is their boss actually looking at?"]]},
+  "W04-L02:7": {"items": [
+    ["First order", "The result today. They say yes, and you get the deal."],
+    ["Second order", "What that result changes. They now expect the same terms next time."],
+    ["Third order", "What that change sets up. Other clients hear about it, and your prices quietly drop."]]},
+  "W04-L02:11": {"items": [
+    ["Yes", "He wins the sale, anchors his price low for years and delivers weaker videos."],
+    ["Never", "He protects his price and offers nothing else. The client walks."],
+    ["Trade", "“I can’t move the rate for this scope. I can do four videos, or one paid pilot at full rate.”"]]},
+  "W04-L03:9": {"items": [
+    ["Cave", "She accepts because she is tired. The first faulty batch could end the project."],
+    ["Win", "She calls it a disgrace. It feels good for ten seconds and burns a bridge in a small industry."],
+    ["Leave, with an alternative", "“These terms don’t work for me. Come back to the original minimum and I’ll sign this week.”"]]},
+  "W06-L02:11": {"items": [
+    ["No margin", "He spends his slot refreshing the page and apologising. He shows nothing."],
+    ["Margin for everything", "Five backup plans, and the main feature never finished."],
+    ["Proportionate margin", "He opens the local copy and shows the core in five minutes, calm because he had already decided."]]}
+}
