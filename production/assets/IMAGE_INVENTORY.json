@@ -1,0 +1,98 @@
+{
+  "collection": "Becoming Doom: states",
+  "asset_count": 10,
+  "provenance": "Existing creator-supplied Becoming Doom image direction, recovered for this edition.",
+  "publication_scope": "Metadata only. This inventory does not grant third-party reuse rights.",
+  "assets": [
+    {
+      "order": 1,
+      "title": "Threshold of Reckoning.png",
+      "filename": "01-threshold-of-reckoning.png",
+      "mime_type": "image/png",
+      "bytes": 2134278,
+      "sha256": "33f8dc67efa8aae6805861ee33ec98e8379ac34bbc35e058bfa63cbc6e955513",
+      "delivery": "Original image delivered privately to the owner; binary not included in this repository."
+    },
+    {
+      "order": 2,
+      "title": "Facing an honest reflection.png",
+      "filename": "02-facing-an-honest-reflection.png",
+      "mime_type": "image/png",
+      "bytes": 1923201,
+      "sha256": "d963b4220273d09f1b99e7e846ba2f903159899014a1b8c6a4effa2201c90fab",
+      "delivery": "Original image delivered privately to the owner; binary not included in this repository."
+    },
+    {
+      "order": 3,
+      "title": "The Unfinished Stairway.png",
+      "filename": "03-the-unfinished-stairway.png",
+      "mime_type": "image/png",
+      "bytes": 2141268,
+      "sha256": "374db6638b02c5ea9725e887ac6ce6b31a7ae3ee333b24e7227d2821dc0839c5",
+      "delivery": "Original image delivered privately to the owner; binary not included in this repository."
+    },
+    {
+      "order": 4,
+      "title": "Building What You Can Control.png",
+      "filename": "04-building-what-you-can-control.png",
+      "mime_type": "image/png",
+      "bytes": 1974927,
+      "sha256": "7b2366b6ef233b67dc4ad54de70a5b4b50153f45fb17f7589318fcfa1ec94251",
+      "delivery": "Original image delivered privately to the owner; binary not included in this repository."
+    },
+    {
+      "order": 5,
+      "title": "Facts before plans.png",
+      "filename": "05-facts-before-plans.png",
+      "mime_type": "image/png",
+      "bytes": 2128150,
+      "sha256": "a28898ef5d338ed245278d3d155a6e14832f5bfe27a3f80c9f5bd8096a5da423",
+      "delivery": "Original image delivered privately to the owner; binary not included in this repository."
+    },
+    {
+      "order": 6,
+      "title": "Phone away, focus begins.png",
+      "filename": "06-phone-away-focus-begins.png",
+      "mime_type": "image/png",
+      "bytes": 1864197,
+      "sha256": "9135bf0ea222eb67c543abf6a1a5b91f15323757b2c73ebcd4c2702dfa58c8e5",
+      "delivery": "Original image delivered privately to the owner; binary not included in this repository."
+    },
+    {
+      "order": 7,
+      "title": "Standing Before the Black Monolith.png",
+      "filename": "07-standing-before-the-black-monolith.png",
+      "mime_type": "image/png",
+      "bytes": 2175415,
+      "sha256": "365bc97b4153f97fe0d7cf849ae1859e39197af84b3b4573165c538b8b652852",
+      "delivery": "Original image delivered privately to the owner; binary not included in this repository."
+    },
+    {
+      "order": 8,
+      "title": "Dawn practice in basalt silence.png",
+      "filename": "08-dawn-practice-in-basalt-silence.png",
+      "mime_type": "image/png",
+      "bytes": 2355872,
+      "sha256": "4b171e0c48ba4d9d5905b5c4a9cb384c76d48f44583febf06108017e2bfca8fa",
+      "delivery": "Original image delivered privately to the owner; binary not included in this repository."
+    },
+    {
+      "order": 9,
+      "title": "First step toward mountain light.png",
+      "filename": "09-first-step-toward-mountain-light.png",
+      "mime_type": "image/png",
+      "bytes": 2077847,
+      "sha256": "d312edcddea341ead462e1f6e06ab00ccafed5ebdc70a33f4bd39672e43ddaed",
+      "delivery": "Original image delivered privately to the owner; binary not included in this repository."
+    },
+    {
+      "order": 10,
+      "title": "Beyond the Basalt Gate.png",
+      "filename": "10-beyond-the-basalt-gate.png",
+      "mime_type": "image/png",
+      "bytes": 2243498,
+      "sha256": "0f0b744ae7db740452984c6f6cfc5d227a1a4cdf0e5e001d4e9850be42cd6737",
+      "delivery": "Original image delivered privately to the owner; binary not included in this repository."
+    }
+  ]
+}
